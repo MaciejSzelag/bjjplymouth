@@ -75,19 +75,24 @@ nav {
 
 
                 .bar:nth-child(1) {
-                    top: 50%;
-                    animation: cross-bar-1 .6s .3s cubic-bezier(0.215, 0.610, 0.355, 1) 1 both;
 
+                    top: 50%;
+                    // animation: cross-bar-1 .4s .3s cubic-bezier(0.215, 0.610, 0.355, 1) 1 both;
+                    transform: translate(-50%, 0) rotate(45deg);
+                    transition-delay: .2s;
                 }
 
                 .bar:nth-child(2) {
+                    // width: 10%;
                     top: 50%;
                     opacity: 0;
+                    transform: translate(250%, 0);
                 }
 
                 .bar:nth-child(3) {
                     top: 50%;
-                    animation: cross-bar-2 .6s .6s cubic-bezier(0.215, 0.610, 0.355, 1) 1 both;
+                    // animation: cross-bar-2 .4s .2s cubic-bezier(0.215, 0.610, 0.355, 1) 1 both;
+                    transform: translate(-50%, 0) rotate(-45deg)
                 }
             }
         }
