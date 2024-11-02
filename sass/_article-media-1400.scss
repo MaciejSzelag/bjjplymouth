@@ -16,7 +16,7 @@
             }
 
             .article-title {
-                // margin: 7rem 0; //
+                margin: 7rem 0; //
 
                 h1 {
                     font-size: 9rem;
@@ -26,6 +26,7 @@
 
             .article-content {
 
+                max-width: 1400px;
 
                 p {
 
@@ -34,13 +35,169 @@
                 }
             }
 
+            .info-content {
+                max-width: 1600px;
+                padding: 8rem 0;
+
+                .info-wrap {
+                    width: 60%;
+
+                    .info-description {
+                        width: 100%;
+
+                        .description {
+
+                            display: flex;
+                            justify-content: center;
+                            align-items: flex-start;
+
+                            h1 {
+                                width: 25%;
+                                font-size: 2.5rem;
+
+                            }
+
+                            .desc-content-wrap {
+
+                                width: 70%;
+
+                                p {
+                                    font-size: 2rem
+                                }
+
+                                .btn-info {
+
+
+                                    .btn {
+
+                                        margin-top: 3rem;
+
+                                        a {
+                                            width: auto;
+                                            height: 100%;
+                                            background-color: $orange;
+                                            padding: .5rem 3rem;
+                                            font-family: $anton;
+                                            font-size: 2rem;
+                                            color: white;
+                                            text-transform: uppercase;
+                                            text-decoration: none;
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                .info-sm {
+                    width: 40%;
+                    margin-right: 5rem;
+                }
+            }
+
+            .section-join-wrap {
+                height: 80vh;
+
+
+                .section-wrapper {
+
+
+
+                    .section-join-container {
+
+
+
+                        .section-content {
+                            // width: 100%;
+                            padding: 0 10rem;
+
+
+                            h1 {
+                                padding: 10rem 0 5rem;
+                                // color: $white;
+                                font-size: 15rem;
+                                text-transform: uppercase;
+                                line-height: 15rem;
+                            }
+
+                            p {
+                                padding-top: 1rem;
+                                margin-bottom: 4rem;
+                                font-size: 2rem;
+                                color: white;
+                            }
+                        }
+
+                        .btn-wrap {
+                            padding: 0 10rem;
+
+
+
+                            .btn-info {
+
+                                flex-direction: row;
+
+
+
+
+                                .btn {
+                                    margin-right: 5rem;
+
+                                    a {
+                                        font-size: 2rem;
+                                    }
+
+                                }
+                            }
+
+                            .margin-1 {
+                                margin: 1rem 0;
+                            }
+                        }
+
+                        .arrows-right {
+
+                            transform: scale(2);
+                            bottom: 5%;
+                        }
+
+                        .section-img {
+
+
+                            .img-wrap {
+
+
+
+
+                                img {
+
+                                    width: 100%;
+                                    transform: translateX(5%);
+                                    // clip-path: polygon(0 0, 100% 0%, 100% 98%, 17% 100%);
+
+                                }
+
+                                .img-obj-under {
+
+                                    width: 10rem;
+
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+            }
 
         }
     }
 
     .btn-wrap {
 
-
+        max-width: 1400px;
 
         .btn-a {
             width: 20%;

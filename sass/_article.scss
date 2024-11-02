@@ -4,32 +4,41 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-
-    min-height: 30vh;
-    // border: .1rem solid black;
-    padding: 2rem;
+    height: 100%;
+    min-height: 10vh;
+    background-color: $darkGrey;
+    overflow: hidden;
 
     .article-wrap {
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         width: 100%;
+        height: 100%;
 
         .three-wheels,
         .article-title,
         .article-content,
         .article-btns {
             width: 100%;
+
         }
 
         .article-title,
         .article-content,
         .article-btns {
+            width: 100%;
             position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            margin: 2rem 0;
+            // margin: 2rem 0;
+            padding: 2rem;
             z-index: 1;
+
         }
 
         .three-wheels {
@@ -93,24 +102,343 @@
             }
         }
 
+        .bg-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(../images/ian-brown-belt.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top right;
+            z-index: 0;
+
+            .bg-cover {
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.829);
+            }
+        }
+
         .info-content {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+
+            padding: 2rem;
+            z-index: 1;
+            color: white;
+
+            .info-wrap {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                // justify-content: flex-start;
+                // align-items: flex-start;
+                flex-direction: column;
+                padding: 2rem 0;
+
+                // background-color: brown;
+
+                .info-title,
+                .info-sub-title {
+
+                    width: 100%;
+                    // height: auto;
+
+
+                }
+
+                .info-title {
+                    color: $orange;
+                    font-size: 3rem;
+                    line-height: 5rem;
+                    font-family: $anton;
+                    margin-bottom: 2rem;
+                }
+
+                .info-sub-title {
+                    font-size: 1.6rem;
+                }
+
+                .info-description {
+                    width: 100%;
+
+                    .description {
+                        width: 100%;
+                        margin-bottom: 1rem;
+
+                        h1 {
+                            font-size: 2rem;
+                            margin-bottom: 2rem;
+                            color: $lightOrange;
+                            font-family: $anton;
+                            font-weight: 100;
+                        }
+
+                        .desc-content-wrap {
+                            width: 100%;
+
+                            p {
+                                font-size: 1.6rem
+                            }
+
+
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .section-join-wrap {
+
+            width: 100%;
+            height: 100%;
+            background-color: $orange;
+
+            .section-wrapper {
+                width: 100%;
+                height: 100%;
+
+                .section-join-container {
+                    position: relative;
+                    width: 100%;
+
+                    .section-content {
+                        width: 100%;
+                        padding: 0 2rem;
+
+
+                        h1 {
+                            padding-top: 3rem;
+                            color: $white;
+                            font-size: 4rem;
+                            font-family: $anton;
+                            font-weight: 100;
+                        }
+
+                        p {
+                            padding-top: 1rem;
+                            font-size: 1.6rem;
+                        }
+                    }
+
+                    .btn-wrap {
+                        padding: 0 2rem;
+
+                        .btn-info {
+                            .btn {
+                                .btn {
+                                    transition: .4s linear;
+                                }
+                            }
+                        }
+                    }
+
+                    .arrows-right {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        bottom: 0;
+                        right: -20%;
+                        width: 25rem;
+                        height: 15rem;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .section-img {
+                        width: 100%;
+                        height: 100%;
+
+                        .img-wrap {
+                            width: 100%;
+                            height: 100%;
+
+                            img {
+                                width: 100%;
+                                filter: grayscale(100%);
+
+                            }
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+        .programs-list {
+            width: 100%;
+            max-width: 1400px;
+            height: 100%;
+            background-color: $darkGrey;
+            color: $white;
+
+            h1.title-program {
+                margin: 3rem 0;
+                padding: 0 2rem;
+                font-size: 2.3rem;
+            }
+
+            .program-box-container {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .program-box {
+                    width: 100%;
+                    max-width: 60rem;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    flex-direction: row;
+                    margin-bottom: 2rem;
+
+                    .icon-box {
+                        width: 8rem;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                        padding: 0 2rem;
+
+                        i {
+                            font-size: 2.8rem;
+                            color: $orange;
+                        }
+                    }
+
+                    .inf-box {
+                        width: 100%;
+                        padding-right: 2rem;
+
+                        h1 {
+                            color: $lightOrange;
+                            text-transform: uppercase;
+                            margin-bottom: 1rem;
+                        }
+
+                        p {
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .testi-wrap {
             width: 100%;
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
+            background-color: $gold;
+            flex-wrap: wrap;
+
+
+            .testi-box {
+                width: 80%;
+                max-width: 40rem;
+                height: 100%;
+
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                color: $green;
+                margin: 3rem 1.5rem;
+
+                i {
+                    font-size: 5rem;
+                }
+
+                .blockquote {
+                    padding: 2rem 0 0;
+
+                    p {
+                        font-size: 1.6rem;
+                    }
+
+                    .footer-blockquote {
+                        margin-top: 1rem;
+
+                        i {
+                            font-size: 2rem;
+                            font-family: $anton;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bg-color-1 {
+        background-color: $gold;
+    }
+}
+
+.btn-info {
+    width: auto;
+    padding: 2rem 0;
+
+    .btn {
+        width: auto;
+
+        a {
+            width: auto;
+            height: 100%;
+            background-color: $orange;
+            padding: .5rem 3rem;
+            font-family: $anton;
+            font-size: 1.2rem;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: .3s linear;
+        }
+
+        .btn-black {
+            background-color: black;
+            color: white;
+        }
+
+        .btn-green {
+            background-color: $green;
         }
 
 
+    }
+
+    .margin-1 {
+        margin: 2rem 0;
     }
 }
 
 .btn-wrap {
     width: 100%;
+    height: auto;
+
+
 
     .btn-a {
         width: 100%;
+        height: auto;
         margin: 2rem 0;
 
         .a-btn {
@@ -119,20 +447,49 @@
             justify-content: center;
             // width: 100%;
             // height: 100%;
-            padding: .5rem 2rem;
+            padding: 1rem 3rem;
             background-color: $green;
             color: white;
             font-family: $anton;
             font-size: 1.2rem;
             text-decoration: none;
             text-transform: uppercase;
+            transition: .3s linear;
+
+
         }
 
         .btn-orange {
             background-color: $orange;
             color: white;
         }
+
+
     }
+}
+
+
+
+.a-btn:hover {
+    background-color: rgb(37, 37, 37) !important;
+    color: $orange !important;
+    box-shadow: 0 0 1rem .1rem rgb(255, 255, 255);
+
+}
+
+.btn:hover {
+    a {
+        background-color: rgb(37, 37, 37) !important;
+        color: $orange !important;
+        box-shadow: 0 0 1rem .1rem rgb(255, 255, 255);
+        // transform: scale();
+    }
+
+}
+
+
+.padding-s {
+    padding: 0 2rem;
 }
 
 
