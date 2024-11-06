@@ -1,0 +1,108 @@
+footer {
+    width: 100%;
+    height: 80vh;
+    min-height: 80vh;
+    background-image: url(/images/bjj-footer-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+
+    .footer-info {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(52, 52, 52, 0.747);
+
+        .f-info-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+            padding: 2rem;
+
+            h1.foot-h1 {
+                font-family: $anton;
+                text-transform: uppercase;
+                font-size: 6rem;
+                line-height: 6rem;
+                font-weight: 100;
+
+                span {
+                    color: $orange;
+                }
+            }
+
+            .arrows-wrap {
+                width: 100%;
+                height: 100%;
+
+
+
+
+                img {
+                    width: 27rem;
+                    height: 11rem;
+                    transform: translate(-32%, 50%) rotate(-90deg);
+                    // transform-origin: 0% 50%;
+                }
+            }
+
+            .contact-info {
+                margin-top: 12rem;
+
+                address {
+                    .gym-address {
+                        margin-bottom: 3rem;
+                        font-weight: 400;
+
+                        span {
+                            font-weight: 600;
+                            color: $lightOrange;
+                        }
+                    }
+
+                    .social-contact {
+                        width: 100%;
+
+                        ul {
+                            width: 100%;
+
+                            li {
+                                list-style: none;
+                                font-size: 1.5rem;
+                                margin: .5rem 0;
+                                font-weight: 100;
+
+                                span {
+                                    color: $lightOrange;
+                                    margin-right: 1rem;
+
+
+                                    i {
+                                        margin-right: 1rem;
+                                    }
+                                }
+
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+
+                                    i {
+                                        // color: $lightOrange;
+                                        margin-right: 1rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
