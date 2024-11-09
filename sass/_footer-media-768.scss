@@ -1,0 +1,62 @@
+@media (min-width:768px) {
+
+
+    footer {
+        height: 50vh;
+        min-height: 50vh;
+
+        .footer-info {
+
+            .f-info-container {
+
+                // h1.foot-h1 {
+                //     // font-size: 6rem;
+                //     // line-height: 6rem;
+                // }
+
+                .arrows-wrap {
+
+                    img {
+                        // width: 27rem;
+                        // height: 11rem;
+                        transform: translate(-3rem, -2rem) rotate(180deg);
+                        // transform-origin: 0% 50%;
+                    }
+                }
+
+                .contact-info {
+
+                    address {
+                        .gym-address {
+
+                            span {
+                                font-weight: 600;
+                                color: $lightOrange;
+                            }
+                        }
+
+                        .social-contact {
+
+                            ul {
+
+                                li {
+                                    font-size: 1.5rem;
+
+
+                                    a {
+
+
+                                        i {
+
+                                            // margin-right: 1rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

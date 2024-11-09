@@ -1,11 +1,7 @@
 footer {
     width: 100%;
-    height: 80vh;
-    min-height: 80vh;
-    background-image: url(/images/bjj-footer-background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    height: 100%;
+
     color: white;
     overflow: hidden;
 
@@ -105,4 +101,51 @@ footer {
             }
         }
     }
+
+    .footer {
+        width: 100%;
+        height: 50vh;
+        min-height: 50vh;
+        background-color: $darkGrey;
+
+        .footer-wrap {
+            width: 100%;
+            max-width: 1440px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .footer-box {
+                width: 80%;
+                height: auto;
+                background-color: black;
+                margin: 3rem 0;
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+                .address-info {
+                    .h1-info {
+                        span {
+                            color: $orange;
+                        }
+
+                        a {}
+
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.footer-img {
+    background-image: url(../images/bjj-footer-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
