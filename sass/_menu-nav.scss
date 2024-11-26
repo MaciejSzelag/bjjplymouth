@@ -1,0 +1,93 @@
+nav {
+    .full-page-menu {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background-color: $darkGrey;
+        z-index: 1001;
+        transition: 2s cubic-bezier(0.13, 0.43, 0.38, 1);
+        top: -50vh;
+        opacity: 1;
+        overflow: hidden;
+
+        .menu-container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            .menu-list {
+                width: 100%;
+                height: 100%;
+
+                ul {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    flex-direction: column;
+                    list-style: none;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: .2rem;
+                        text-transform: uppercase;
+                        font-family: $antonio;
+                        font-weight: 900;
+                        // background-color: rgb(34, 34, 34);
+                        padding: 0 10rem;
+                        // border-radius: 1rem;
+                        overflow: hidden;
+
+
+                        a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            position: relative;
+                            color: rgba(255, 255, 255, 0.212);
+                            text-decoration: none;
+                            font-size: 4rem;
+                            transition: .4s linear;
+                            padding: 1rem 0;
+
+                        }
+
+                        a:hover {
+                            color: $orange;
+                        }
+
+                        a::after {
+                            content: "";
+                            position: absolute;
+                            top: 50%;
+                            left: -25rem;
+                            width: 5rem;
+                            height: 5rem;
+                            background-color: $orange;
+                            transform: rotate(45deg) translateY(-50%);
+                            transition: .4s ease-out;
+                        }
+
+                        a:hover::after {
+                            left: -15rem;
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }
+
+    .full-page-menu-active {
+        top: 0;
+        opacity: 1;
+        height: 100vh;
+    }
+}
