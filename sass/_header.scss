@@ -4,12 +4,21 @@ header {
     background-color: $darkGrey;
     overflow: hidden;
     position: relative;
+    // background-image: url(../images/Checkmat-plymouth-brazilian-jiu-jitsu.jpg);
+    // background-image: url(../images/Ricky-Bellingham-european-jiu-jitsu-gold.png);
+    // background-repeat: no-repeat;
+    // background-position: 45% 0;
+    // background-size: 250%;
+    // background-size: cover;
+    // background-position: center;
 
     .header-wrap {
         width: 100%;
         height: 100%;
         position: relative;
         z-index: 0;
+        background-color: rgba(52, 52, 52, 0.863);
+
 
 
 
@@ -17,6 +26,7 @@ header {
             width: 100%;
             height: 100%;
             position: relative;
+
 
             .header-title,
             .header-img {
@@ -75,6 +85,7 @@ header {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    // background-image: url(../images/Checkmat-plymouth-brazilian-jiu-jitsu.jpg);
                     background-image: url(../images/Ricky-Bellingham-european-jiu-jitsu-gold.png);
                     background-repeat: no-repeat;
                     background-position: 45% 0;
@@ -179,9 +190,9 @@ header {
                     margin: 15rem 2rem;
 
                     h1 {
-                        font-size: 12vh;
+                        font-size: 12rem;
 
-                        line-height: 12vh;
+                        line-height: 12rem;
 
                     }
                 }
@@ -251,8 +262,8 @@ header {
                     // background-color: grey;
 
                     h1 {
-                        font-size: 20rem;
-                        line-height: 20rem;
+                        font-size: 18rem;
+                        line-height: 18rem;
                     }
 
                     h2 {
