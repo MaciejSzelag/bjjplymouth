@@ -13,39 +13,37 @@ menuCross.addEventListener("click", () => {
         active = !active
     }
 
-})// Pobierz wszystkie elementy <a> w menu-list
+})
 const menuItems = document.querySelectorAll('.menu-list li a');
 const descItems = document.querySelectorAll('.menu-desc p');
 
-// Pobierz element, w którym ma się wyświetlać tekst
 const displayText = document.getElementById('displayText');
-// displayText.textContent = "Opis tutaj"
-// Iter  displayText.textContent = "Opis tutaj"uj przez wszystkie elementy <a>
+
 menuItems.forEach(itemMenu => {
     itemMenu.addEventListener('mouseover', () => {
         // Pobierz wartość z atrybutu data-menu
         const menuItem = itemMenu.getAttribute('data-menu');
 
         // Sprawdź, czy atrybut istnieje
-        if (!menuItem) {
-            console.warn("Element <a> nie ma atrybutu 'data-menu'");
-            return;
-        }
+        // if (!menuItem) {
+        //     console.warn("Element <a> nie ma atrybutu 'data-menu'");
+        //     return;
+        // }
 
         // Iteruj przez wszystkie <p>, aby znaleźć odpowiedni tekst
         descItems.forEach(itemText => {
             const descText = itemText.getAttribute('data-text'); // Pobierz atrybut data-text
-            if (!descText) {
-                console.warn("Element <p> nie ma atrybutu 'data-text'");
-                return;
-            }
+            // if (!descText) {
+            //     console.warn("Element <p> nie ma atrybutu 'data-text'");
+            //     return;
+            // }
 
             // Jeśli teksty pasują, zaktualizuj wyświetlany tekst
             if (menuItem === descText) {
                 itemText.classList.add("visible"); // Ustaw klasę na elemencie <p>
                 displayText.classList.remove("visible");
                 displayText.classList.add("hidden");
-                console.log(menuItem + " - " + descText); // Działa poprawnie
+                // console.log(menuItem + " - " + descText); // Działa poprawnie
             }
         });
     });

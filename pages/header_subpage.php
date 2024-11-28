@@ -28,7 +28,7 @@ echo $btnName?></a>
             </div>
             <div class="header-box">
                 <div class="img-wrap">
-                    <img src="../images/<?php $imgName;
+                    <img src="../../images/<?php $imgName;
 echo $imgName;?>" alt="<?php $alternativeTxt;
 echo $alternativeTxt;?>">
                 </div>
