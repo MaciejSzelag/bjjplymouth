@@ -1,3 +1,4 @@
+
 const fullMenu = document.getElementById("full-menu");
 const menuCross = document.getElementById("menuCross");
 let active = false;
@@ -24,26 +25,15 @@ menuItems.forEach(itemMenu => {
         // Pobierz wartość z atrybutu data-menu
         const menuItem = itemMenu.getAttribute('data-menu');
 
-        // Sprawdź, czy atrybut istnieje
-        // if (!menuItem) {
-        //     console.warn("Element <a> nie ma atrybutu 'data-menu'");
-        //     return;
-        // }
-
         // Iteruj przez wszystkie <p>, aby znaleźć odpowiedni tekst
         descItems.forEach(itemText => {
             const descText = itemText.getAttribute('data-text'); // Pobierz atrybut data-text
-            // if (!descText) {
-            //     console.warn("Element <p> nie ma atrybutu 'data-text'");
-            //     return;
-            // }
 
             // Jeśli teksty pasują, zaktualizuj wyświetlany tekst
             if (menuItem === descText) {
                 itemText.classList.add("visible"); // Ustaw klasę na elemencie <p>
                 displayText.classList.remove("visible");
                 displayText.classList.add("hidden");
-                // console.log(menuItem + " - " + descText); // Działa poprawnie
             }
         });
     });
@@ -58,4 +48,18 @@ menuItems.forEach(itemMenu => {
         });
 
     });
+});
+
+const listItems = document.querySelectorAll('.classes-list li a');
+const hoverImage = document.getElementById('hover-image');
+listItems.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+        const imageUrl = item.getAttribute('data-image');
+        hoverImage.src = "../../images/" + imageUrl + ".jpg";
+        //   hoverImage.src= 'block'; // Pokazujemy obrazek
+    });
+
+    // item.addEventListener('mouseleave', () => {
+    //     hoverImage.style.display = 'none'; // Ukrywamy obrazek
+    // });
 });

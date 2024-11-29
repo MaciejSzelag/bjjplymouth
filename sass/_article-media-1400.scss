@@ -192,6 +192,23 @@
                 }
             }
 
+            .programs-list {
+
+                h1.title-program {
+                    font-size: 5rem;
+                }
+
+                .program-box-container {
+                    .program-box {
+                        .inf-box {
+                            p {
+                                font-size: 2rem
+                            }
+                        }
+                    }
+                }
+            }
+
         }
     }
 

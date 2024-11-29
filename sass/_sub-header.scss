@@ -1,6 +1,7 @@
 .sub-header {
     width: 100%;
-    height: 100vh;
+    height: 50vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,18 +18,21 @@
         .header-box {
             width: 100%;
             height: 50%;
+            overflow: hidden;
 
             .img-wrap {
                 width: 100%;
                 height: 100%;
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                overflow: hidden;
+                align-items: flex-start;
+                // overflow: hidden;
+
 
                 img {
                     width: 100%;
-                    transform: scale(1.2);
+                    transform: scale(1.1);
+
                 }
             }
 
@@ -37,7 +41,9 @@
                 height: 100%;
                 background-color: $darkGrey;
                 padding-top: 10rem;
+                // margin-top: 8rem;
                 padding-left: 2rem;
+                margin-bottom: 10rem;
 
                 .title-wrap {
                     width: 100%;
@@ -48,7 +54,7 @@
                     font-family: $anton;
 
                     .main-title {
-                        width: 80%;
+                        width: 100%;
                         height: 100%;
                         display: flex;
                         justify-content: space-between;
@@ -57,16 +63,19 @@
                         // background-color: green;
 
                         .h1-title {
+                            width: 100%;
+
                             h1 {
                                 color: white;
-                                font-size: 5rem;
+                                font-size: 5.5rem;
+                                letter-spacing: .5rem;
                                 text-transform: uppercase;
                                 font-weight: 400;
                             }
                         }
 
                         .h2-title {
-                            width: 100%;
+                            // width: 100%;
 
 
                             h2 {
@@ -79,7 +88,7 @@
                     }
 
                     .h2-side-title {
-                        height: 100%;
+                        height: auto;
                         display: inline-block;
                         writing-mode: vertical-lr;
                         // transform: rotate(-90deg);
@@ -90,7 +99,7 @@
 
 
                         h2 {
-                            font-size: 3.4rem;
+                            font-size: 3.5vh;
                             transform: rotate(180deg);
                             color: $orange;
                             text-transform: uppercase;
@@ -111,20 +120,21 @@
                 justify-content: flex-start;
                 align-items: flex-start;
                 margin-top: 2rem;
+                margin-bottom: 3rem;
                 // background-color: red;
 
                 .btn-sub-head {
-                    // background-color: green;
+                    padding-bottom: 4rem;
 
                     a {
                         text-decoration: none;
                         text-transform: uppercase;
-                        padding: 1rem 3rem;
+                        padding: .5rem 3rem;
                         color: white;
-                        font-size: 1.4rem;
+                        font-size: 1.2rem;
                         background-color: $green;
                         margin-left: 1rem;
-                        font-family: $anton;
+                        font-family: $antonio;
                         font-weight: 100;
                     }
                 }
@@ -136,7 +146,8 @@
 @media (min-width: 1024px) {
     .sub-header {
 
-        height: 60vh;
+        min-height: 60vh;
+        overflow: hidden;
 
 
         .header-wrap {
