@@ -149,13 +149,13 @@ nav {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     nav {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        height: $navHeight;
+        height: $navHeightScreen;
         z-index: 1001;
         // border-bottom: 0.1rem solid rgba(255, 255, 255, 0.3);
 
@@ -169,7 +169,7 @@ nav {
 
             .logo-container {
                 width: 10rem;
-                height: $navHeight;
+                height: $navHeightScreen;
 
                 .logo {
                     width: 100%;
@@ -182,7 +182,7 @@ nav {
             }
 
             .hamburger-container {
-                width: $navHeight;
+                width: $navHeightScreen;
                 height: 100%;
                 display: flex;
                 justify-content: center;

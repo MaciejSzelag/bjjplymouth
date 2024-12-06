@@ -1,3 +1,8 @@
 <?php
-// Ustawienie bazowego URL-a dla linków
-$base_url = '../../'; // Dostosuj tę ścieżkę, jeśli projekt jest w podfolderze (np. '/projekt/')
+// Pobieranie aktualnego katalogu bazowego
+
+function homePageBaseUrl($base_url)
+{
+    global $base_url;
+    return $base_url === "home" ? "" : "../../";
+}

@@ -1,8 +1,9 @@
 <?php
+// include '../../config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
 $title = "Timetable | bjjplymouth";
 include "../../includes/head.php"?>
 <?php
-include '../../config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
+
 $active = "timetable";
 include "../../includes/nav.php"?>
 <?php
@@ -383,4 +384,4 @@ include "../header_subpage.php"?>
 
 </div>
 <?php include "../../includes/joinus.php"?>
-<?php include "../../includes/footer.php"?>
+<?php $jsPath = "../../";include $jsPath . "includes/footer.php"?>

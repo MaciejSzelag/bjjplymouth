@@ -73,7 +73,20 @@
             </div>
         </div>
     </footer>
-    <script src="../../js/script.js"></script>
+    <?php include "attention.php";?>
+    <script src="<?php $jsPath;if (isset($jsPath)) {
+    echo $jsPath;
+} else {
+    "";
+}
+?>js/script.js"></script>
+   <script src="<?php $jsPath;if (isset($jsPath)) {
+    echo $jsPath;
+} else {
+    "";
+}
+?>js/animation.js"></script>
+
 </body>
 
 </html>

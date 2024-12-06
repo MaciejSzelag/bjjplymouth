@@ -19,6 +19,9 @@
                 <div class="menu-list">
                     <ul>
                         <?php
+// if (!isset($base_url)) {
+//     $base_url = '/'; // Domyślna wartość, gdy $base_url nie jest ustawione
+// }
 
 function showActive($page, $active)
 {
@@ -26,12 +29,13 @@ function showActive($page, $active)
     return $page === $active ? 'active-a' : '';
 }
 ?>
-                        <li><a class="<?php echo showActive('home', $active); ?>" href="<?php echo $base_url; ?>index.html" data-menu="Home">Home</a></li>
-                        <li><a class="<?php echo showActive('about', $active); ?>" href="index.html" data-menu="About">About Us</a></li>
-                        <li><a class="<?php echo showActive('timetable', $active); ?>" href="<?php echo $base_url; ?>pages/timetable/" data-menu="Timetable">Timetable</a></li>
-                        <li><a class="<?php echo showActive('classes', $active); ?>" href="<?php echo $base_url; ?>pages/bjjclasses/" data-menu="Classes">Classes</a></li>
-                        <li><a class="<?php echo showActive('contact', $active); ?>" href="index.html" data-menu="Contact">Contact</a></li>
-                        <li><a class="<?php echo showActive('faq', $active); ?>" href="index.html" data-menu="faq">FAQ</a></li>
+                        <li><a class="<?php echo showActive('home', $active); ?>" href="<?php echo homePageBaseUrl("home"); ?>" data-menu="Home">Home</a></li>
+                        <li><a class="<?php echo showActive('about', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/about-us/" data-menu="About">About Us</a></li>
+                        <li><a class="<?php echo showActive('timetable', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/timetable/" data-menu="Timetable">Timetable</a></li>
+                        <li><a class="<?php echo showActive('classes', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasses/" data-menu="Classes">Classes</a></li>
+                        <li><a class="<?php echo showActive('membership', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/membership/" data-menu="Classes">Membership</a></li>
+                        <li><a class="<?php echo showActive('contact', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/contact/" data-menu="Contact">Contact</a></li>
+                        <li><a class="<?php echo showActive('faq', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/FAQ/" data-menu="faq">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="menu-desc">

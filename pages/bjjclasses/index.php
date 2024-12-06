@@ -1,7 +1,7 @@
 <?php $title = "Classes | bjjplymouth";include "../../includes/head.php"?>
 
 <?php
-include '../../config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnegoctive = "classes";
+
 $active = "classes";
 include "../../includes/nav.php"?>
 <?php
@@ -35,9 +35,9 @@ include "../header_subpage.php"?>
     </div>
     <div class="priv-lessons-info">
         <h1>Private Lessons</h1>
-        <p>Lead Coaches Ian and Amy are also available for 1:1 sessions or 2:1 sessions, these would be outside class times and would depend on availability. 1:1 sessions allow complete private tuition between you and your coach allowing you to work on what you want to. These are ideal for personalised progression, honing technique, game planning or gaining more confidence. <br>
+        <p>Lead Coaches Ian and Amy are also available for 1:1 sessions or 2:1 sessions, these would be outside class times and would depend on availability. 1:1 sessions allow complete private tuition between you and your coach allowing you to work on what you want to. These are ideal for personalised progression, honing technique, game planning or gaining more confidence. </p>
 
- 2:1 sessions are a great way to get more private tuition but at a lower cost and with a friend to train with. You can choose between you what you want to work on. If you would like the 2:1 sessions but don’t have anyone to join you please contact me and we can discuss options. It is likely that you’re not the only one and we can pair you up.
+ <p>2:1 sessions are a great way to get more private tuition but at a lower cost and with a friend to train with. You can choose between you what you want to work on. If you would like the 2:1 sessions but don’t have anyone to join you please contact me and we can discuss options. It is likely that you’re not the only one and we can pair you up.
  </p>
  <div class="btn">
     <a href="https://wa.me/7877320658?text=Cześć,%20chcę%20zarejestrować%20się%20na%20zajęcia%20BJJ" target="_blank">WhatsApp message</a>
@@ -49,4 +49,5 @@ include "../header_subpage.php"?>
 
 </div>
 
-<?php include "../../includes/footer.php"?>
+
+<?php $jsPath = "../../";include $jsPath . "includes/footer.php"?>

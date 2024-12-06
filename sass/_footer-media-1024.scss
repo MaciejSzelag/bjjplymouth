@@ -1,4 +1,4 @@
-@media (min-width:992px) {
+@media (min-width:1024px) {
 
 
     footer {
@@ -6,7 +6,9 @@
         // min-height: 50vh;
 
         .footer-info {
-            padding: 5rem 0;
+            padding: 5rem;
+            width: 100%;
+
 
             .f-info-container {
                 max-width: 1600px;

@@ -1,80 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bjjplymouth | The best place for bjj in Plymouth</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
+<?php
+$title = "Bjj Plymouth | Checkmat | OceanBJJ";
+$cssPath = "";
+$homePage = true;
+include "includes/head.php"?>
 
-<body>
+
     <!-- <i class="fa-brands fa-facebook-f"></i> -->
-
-
-    <!-- nav -->
-    <!-- <?php include "nav.php"?> -->
-    <!-- nav -->
-    <!-- nav  -->
-    <nav>
-        <div class="nav-bar">
-            <div class="logo-container">
-                <a href="">
-                    <div class="logo"></div>
-                </a>
-            </div>
-            <div class="hamburger-container">
-                <div class="bars-container" id="menuCross">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <!-- <div class="bar"></div> -->
+    <!--
+        <div class="animation-in-wrap">
+            <div class="animation-container">
+                <div class="board-container">
+                    <div class="square white"></div>
+                    <div class="square black"></div>
+                    <div class="square black"></div>
+                    <div class="square white"></div>
                 </div>
             </div>
         </div>
-        <div class="full-page-menu" id="full-menu">
-            <div class="menu-container">
-                <div class="menu-list">
-                    <ul>
-                        <li><a class="active-a" href="index.html" data-menu="Home">Home</a></li>
-                        <li><a href="index.html" data-menu="About">About Us</a></li>
-                        <li><a href="pages/timetable/" data-menu="Timetable">Timetable</a></li>
-                        <li><a href="index.html" data-menu="Classes">Classes</a></li>
-                        <li><a href="index.html" data-menu="Contact">Contact</a></li>
-                        <li><a href="index.html" data-menu="faq">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="menu-desc">
-                    <p class="p-desc hidden" data-text="Home">Return to the main page and explore everything we
-                        offer in Brazilian Jiu-Jitsu.</p>
-                    <p class="p-desc hidden" data-text="About">Learn about our mission, values, and the team behind our
-                        academy.</p>
-                    <p class="p-desc hidden" data-text="Timetable">Check out our training schedule and find a class that
-                        suits you.</p>
-                    <p class="p-desc hidden" data-text="Classes">Explore our classes for all skill levels, from
-                        beginners to advanced practitioners.</p>
-                    <p class="p-desc hidden" data-text="Contact">Have questions? Get in touch with us for more
-                        information.</p>
-                    <p class="p-desc hidden" data-text="faq">Find answers to common questions about training, gear, and
-                        more."</p>
-                    <p class="p-desc visible initial-txt" id="displayText"> Discover the art
-                        of Brazilian Jiu-Jitsu, improve your skills, and join a passionate community. Train with us and
-                        unleash your potential!</p>
+    -->
 
-                </div>
+    <!-- nav -->
+    <?php
+$active = "home";
+$base_url = "home";
+include "includes/nav.php"?>
+    <!-- nav -->
 
-            </div>
-
-        </div>
-    </nav>
-    <!-- nav  -->
     <!-- header  -->
     <header>
 
@@ -421,82 +373,5 @@
             </div>
         </article>
     </main>
-    <footer class="footer-img">
-        <div class="footer-info">
-            <div class="f-info-container">
-                <h1 class="foot-h1"><span>Start</span> Your <span>BJJ</span> Journey <span>in Plymouth</span> Today!
-                </h1>
-                <div class="arrows-wrap">
-                    <img src="images/3-arrows.png" alt="arrows-right">
-                </div>
-                <div class="contact-info">
-                    <address>
-                        <h1 class="gym-address">
-                            <span>Checkmat Plymouth Gym</span> <br>
-                            68 Faraday Rd, Cattedown, Plymouth <br>
-                            PL4 0ST.
-                        </h1>
-                        <h1 class="social-contact">
-                            <ul>
-                                <li><span><i class="fa-solid fa-phone"></i> Phone:</span> <a
-                                        href="tel:+447538123559">07538123559</a></li>
-                                <li><span><i class="fa-regular fa-envelope"></i> E-mail:</span> <a
-                                        href="mailto:plymouthcheckmat@gmail.com">plymouthcheckmat@gmail.com</a></li>
-                                <li> <span><i class="fa-solid fa-hashtag"></i> Social Media:</span>
-                                    <a href="" class="calss-social inst"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="" class="calss-social fb"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                            </ul>
-                        </h1>
-                    </address>
-                </div>
-            </div>
-        </div>
 
-    </footer>
-    <footer>
-        <div class="footer">
-            <div class="footer-wrap">
-                <div class="footer-box">
-                    <div class="img-container">
-                        <a href="" class="img-wrap">
-                            <img src="/images/Logo-bjjocean-checkmat-bjjplymouth-s2.png" alt="">
-                        </a>
-                    </div>
-                    <div class="address-info">
-                        <h1 class="h1-info"><span>Checkmat Plymouth Gym</span> <br> <a href="">68 Faraday Rd, Cattedown,
-                                <br>
-                                Plymouth PL4 0ST</a></h1>
-                    </div>
-                </div>
-                <div class="footer-box">
-                    <div class="additional-info">
-                        <h1 class="h1-info h1-upper">About Checkmat Plymouth</h1>
-                        <ul>
-                            <li><a href="">FAQs</a></li>
-                            <li><a href="">Classes</a></li>
-                            <li><a href="">Our History</a></li>
-                            <li><a href="">Membership</a></li>
-                            <li><a href="">Timetable</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-box">
-                    <div class="additional-info">
-                        <h1 class="h1-info h1-upper">Connect with Checkmat</h1>
-                        <ul>
-                            <li>
-                                <a href="" class="inst"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="js/script.js"></script>
-</body>
-
-</html>
+    <?php include "includes/footer.php"?>
