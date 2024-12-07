@@ -135,6 +135,46 @@ article {
     }
 }
 
+
+.slide-curtain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    background-color: $darkGrey;
+    transition: .9s linear;
+    z-index: 20000;
+}
+
+.active-slide {
+    width: 110%;
+}
+
+.slide-curtain-active {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: $darkGrey;
+    // transition: .4s linear;
+    z-index: 20000;
+    animation: hide-curtain 1s linear 1 both;
+
+}
+
+@keyframes hide-curtain {
+    from {
+        height: 100vh;
+    }
+
+    to {
+        height: 0;
+    }
+}
+
+
 @keyframes heartbeat {
     from {
         transform: scale(1);

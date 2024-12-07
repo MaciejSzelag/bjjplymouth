@@ -2,7 +2,8 @@
 <nav>
 <div class="nav-bar">
             <div class="logo-container">
-                <a href="">
+            <a href="<?php echo homePageBaseUrl("home"); ?>">
+
                     <div class="logo"></div>
                 </a>
             </div>
@@ -62,3 +63,5 @@ function showActive($page, $active)
         </div>
 </nav>
 <!-- nav  -->
+
+<div class="slide-curtain"></div>

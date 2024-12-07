@@ -7,7 +7,7 @@ include "includes/head.php"?>
 
 
     <!-- <i class="fa-brands fa-facebook-f"></i> -->
-    <!--
+
         <div class="animation-in-wrap">
             <div class="animation-container">
                 <div class="board-container">
@@ -18,7 +18,7 @@ include "includes/head.php"?>
                 </div>
             </div>
         </div>
-    -->
+
 
     <!-- nav -->
     <?php

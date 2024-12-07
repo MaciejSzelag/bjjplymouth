@@ -36,3 +36,4 @@ echo $alternativeTxt;?>">
 
         </div>
     </div>
+    <div class="slide-curtain-active"></div>
