@@ -64,4 +64,6 @@ function showActive($page, $active)
 </nav>
 <!-- nav  -->
 
-<div class="slide-curtain"></div>
+<div class="slide-curtain">
+<!-- <div class="bg-logo"></div> -->
+</div>

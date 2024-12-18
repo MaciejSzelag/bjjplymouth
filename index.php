@@ -63,7 +63,7 @@ include "includes/nav.php"?>
 
         <article class="article-color-gold">
             <div class="article-container ">
-                <div class="article-wrap bg-color-1">
+                <div class="article-wrap padding-sm bg-color-1">
                     <div class="three-wheels">
                         <div class="wheel w-1"></div>
                         <div class="wheel w-2"></div>

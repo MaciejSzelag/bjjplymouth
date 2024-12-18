@@ -33,16 +33,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const cutain = document.querySelector(".slide-curtain")
     // Select all <a> elements on the page
     document.querySelectorAll("a").forEach(function (link) {
-        link.addEventListener("click", function (event) {
-            event.preventDefault(); // Prevent default navigation
-            const href = this.getAttribute("href"); // Get the link's URL
-            cutain.classList.add("active-slide")
-            // Set the delay (e.g., 2 seconds)
-            setTimeout(function () {
-                if (href) {
-                    window.location.href = href; // Navigate to the link
-                }
-            }, 1000); // 2000 milliseconds = 2 seconds
-        });
+
+        if (!link.classList.contains("contact-btns")) {
+            link.addEventListener("click", function (event) {
+                event.preventDefault(); // Prevent default navigation
+                const href = this.getAttribute("href"); // Get the link's URL
+                cutain.classList.add("active-slide")
+                // Set the delay 
+                setTimeout(function () {
+                    if (href) {
+                        window.location.href = href; // Navigate to the link
+                    }
+                }, 1100);
+            });
+        }
     });
 });

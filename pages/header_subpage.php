@@ -36,4 +36,7 @@ echo $alternativeTxt;?>">
 
         </div>
     </div>
-    <div class="slide-curtain-active"></div>
+    <div class="slide-curtain-active">
+        <!-- <div class="bg-logo">Checkamt</div> -->
+
+    </div>

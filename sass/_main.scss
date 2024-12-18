@@ -64,8 +64,8 @@ article {
     left: 0;
     width: 100%;
     height: 100vh;
-    z-index: 100000;
-    animation: hide 10s ease-in-out 1 both;
+    z-index: 10000;
+    animation: hide 5s ease-in-out 1 both;
 
     .animation-container {
         width: 100%;
@@ -81,22 +81,24 @@ article {
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            width: 15rem;
-            height: 15rem;
+            width: 10vh;
+            height: 10vh;
 
             // border-radius: 50%;
             // overflow: hidden;
-            animation: grow 12s ease-in-out 1 both;
+            animation: grow 5s ease-in-out 1 both;
 
             .square {
                 width: 50%;
                 height: 50%;
-                animation: heartbeat 2.5s ease-in-out infinite both;
+                // animation: heartbeat 2.5s ease-in-out 1 both;
+                animation: heartbeat 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                ;
                 box-shadow: 0 0 2rem .1rem white;
 
             }
 
-            $borderSize: .4rem;
+            $borderSize: .2rem;
 
             .square:nth-child(1) {
                 animation-delay: .2s;
@@ -137,18 +139,28 @@ article {
 
 
 .slide-curtain {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
-    width: 0;
+    width: 100%;
     height: 100vh;
-    background-color: $darkGrey;
-    transition: .9s linear;
-    z-index: 20000;
+    background-image: radial-gradient($darkGrey, black);
+    // background-color: $darkGrey;
+    // background-image: linear-gradient(rgb(36, 36, 36), $darkGrey);
+    // background-image: linear-gradient(-90deg, $darkGrey, $darkGrey, $green);
+    // transition: .5s linear;
+    z-index: 2000;
+    // box-shadow: 0 0 2rem .2rem $orange;
+    // opacity: 1;
+
 }
 
 .active-slide {
-    width: 110%;
+    // animation: blur-in 1s linear 1 both;
+    animation: blur-in 1s linear 1 both;
+    // z-index: 2000;
+    display: block;
 }
 
 .slide-curtain-active {
@@ -157,55 +169,113 @@ article {
     right: 0;
     width: 100%;
     height: 100vh;
-    background-color: $darkGrey;
+    background-image: radial-gradient($darkGrey, black);
+    // background-color: $darkGrey;
+    // background-image: linear-gradient(rgb(36, 36, 36), $darkGrey);
+    // background-image: linear-gradient(-90deg, $darkGrey, $darkGrey, $green);
     // transition: .4s linear;
-    z-index: 20000;
-    animation: hide-curtain 1s linear 1 both;
+    z-index: 2000;
+
+    // overflow: hidden;
+    // display: none;
+    animation: blur-out 2s linear 1 both;
+
 
 }
 
-@keyframes hide-curtain {
-    from {
-        height: 100vh;
+.slide-curtain-active,
+.slide-curtain {
+    .bg-logo {
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/Logo-bjjocean-checkmat-bjjplymouth-s2.png);
+        background-position: center;
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@keyframes blur-in {
+    0% {
+        opacity: 0;
     }
 
-    to {
-        height: 0;
+    30% {
+        opacity: 1;
+    }
+
+    90% {
+        display: block;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes blur-out {
+    0% {
+        display: block;
+        opacity: 1;
+    }
+
+    95% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: none;
+        // filter: blur(0);
+        opacity: 0;
     }
 }
 
 
 @keyframes heartbeat {
-    from {
-        transform: scale(1);
-        transform-origin: center center;
-        animation-timing-function: ease-out;
-        box-shadow: 0 0 2rem .1rem white;
+    // from {
+    //     transform: scale(1);
+    //     transform-origin: center center;
+    //     animation-timing-function: ease-out;
+    //     box-shadow: 0 0 2rem .1rem white;
+    // }
+
+    // 10% {
+    //     transform: scale(0.91);
+    //     animation-timing-function: ease-in;
+    //     box-shadow: 0 0 .9rem .1rem white;
+    // }
+
+    // 17% {
+    //     transform: scale(0.98);
+    //     animation-timing-function: ease-out;
+    //     box-shadow: 0 0 1.5rem .1rem white;
+    // }
+
+    // 33% {
+    //     transform: scale(0.87);
+    //     animation-timing-function: ease-in;
+    //     box-shadow: 0 0 .4rem .1rem white;
+    // }
+
+    // 45% {
+    //     transform: scale(1);
+    //     animation-timing-function: ease-out;
+    //     box-shadow: 0 0 2rem .1rem white;
+    // }
+
+    0% {
+        transform: scale(0) rotate(60deg) skew(90deg) translateY(-80rem);
+        opacity: 1;
     }
 
-    10% {
-        transform: scale(0.91);
-        animation-timing-function: ease-in;
-        box-shadow: 0 0 .9rem .1rem white;
+    100% {
+        transform: scale(1) rotate(0) skew(0) translateY(0);
+        opacity: 1;
     }
 
-    17% {
-        transform: scale(0.98);
-        animation-timing-function: ease-out;
-        box-shadow: 0 0 1.5rem .1rem white;
-    }
-
-    33% {
-        transform: scale(0.87);
-        animation-timing-function: ease-in;
-        box-shadow: 0 0 .4rem .1rem white;
-    }
-
-    45% {
-        transform: scale(1);
-        animation-timing-function: ease-out;
-        box-shadow: 0 0 2rem .1rem white;
-    }
 }
 
 @keyframes hide {
@@ -214,7 +284,7 @@ article {
         opacity: 1;
     }
 
-    70% {
+    50% {
 
         opacity: 1;
     }
@@ -235,12 +305,12 @@ article {
         transform: scale(1);
     }
 
-    40% {
+    50% {
         transform: scale(1);
     }
 
     100% {
-        transform: scale(.1);
+        transform: scale(200);
     }
 }
 

@@ -4,11 +4,11 @@ nav {
     left: 0;
     width: 100%;
     height: $navHeight;
-    z-index: 1001;
+    z-index: 1005;
     // border-bottom: 0.1rem solid rgba(255, 255, 255, 0.3);
     // background-color: $darkGrey;
-    background-image: linear-gradient(rgb(36, 36, 36), $darkGrey);
-    box-shadow: 0 1rem 1rem .1rem rgba(0, 0, 0, .4);
+
+
 
     .nav-bar {
         position: relative;
@@ -17,7 +17,9 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        z-index: 1002;
+        z-index: 1004;
+        background-image: linear-gradient(rgb(36, 36, 36), $darkGrey);
+        box-shadow: 0 1rem 1rem .1rem rgba(0, 0, 0, .4);
 
         .logo-container {
             width: 10rem;
@@ -119,6 +121,7 @@ nav {
     }
 
     .full-page-menu {
+        position: relative;
         position: fixed;
         top: -100vh;
         left: 0;
