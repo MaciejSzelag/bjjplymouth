@@ -1,7 +1,7 @@
 .sub-header {
     width: 100%;
-    height: 50vh;
-    min-height: 100vh;
+    min-height: 10vh;
+    // min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,12 +20,12 @@
 
         .header-box {
             width: 100%;
-            height: 50%;
+            height: auto;
             overflow: hidden;
 
             .img-wrap {
                 width: 100%;
-                height: 100%;
+                max-height: 30rem;
                 display: flex;
                 justify-content: center;
                 align-items: flex-start;
@@ -43,14 +43,14 @@
                 width: 100%;
                 height: 100%;
                 background-color: $darkGrey;
-                padding-top: 10rem;
+                padding-top: 8em;
                 // margin-top: 8rem;
                 padding-left: 2rem;
-                margin-bottom: 10rem;
+                // margin-bottom: 2rem;
 
                 .title-wrap {
                     width: 100%;
-                    height: 80%;
+                    height: 20rem;
                     display: flex;
                     justify-content: flex-start;
                     align-items: center;
@@ -70,7 +70,7 @@
 
                             h1 {
                                 color: white;
-                                font-size: 5.5rem;
+                                font-size: 4rem;
                                 letter-spacing: .3rem;
                                 text-transform: uppercase;
                                 font-weight: 400;
@@ -104,7 +104,7 @@
 
 
                         h2 {
-                            font-size: 3.5vh;
+                            font-size: 2.3rem;
                             transform: rotate(180deg);
                             color: $orange;
                             text-transform: uppercase;
@@ -124,12 +124,11 @@
                 display: flex;
                 justify-content: flex-start;
                 align-items: flex-start;
-                margin-top: 2rem;
-                margin-bottom: 3rem;
+                margin: 3rem 0;
                 // background-color: red;
 
                 .btn-sub-head {
-                    padding-bottom: 4rem;
+                    // padding-bottom: 2rem;
 
                     a {
                         text-decoration: none;
@@ -138,96 +137,74 @@
                         color: white;
                         font-size: 1.2rem;
                         background-color: $green;
-                        margin-left: 1rem;
-                        font-family: $roboto;
-                        // font-weight: 100;
+                        margin-left: .5rem;
+                        font-family: $antonio;
+                        font-weight: 700;
+                        border: .1rem solid transparent;
+                        transition: .3s ease-in-out;
                     }
+
+
                 }
             }
         }
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .sub-header {
-
-        min-height: 60vh;
-        overflow: hidden;
-        margin-top: 8rem;
-
+        margin-top: 6rem;
 
         .header-wrap {
-
             flex-direction: row;
 
             .header-box {
                 width: 50%;
-                height: 100%;
-
-
 
                 .title-head-wrap {
-
-                    // padding-top: 10rem;
-                    padding-left: 5rem;
+                    padding-top: 0;
+                    padding-left: 4.5rem;
 
                     .title-wrap {
-
+                        min-height: 25rem;
 
                         .main-title {
-
-
-
                             .h1-title {
                                 h1 {
-
-                                    font-size: 8rem;
-
+                                    font-size: 5rem;
                                 }
                             }
 
                             .h2-title {
-
-
-
                                 h2 {
                                     font-size: 4rem;
-
                                 }
                             }
                         }
 
                         .h2-side-title {
-
-
-
                             h2 {
-                                font-size: 4.2rem;
-
+                                font-size: 2.8em
                             }
                         }
-
-
                     }
+                }
 
-
-
-
+                .img-wrap {
+                    min-height: 42rem
                 }
 
                 .btn-wrap {
-
                     margin-top: 2rem;
-                    // background-color: red;
 
                     .btn-sub-head {
-                        // background-color: green;
-
-
                         a {
-
                             font-size: 1.6rem;
+                        }
 
+                        a:hover {
+                            background-color: transparent;
+                            border: .1rem solid $green;
                         }
                     }
                 }
@@ -236,125 +213,57 @@
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width:1400px) {
     .sub-header {
-
-        min-height: 70vh;
-
-
+        margin-top: 7rem;
+        min-height: 50rem;
 
         .header-wrap {
-
             // flex-direction: row;
 
             .header-box {
                 // width: 50%;
-                // height: 100%;
-
-
 
                 .title-head-wrap {
 
-                    // padding-top: 10rem;
-                    padding-left: 15rem;
+                    // padding-top: 0;
+                    padding-left: 15%;
 
                     .title-wrap {
-
+                        min-height: 30rem;
 
                         .main-title {
-
-
-
                             .h1-title {
                                 h1 {
-
-                                    font-size: 12rem;
-
+                                    font-size: 7rem;
                                 }
                             }
 
                             .h2-title {
-
-
-
                                 h2 {
-                                    font-size: 8rem;
-
+                                    font-size: 4rem;
                                 }
                             }
                         }
 
                         .h2-side-title {
-
-
-
                             h2 {
-                                font-size: 4.5rem;
-
+                                font-size: 3.2rem;
                             }
                         }
-
-
                     }
+                }
 
-
-
-
+                .img-wrap {
+                    min-height: 50rem
                 }
 
                 .btn-wrap {
-
-                    margin-top: 3rem;
-                    // background-color: red;
+                    margin-top: 2rem;
 
                     .btn-sub-head {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        // background-color: green;
-                        // overflow: hidden;
-                        // background-color: red;
-
                         a {
-                            position: relative;
-                            display: block;
-                            // width: 100%;
-                            // text-decoration: none;
-                            // text-transform: uppercase;
-                            padding: 1.5rem 4rem;
-                            // color: white;
-                            font-size: 2rem;
-                            // background-color: $green;
-                            // margin-left: 1rem;
-                            // font-family: $anton;
-                            // font-weight: 100;
-                            border: .1rem solid transparent;
-                            transition: .4s ease-in-out;
-                            overflow: hidden;
-                            font-weight: 900;
-
-                        }
-
-                        a:hover {
-                            border: .1rem solid $green;
-                            background-color: transparent;
-                            color: $green;
-                        }
-
-                        a::after {
-                            content: "";
-                            position: absolute;
-                            top: 0;
-                            left: -100%;
-                            width: 100%;
-                            height: 100%;
-                            background-color: $green;
-                            transition: .4s linear;
-
-                        }
-
-                        a:hover::after {
-                            left: 100%;
+                            font-size: 1.6rem;
                         }
                     }
                 }

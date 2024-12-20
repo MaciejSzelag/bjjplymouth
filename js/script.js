@@ -87,4 +87,17 @@ document.addEventListener("DOMContentLoaded", () => {
     // animateLinks();
     // setInterval(animateLinks, intervalTime);
 
+    window.addEventListener("pageshow", (event) => {
+        if (event.persisted) {
+            // Usuń klasę animacji, aby zapobiec jej aktywacji
+            const animatedElements = document.querySelector('.active-slide');
+            if (animatedElements.classList.contains("active-slide")) {
+                animatedElements.classList.remove("active-slide");
+                fullMenu.classList.remove("full-page-menu-active");
+                menuCross.classList.remove("bars-container-active");
+                active = !active
+            }
+        }
+    });
+
 });

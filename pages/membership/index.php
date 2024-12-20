@@ -5,8 +5,8 @@ $active = "membership";
 include "../../includes/nav.php"?>
 <?php
 $subtitle = "Membership";
-$btnLink = "link";
-$btnName = "Check Timetable";
+$btnLink = homePageBaseUrl("") . "pages/timetable/";
+$btnName = "Our Timetable";
 $imgName = "ian-marco.jpg";
 $alternativeTxt = "Bjjplymouth - fight";
 include "../header_subpage.php"?>
@@ -30,7 +30,7 @@ include "../header_subpage.php"?>
 
             </div>
             <div class="cards-container">
-                <div class="card most-popular">
+                <div class="card ">
                     <div class="card-title">Adults <br> Ultimate Deal</div>
                     <div class="card-price">
                         £<span>100</span>
@@ -61,7 +61,7 @@ include "../header_subpage.php"?>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card most-popular">
                     <div class="card-title">Adults <br> Ultimate Deal</div>
                     <div class="card-price">
                         £<span>100</span>
@@ -98,12 +98,40 @@ include "../header_subpage.php"?>
         </div>
         <div class="membership-content">
             <div class="mem-title">
-                <h1 class="mem-h1-1">Adults</h1>
+                <h1 class="mem-h1-1">Junior</h1>
 
             </div>
             <div class="cards-container">
+                <div class="card">
+                    <div class="card-title">Junior <br> Custom Gi Deal</div>
+                    <div class="card-price">
+                        £<span>100</span>
+                    </div>
+                    <div class="card-details">
+                        <ul>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
+                                training</li>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
+                                training</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Junior <br> Custom Gi Deal</div>
+                    <div class="card-price">
+                        £<span>100</span>
+                    </div>
+                    <div class="card-details">
+                        <ul>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
+                                training</li>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
+                                training</li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="card most-popular">
-                    <div class="card-title">Adults <br> Custom Gi Deal</div>
+                    <div class="card-title">Junior <br> Custom Gi Deal</div>
                     <div class="card-price">
                         £<span>100</span>
                     </div>
@@ -117,7 +145,43 @@ include "../header_subpage.php"?>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-title">Adults <br> Custom Gi Deal</div>
+                    <div class="card-title">Junior <br> Custom Gi Deal</div>
+                    <div class="card-price">
+                        £<span>100</span>
+                    </div>
+                    <div class="card-details">
+                        <ul>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
+                                training</li>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
+                                training</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="membership-content">
+            <div class="mem-title">
+                <h1 class="mem-h1-1">Kids</h1>
+
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-title">Kids <br> Custom Gi Deal</div>
+                    <div class="card-price">
+                        £<span>100</span>
+                    </div>
+                    <div class="card-details">
+                        <ul>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
+                                training</li>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
+                                training</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card  most-popular">
+                    <div class="card-title">Kids <br> Custom Gi Deal</div>
                     <div class="card-price">
                         £<span>100</span>
                     </div>
@@ -131,7 +195,7 @@ include "../header_subpage.php"?>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-title">Adults <br> Custom Gi Deal</div>
+                    <div class="card-title">Kids <br> Custom Gi Deal</div>
                     <div class="card-price">
                         £<span>100</span>
                     </div>
@@ -144,20 +208,7 @@ include "../header_subpage.php"?>
                         </ul>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-title">Adults <br> Custom Gi Deal</div>
-                    <div class="card-price">
-                        £<span>100</span>
-                    </div>
-                    <div class="card-details">
-                        <ul>
-                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
-                                training</li>
-                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
-                                training</li>
-                        </ul>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

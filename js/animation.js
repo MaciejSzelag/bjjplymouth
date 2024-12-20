@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    const cutain = document.querySelector(".slide-curtain")
+    const curtain = document.querySelector(".slide-curtain")
     // Select all <a> elements on the page
     document.querySelectorAll("a").forEach(function (link) {
 
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             link.addEventListener("click", function (event) {
                 event.preventDefault(); // Prevent default navigation
                 const href = this.getAttribute("href"); // Get the link's URL
-                cutain.classList.add("active-slide")
+                curtain.classList.add("active-slide")
                 // Set the delay 
                 setTimeout(function () {
                     if (href) {
@@ -46,6 +46,16 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 }, 1100);
             });
+        }
+    });
+
+    window.addEventListener("pageshow", (event) => {
+        if (event.persisted) {
+            // Usuń klasę animacji, aby zapobiec jej aktywacji
+            const animatedElements = document.querySelector('.slide-curtain');
+            if (animatedElements.classList.contains("slide-curtain")) {
+                animatedElements.classList.remove("active-slide");
+            }
         }
     });
 });

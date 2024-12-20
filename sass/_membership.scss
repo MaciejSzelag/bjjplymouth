@@ -4,6 +4,7 @@
 
     background-color: $orange;
 
+
     .membership-container {
         width: 100%;
         height: 100%;
@@ -29,25 +30,42 @@
                 width: 100%;
                 height: auto;
                 padding: 0 2rem;
+                // overflow: hidden;
 
                 h1,
                 p {
                     color: black;
                     // margin: 2rem 0 0;
+                    font-family: $antonio;
                 }
 
                 h1 {
+                    position: relative;
                     text-align: center;
-                    font-family: $antonio;
-                    font-weight: 200;
+                    padding: 0 4rem;
+                    font-weight: 700;
                     text-transform: uppercase;
                     font-size: 3rem;
+                    border-radius: 10%; // margin-bottom: 1rem;
 
+                }
+
+                h1::after {
+                    content: "";
+                    position: absolute;
+                    bottom: -2rem;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 100%;
+                    height: .1rem;
+                    background-color: black;
                 }
 
                 P {
                     padding: 1.5rem 0;
                     font-size: 1.6rem;
+                    margin-top: 2rem;
+                    text-align: center;
                 }
             }
 
@@ -61,12 +79,22 @@
                 margin: 2rem 0 0;
 
                 .card {
-                    width: 43%;
-                    height: auto;
-                    margin: 1rem;
-                    padding: 1rem;
+                    // width: 60%;
+                    min-width: 25rem;
+                    min-height: 30rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    margin: 4rem;
+                    padding: 3rem 1rem;
                     background-color: white;
-                    box-shadow: 0 0 1rem .1rem rgb(211, 211, 211);
+                    border-radius: .5rem;
+                    border-top: .2rem solid black;
+                    border-bottom: .2rem solid black;
+                    // filter: drop-shadow(0 0 1rem rgb(211, 211, 211));
+                    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.3));
+                    transition: .3s ease-in-out;
 
                     .card-title,
                     .card-price,
@@ -84,10 +112,10 @@
 
                     .card-price {
 
-                        padding: 2rem 0;
+                        padding: 2.5rem 0;
                         color: $orange;
-                        font-size: 3rem;
-                        font-weight: 700;
+                        font-size: 4rem;
+                        font-weight: 400;
                         text-align: center;
 
 
@@ -125,11 +153,23 @@
                     }
                 }
 
+
+
                 .most-popular {
                     position: relative;
-                    width: 55%;
-                    margin: 2.5rem;
+                    // width: 70%;
+                    transform: scale(1.2);
+                    margin: 8rem 6rem;
+                    border: .3rem solid rgb(12, 189, 12);
+                    ;
+                    // border: .5rem solid $gold;
+
+                    .card-price {
+                        font-weight: 700;
+                    }
                 }
+
+
 
                 .most-popular::after {
                     content: "Most Popular";
@@ -141,10 +181,12 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    transform: translate(-50%, 0);
+                    transform: translate(-50%, -25%);
                     border-radius: .4rem;
                     background-color: rgb(12, 189, 12);
+                    font-size: 1.3rem;
                     color: white;
+                    padding: .5rem 0;
                 }
 
             }
@@ -164,9 +206,136 @@
                     color: white;
                     // margin: 2rem 0 0;
                 }
+
+                h1::after {
+
+                    background-color: white;
+                }
+
+
+            }
+
+            .cards-container {
+                .card {
+                    filter: drop-shadow(0 0 0 transparent);
+                }
+
+                // .most-popular {
+                //     border-color: $green;
+
+
+
+                // }
             }
         }
 
 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .membership-wrap {
+        .membership-container {
+            .membership-content {
+                .mem-title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    h1 {
+
+                        font-size: 4rem;
+                        margin: 3rem 0;
+                    }
+
+
+
+                    p {
+                        font-size: 2rem;
+                        width: 60%;
+                        ;
+                    }
+                }
+
+                .cards-container {
+                    .card {
+                        opacity: .9;
+                    }
+
+                    .card:hover {
+                        transform: translateY(-2rem);
+                        filter: drop-shadow(0 2rem 1.5rem rgba(0, 0, 0, 0.3));
+                        opacity: 1;
+                    }
+
+                    .most-popular {
+                        opacity: 1;
+                    }
+
+                    .most-popular:hover {
+                        transform: scale(1.3) translateY(0);
+                        filter: drop-shadow(0 0 0 transparent);
+                    }
+                }
+            }
+
+            // .membership-content:nth-child(odd) {
+
+
+            //     .mem-title {
+            //         h1::after {
+
+            //             background-color: white;
+            //         }
+
+            //     }
+            // }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .membership-wrap {
+        .membership-container {
+            .membership-content {
+                .mem-title {
+
+
+                    h1 {
+
+                        font-size: 5rem;
+                        // font-weight: 700;
+
+                    }
+
+                    h1::after {
+
+                        bottom: -3rem;
+
+                    }
+
+                    p {
+                        font-size: 3rem;
+                        width: 60%;
+
+                        text-align: center;
+                    }
+                }
+
+            }
+
+            // .membership-content:nth-child(odd) {
+
+
+            //     .mem-title {
+            //         h1::after {
+
+            //             background-color: white;
+            //         }
+
+            //     }
+            // }
+        }
     }
 }
