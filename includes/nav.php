@@ -36,7 +36,7 @@ function showActive($page, $active)
                         <li><a class="<?php echo showActive('classes', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasses/" data-menu="Classes">Classes</a></li>
                         <li><a class="<?php echo showActive('membership', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/membership/" data-menu="Classes">Membership</a></li>
                         <li><a class="<?php echo showActive('contact', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/contact/" data-menu="Contact">Contact</a></li>
-                        <li><a class="<?php echo showActive('faq', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/FAQ/" data-menu="faq">FAQ</a></li>
+                        <li><a class="<?php echo showActive('faq', $active); ?>" href="<?php echo homePageBaseUrl(""); ?>pages/faq/" data-menu="faq">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="menu-desc">
