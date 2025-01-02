@@ -1,10 +1,10 @@
 <?php $title = "Frequently Asked Questions | bjjplymouth";include "../../includes/head.php"?>
 
 <?php
-$active = "FAQs";
+$active = "faq";
 include "../../includes/nav.php"?>
 <?php
-$subtitle = "FAQ";
+$subtitle = "FAQs";
 $btnLink = homePageBaseUrl("") . "pages/timetable/";
 $btnName = "Timetable";
 $imgName = "No-Gi-Fun.jpg";
@@ -15,7 +15,8 @@ include "../header_subpage.php"?>
         <h1>Frequently Asked Questions</h1>
         <div class="faq-content">
             <div class="faq-question">
-                <button type="button" class="collapsible">1. What is Brazilian Jiu-Jitsu (BJJ)?</button>
+                <button type="button" class="collapsible"><span class="faq-no"></span> What is Brazilian Jiu-Jitsu
+                    (BJJ)? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
                     <p>Brazilian Jiu-Jitsu (BJJ) is a martial art and combat sport that focuses on ground fighting and
                         submission holds. It is based on the principle that a smaller, weaker person can successfully
@@ -24,7 +25,8 @@ include "../header_subpage.php"?>
                 </div>
             </div>
             <div class="faq-question">
-                <button type="button" class="collapsible">2. What should I wear to my first BJJ class?</button>
+                <button type="button" class="collapsible"><span class="faq-no"></span> What should I wear to my first
+                    BJJ class? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
                     <p>For your first Brazilian Jiu-Jitsu (BJJ) class, you don't need to invest in specialized gear
                         right away. Here's what to can wear: </p>
@@ -40,8 +42,9 @@ include "../header_subpage.php"?>
                 </div>
             </div>
             <div class="faq-question">
-                <button type="button" class="collapsible">3. Do I need prior martial arts experience to start
-                    BJJ?</button>
+                <button type="button" class="collapsible"><span class="faq-no"></span> Do I need prior martial arts
+                    experience to start
+                    BJJ? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
                     <p>
                         No, you don't need any prior martial arts experience to start Brazilian Jiu-Jitsu (BJJ). BJJ is
@@ -51,7 +54,8 @@ include "../header_subpage.php"?>
                 </div>
             </div>
             <div class="faq-question">
-                <button type="button" class="collapsible">4. What should I expect in my first BJJ class?</button>
+                <button type="button" class="collapsible"><span class="faq-no"></span> What should I expect in my first
+                    BJJ class? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
                     <p>
                         Your first Brazilian Jiu-Jitsu (BJJ) class will likely be a mix of learning basic techniques,
@@ -75,7 +79,8 @@ include "../header_subpage.php"?>
                 </div>
             </div>
             <div class="faq-question">
-                <button type="button" class="collapsible">5. How often should I train BJJ as a beginner?</button>
+                <button type="button" class="collapsible"><span class="faq-no"></span> How often should I train BJJ as a
+                    beginner? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
                     <p>As a beginner in Brazilian Jiu-Jitsu (BJJ), training 2-3 times per week is ideal. This frequency
                         allows you to progress steadily while giving your body time to recover and adapt to the physical
@@ -104,8 +109,9 @@ include "../header_subpage.php"?>
                 </div>
             </div>
             <div class="faq-question">
-                <button type="button" class="collapsible">6. What is a BJJ belt system, and how do promotions
-                    work?</button>
+                <button type="button" class="collapsible"><span class="faq-no"></span> What is a BJJ belt system, and
+                    how do promotions
+                    work? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
                     <p>The Brazilian Jiu-Jitsu (BJJ) belt system is a ranking system that reflects a practitioner’s
                         skill level, experience, and dedication. Each belt requires progressively greater technical
@@ -137,15 +143,17 @@ include "../header_subpage.php"?>
                 </div>
             </div>
             <div class="faq-question">
-                <button type="button" class="collapsible">7. Can I try a class before committing to a
-                    membership?</button>
+                <button type="button" class="collapsible"><span class="faq-no"></span> Can I try a class before
+                    committing to a
+                    membership? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
                     <p>Yes, this allows you to experience the environment, meet the instructor and teammates,
                         and see if the gym is a good fit for you before committing to a membership.</p>
                 </div>
             </div>
             <div class="faq-question">
-                <button type="button" class="collapsible">8. What equipment do I need for BJJ?</button>
+                <button type="button" class="collapsible"><span class="faq-no"></span> What equipment do I need for
+                    BJJ? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
                     <p>To start Brazilian Jiu-Jitsu (BJJ), you don’t need a lot of specialized equipment, but having the
                         right gear will make your training more comfortable and effective. Here’s a breakdown of the
@@ -167,6 +175,7 @@ include "../header_subpage.php"?>
 </div>
 <script>
     var coll = document.getElementsByClassName("collapsible");
+    // var arrowDown = document.querySelector("i")
     var i;
 
     for (i = 0; i < coll.length; i++) {
@@ -175,11 +184,22 @@ include "../header_subpage.php"?>
             var content = this.nextElementSibling;
             if (content.classList.contains("active-content")) {
                 content.classList.remove("active-content")
+
             } else {
                 content.classList.add("active-content")
+                if (!content.classList.contains("active-content")) {
+                    content.classList.remove("active-content")
+                }
             }
         });
     }
+    const spanNumber = document.querySelectorAll(".faq-no")
+
+    spanNumber.forEach((number, index) => {
+        number.textContent = `${index + 1}.`;
+        // console.log(index + 1);
+    });
+
 </script>
 
 <?php $jsPath = "../../";include $jsPath . "includes/footer.php"?>

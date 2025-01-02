@@ -8,7 +8,7 @@ include "../../includes/nav.php"?>
 $subtitle = "Classes";
 $btnLink = "link";
 $btnName = "See Our Classes";
-$imgName = "bjj-fight.webp";
+$imgName = "seminar2024.jpg";
 $alternativeTxt = "Bjjplymouth - fight";
 include "../header_subpage.php"?>
 <div class="classes-wrap">
@@ -16,17 +16,25 @@ include "../header_subpage.php"?>
         <h1>We offer a variety of diffrent classes that are tailored around age and skill level</h1>
     </div>
     <div class="classes-list">
+    <?php
+function activeClass($page, $active)
+{
+    global $active;
+    return $page === $active ? 'active-a' : '';
+}
+?>
         <ul>
-            <li><a href="" data-image="Gi">Gi BJJ</a></li>
-            <li><a href="" data-image="NoGI">NoGi BJJ</a></li>
+            <li><a href="../class-description/?category=gi" data-image="Gi">Gi BJJ</a></li>
+            <li><a href="../class-description/?category=nogi" data-image="NoGI">NoGi BJJ</a></li>
             <li><a href="" data-image="JGi">Juniors Gi and NoGi</a></li>
+            <li><a href="" data-image="kid">Kids Gi and NoGi</a></li>
             <li><a href="" data-image="Pro">Pro Training</a></li>
             <li><a href="" data-image="Grap">Grapling</a></li>
             <li><a href="" data-image="om">Open Mat</a></li>
             <li><a href="" data-image="jud">Judo</a></li>
             <li><a href="" data-image="Wr">Wresling</a></li>
             <li><a href="" data-image="MMA">MMA</a></li>
-            <li><a href="" data-image="PL">Private Lessons</a></li>
+            <!-- <li><a href="" data-image="PL">Private Lessons</a></li> -->
         </ul>
         <div class="class-img-wrap">
         <img id="hover-image" src="../../images/Private-lessons.webp" alt="Preview">

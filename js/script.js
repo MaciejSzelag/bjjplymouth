@@ -3,6 +3,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const fullMenu = document.getElementById("full-menu");
     const menuCross = document.getElementById("menuCross");
     let active = false;
+    let lastScrollY = window.scrollY;
+    const navBar = document.querySelector("nav");
+    const handleScrollNav = () => {
+        const currentScrollY = window.scrollY;
+        if (currentScrollY > lastScrollY && !active) {
+            // dodaj klase kiedy menu nie jest aktywne
+            navBar.classList.add("nav-hidden");
+        } else {
+            navBar.classList.remove("nav-hidden");
+        }
+        lastScrollY = currentScrollY; // Zaktualizuj ostatnią pozycję przewijania
+    }
+    window.addEventListener("scroll", handleScrollNav);
+
 
     menuCross.addEventListener("click", () => {
         if (!active) {
@@ -56,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     listItems.forEach(item => {
         item.addEventListener('mouseenter', () => {
             const imageUrl = item.getAttribute('data-image');
-            hoverImage.src = "../../images/" + imageUrl + ".jpg";
+            hoverImage.src = "../../images/bjj-classes/" + imageUrl + ".jpg";
             //   hoverImage.src= 'block'; // Pokazujemy obrazek
         });
 
