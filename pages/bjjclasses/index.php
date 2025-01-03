@@ -15,32 +15,44 @@ include "../header_subpage.php"?>
     <div class="classes-container">
         <h1>We offer a variety of diffrent classes that are tailored around age and skill level</h1>
     </div>
-    <div class="classes-list">
-    <?php
-function activeClass($page, $active)
-{
-    global $active;
-    return $page === $active ? 'active-a' : '';
-}
-?>
+    <div class="classes-list" id="bjj-classes">
+
         <ul>
-            <li><a href="../class-description/?category=gi" data-image="Gi">Gi BJJ</a></li>
-            <li><a href="../class-description/?category=nogi" data-image="NoGI">NoGi BJJ</a></li>
-            <li><a href="" data-image="JGi">Juniors Gi and NoGi</a></li>
-            <li><a href="" data-image="kid">Kids Gi and NoGi</a></li>
-            <li><a href="" data-image="Pro">Pro Training</a></li>
-            <li><a href="" data-image="Grap">Grapling</a></li>
-            <li><a href="" data-image="om">Open Mat</a></li>
-            <li><a href="" data-image="jud">Judo</a></li>
-            <li><a href="" data-image="Wr">Wresling</a></li>
-            <li><a href="" data-image="MMA">MMA</a></li>
-            <!-- <li><a href="" data-image="PL">Private Lessons</a></li> -->
+            <li><a href="../class-description/?category=fundamentals" data-image="Fundamentals">Fundamentals Gi & NoGi</a></li>
+            <li><a href="../class-description/?category=nogi" data-image="Gi">Gi All Levels & Junior Gi Classes</a></li>
+            <li><a href="../class-description/?category=nogi-all-levels-and-juniors" data-image="nogi">NoGi All Levels & Junior NoGi Classes</a></li>
+            <li><a href="../class-description/?category=Gi-&-NoGi-Q-and-A" data-image="Pro">Gi & NoGi Q and A / Competition Class</a></li>
+            <li><a href="../class-description/?category=openmat" data-image="om">Open Mat - Adults Only</a></li>
+            <li><a href="../class-description/?category=kids" data-image="kid">Kids Gi & Kids NoGi</a></li>
+            <li><a href="../class-description/?category=kids-juniors-competition-class" data-image="JGi">Kids/Juniors Competition Class</a></li>
         </ul>
         <div class="class-img-wrap">
         <img id="hover-image" src="../../images/Private-lessons.webp" alt="Preview">
 
         </div>
     </div>
+
+
+
+
+</div>
+
+
+
+<article class="article-color-grey">
+            <div class="article-container ">
+                <div class="article-wrap padding-sm ">
+                    <div class="article-btns">
+                        <div class="btn-wrap">
+                            <div class="btn-a"><a class="a-btn" href="">Timetable</a></div>
+                            <!-- <div class="btn-a"><a class="a-btn btn-orange" href="">Contact Us</a></div> -->
+                            <div class="btn-a"><a class="a-btn btn-orange" href="">Membership</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</article>
+        <div class="classes-wrap">
     <div class="priv-lessons-info">
         <h1>Private Lessons</h1>
         <p>Lead Coaches Ian and Amy are also available for 1:1 sessions or 2:1 sessions, these would be outside class times and would depend on availability. 1:1 sessions allow complete private tuition between you and your coach allowing you to work on what you want to. These are ideal for personalised progression, honing technique, game planning or gaining more confidence. </p>

@@ -16,10 +16,11 @@
         h1 {
             padding: 2rem;
             font-size: 2.5rem;
-            color: white;
+            color: $gold;
             font-family: $anton;
             font-weight: 400;
             text-transform: uppercase;
+            filter: drop-shadow(.5rem .5rem .5rem black);
         }
     }
 
@@ -42,6 +43,7 @@
                     font-size: 3rem;
                     font-family: $anton;
                     text-transform: uppercase;
+                    filter: drop-shadow(.5rem .5rem .5rem black);
 
                 }
             }
@@ -135,9 +137,9 @@
                 transform: translateY(-50%);
                 width: 50%;
                 height: 80%;
-
                 opacity: .7;
                 transition: .5s linear;
+                z-index: 0;
 
                 img {
                     width: 100%;
@@ -145,7 +147,9 @@
             }
 
             ul {
+                position: relative;
                 padding-left: 10%;
+                z-index: 1;
 
                 li {
                     a {
