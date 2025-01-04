@@ -6,7 +6,7 @@ $active = "classes";
 include "../../includes/nav.php"?>
 <?php
 $subtitle = "Classes";
-$btnLink = "link";
+$btnLink = "../bjjclasses/";
 $btnName = "See Our Classes";
 $imgName = "seminar2024.jpg";
 $alternativeTxt = "Bjjplymouth - fight";
@@ -27,7 +27,7 @@ include "../header_subpage.php"?>
             <li><a href="../class-description/?category=kids-juniors-competition-class" data-image="JGi">Kids/Juniors Competition Class</a></li>
         </ul>
         <div class="class-img-wrap">
-        <img id="hover-image" src="../../images/Private-lessons.webp" alt="Preview">
+        <img id="hover-image" src="../../images/bjj-classes/bjj-plymouth-pro-sport-grappling.jpg" alt="Bjj plymouth - Checkmat - ProSportFrappling 2024">
 
         </div>
     </div>
@@ -44,9 +44,9 @@ include "../header_subpage.php"?>
                 <div class="article-wrap padding-sm ">
                     <div class="article-btns">
                         <div class="btn-wrap">
-                            <div class="btn-a"><a class="a-btn" href="">Timetable</a></div>
+                            <div class="btn-a"><a class="a-btn" href="../timetable/">Timetable</a></div>
                             <!-- <div class="btn-a"><a class="a-btn btn-orange" href="">Contact Us</a></div> -->
-                            <div class="btn-a"><a class="a-btn btn-orange" href="">Membership</a></div>
+                            <div class="btn-a"><a class="a-btn btn-orange" href="../membership/">Membership</a></div>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ include "../header_subpage.php"?>
     <a href="https://wa.me/+447877320658?text=Hi%20Amy%20%0A%0AI'm%20interested%20in%20joining%20your%20BJJ%20classes%20and%20would%20like%20to%20know%20more%20about%20the%20registration%20process.%20Could%20you%20please%20provide%20details%20about%20class%20schedules%2C%20fees%2C%20and%20any%20beginner%20requirements%3F%0A%0AThank%20you%2C%20and%20I%20look%20forward%20to%20your%20reply.%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D"  target="_blank">WhatsApp message</a>
  </div>
  <div class="img-wrap">
-    <img src="../../images/Private-lessons.webp" alt="Private lessons">
+    <img src="../../images/bjj-classes/Ian-Harrop.jpg" alt="Private lessons">
  </div>
     </div>
 

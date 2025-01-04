@@ -1,0 +1,160 @@
+.contact-wrap {
+    width: 100%;
+    font-family: $antonio;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-container {
+        width: 100%;
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .contact-h1 {
+            width: 100%;
+            padding: 3rem 2rem;
+
+            h1 {
+                font-size: 3rem;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+
+        .contact-box-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .contact-box {
+                max-width: 50rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 3rem;
+
+
+                .contact-form-container {
+
+
+                    .contact-form {
+                        // border-radius: 5px;
+                        background-color: rgb(253, 253, 253);
+                        padding: 20px;
+
+                        .contact-form-title {
+                            width: 100%;
+                            padding: 3rem 0;
+
+                            h1 {
+                                font-size: 2.5rem;
+                            }
+                        }
+
+                        label {
+                            font-size: 1.5rem;
+
+                        }
+
+
+                        input[type=text],
+                        input[type=email],
+                        input[type=phone],
+                        select,
+                        textarea {
+                            width: 100%;
+                            padding: 12px;
+                            border: 1px solid #ccc;
+                            border-radius: 4px;
+                            box-sizing: border-box;
+                            margin-top: 6px;
+                            margin-bottom: 16px;
+                            resize: vertical;
+                            font-family: $antonio;
+                        }
+
+                        input[type=submit] {
+                            width: 100%;
+                            background-color: $orange;
+                            color: white;
+                            padding: 12px 20px;
+
+                            border: none;
+                            border-radius: 4px;
+                            cursor: pointer;
+                            transition: .4s linear;
+                        }
+
+                        input[type=submit]:hover {
+                            background-color: $green;
+                        }
+
+                    }
+                }
+
+                .address-container,
+                .contact-links,
+                .contact-map {
+                    width: 100%;
+                }
+
+                .address-container,
+                .contact-links {
+                    padding: 2rem;
+                    font-family: $roboto;
+
+                    a,
+                    span {
+                        font-size: 1.4rem;
+                    }
+
+                    h1 {
+                        font-size: 4rem;
+                        color: $orange;
+                        margin-bottom: 1rem;
+                        font-family: $antonio;
+                    }
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        font-weight: 300;
+
+
+                    }
+
+                    span {
+                        color: $lightOrange;
+                        padding-right: .5rem;
+                    }
+                }
+
+                .contact-map {
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                // contact-links
+            }
+
+            .contact-box-wide {
+                width: 100%;
+            }
+        }
+    }
+}

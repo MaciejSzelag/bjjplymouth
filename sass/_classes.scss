@@ -39,7 +39,7 @@
 
                 a {
                     text-decoration: none;
-                    color: $gold;
+                    color: white;
                     font-size: 3rem;
                     font-family: $anton;
                     text-transform: uppercase;
@@ -99,10 +99,11 @@
             align-items: center;
             margin-top: 3rem;
             overflow: hidden;
+            // background-color: rgb(37, 39, 40);
 
 
             img {
-                width: 123%;
+                width: 100%;
             }
         }
 
@@ -224,8 +225,9 @@
                 overflow: hidden;
 
 
+
                 img {
-                    width: 123%;
+                    width: 80%;
                 }
             }
 
