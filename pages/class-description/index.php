@@ -1,4 +1,8 @@
-<?php $title = "Class Description | bjjplymouth";include "../../includes/head.php"?>
+<?php
+$metaDescription = "Explore a variety of Brazilian Jiu-Jitsu, Judo, and Wrestling classes at Checkmat Plymouth, tailored for all ages and skill levels. From Fundamentals and All Levels to Kids' classes and private lessons, our expert coaches Ian and Amy provide personalized training to help you reach your goals. Join us today!";
+$metaKeywords = "Checkmat Plymouth classes, BJJ classes Plymouth, Gi & NoGi classes, Kids BJJ Plymouth, private BJJ lessons Plymouth, personalized martial arts training, 1:1 BJJ sessions, 2:1 private tuition, fundamentals BJJ classes, competition classes Plymouth, junior martial arts classes, ProSportGrappling 2024, open mat Plymouth.";
+
+$title = "Class Description | bjjplymouth";include "../../includes/head.php"?>
 
 <?php
 $active = "classes";

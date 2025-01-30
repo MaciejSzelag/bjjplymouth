@@ -1,14 +1,18 @@
-<?php $title = "Frequently Asked Questions | bjjplymouth";include "../../includes/head.php"?>
+<?php
+    $metaDescription = "Find answers to your questions about Brazilian Jiu-Jitsu (BJJ) at Checkmat Plymouth. Learn what to wear, how to start as a beginner, the BJJ belt system, training frequency, and more. Start your martial arts journey with confidence!";
+    $metaKeywords    = "BJJ FAQs, Brazilian Jiu-Jitsu questions, beginner BJJ tips, BJJ belt system, what to wear for BJJ, starting BJJ, BJJ training frequency, martial arts FAQs, Plymouth BJJ guide, Checkmat Plymouth FAQs, BJJ beginner equipment, trial BJJ classes.";
+    $title           = "Frequently Asked Questions | bjjplymouth";
+include "../../includes/head.php"?>
 
 <?php
-$active = "faq";
+    $active = "faq";
 include "../../includes/nav.php"?>
 <?php
-$subtitle = "FAQs";
-$btnLink = homePageBaseUrl("") . "pages/timetable/";
-$btnName = "Timetable";
-$imgName = "No-Gi-Fun.jpg";
-$alternativeTxt = "Bjjplymouth - NoGi Team";
+    $subtitle       = "FAQs";
+    $btnLink        = homePageBaseUrl("") . "pages/timetable/";
+    $btnName        = "Timetable";
+    $imgName        = "No-Gi-Fun.jpg";
+    $alternativeTxt = "Bjjplymouth - NoGi Team";
 include "../header_subpage.php"?>
 <div class="faq-wrap">
     <div class="faq-cover">
@@ -18,10 +22,8 @@ include "../header_subpage.php"?>
                 <button type="button" class="collapsible"><span class="faq-no"></span> What is Brazilian Jiu-Jitsu
                     (BJJ)? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
-                    <p>Brazilian Jiu-Jitsu (BJJ) is a martial art and combat sport that focuses on ground fighting and
-                        submission holds. It is based on the principle that a smaller, weaker person can successfully
-                        defend themselves against a larger, stronger opponent by using technique, leverage, and body
-                        mechanics.</p>
+                    <p>Brazilian Jiu-Jitsu (BJJ) is a martial art and combat sport that focuses on ground fighting and submission holds. It is based on the principle that a smaller, weaker person can successfully defend themselves against a larger, stronger opponent by using technique, leverage, and body mechanics.
+                    </p>
                 </div>
             </div>
             <div class="faq-question">

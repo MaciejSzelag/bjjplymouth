@@ -74,36 +74,12 @@ document.addEventListener("DOMContentLoaded", () => {
             //   hoverImage.src= 'block'; // Pokazujemy obrazek
         });
 
-        // item.addEventListener('mouseleave', () => {
-        //     hoverImage.style.display = 'none'; // Ukrywamy obrazek
-        // });
+
     });
-    // attention buttons 
 
-    // const links = document.querySelectorAll(".float-contact .main-icon a");
-    // const intervalTime = 10000; // 15 sekund
-    // const animationDelay = 100; // 300ms opóźnienia między elementami
-
-    // const animateLinks = () => {
-    //     links.forEach((link, index) => {
-    //         setTimeout(() => {
-    //             link.classList.add("attention");
-
-    //             // Usuń klasę po animacji, aby mogła się powtórzyć
-    //             setTimeout(() => {
-    //                 link.classList.remove("attention");
-    //             }, 7000); // 1.1s to czas trwania animacji
-    //         }, index * animationDelay);
-    //     });
-    // };
-
-    // // Uruchom animację natychmiast i w odstępach co 15 sekund
-    // animateLinks();
-    // setInterval(animateLinks, intervalTime);
 
     window.addEventListener("pageshow", (event) => {
         if (event.persisted) {
-            // Usuń klasę animacji, aby zapobiec jej aktywacji
             const animatedElements = document.querySelector('.active-slide');
             if (animatedElements.classList.contains("active-slide")) {
                 animatedElements.classList.remove("active-slide");

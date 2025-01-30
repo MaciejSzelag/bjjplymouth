@@ -1,5 +1,6 @@
 
 <?php
+
 $title = "Bjj Plymouth | Checkmat | OceanBJJ";
 $cssPath = "";
 $homePage = true;
@@ -22,8 +23,8 @@ include "includes/head.php"?>
 
     <!-- nav -->
     <?php
-$active = "home";
-$base_url = "home";
+$active = $base_url = "home";
+
 include "includes/nav.php"?>
     <!-- nav -->
 

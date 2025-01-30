@@ -98,7 +98,8 @@
             }
 
             .section-join-wrap {
-                height: 80vh;
+                // height: 80vh;
+                max-height: 60vh;
 
 
                 .section-wrapper {
@@ -115,18 +116,18 @@
 
 
                             h1 {
-                                padding: 10rem 0 5rem;
+                                padding: 5rem 0 0;
                                 // color: $white;
-                                font-size: 15rem;
+                                font-size: 10rem;
                                 text-transform: uppercase;
                                 line-height: 15rem;
                             }
 
                             p {
                                 padding-top: 1rem;
-                                margin-bottom: 4rem;
-                                font-size: 2rem;
-                                color: white;
+                                margin-bottom: 2rem;
+                                font-size: 1.8rem;
+
                             }
                         }
 

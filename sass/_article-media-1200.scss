@@ -35,7 +35,7 @@
             }
 
             .section-join-wrap {
-                height: 80vh;
+                // height: 80vh;
 
 
                 .section-wrapper {
@@ -114,22 +114,19 @@
 
 
 
-                                img {
+                                // img {
 
-                                    // width: 120%;
-                                    // clip-path: polygon(0 0, 100% 0%, 100% 98%, 17% 100%);
-
-                                }
-
-                                .img-obj-under {
-                                    position: absolute;
-                                    top: -10%;
-                                    left: 6%;
-                                    width: 5rem;
-                                    height: 120%;
-                                    background-color: black;
-                                    transform: rotate(-10deg);
-                                }
+      //     // width: 120%;
+      //     // clip-path: polygon(0 0, 100% 0%, 100% 98%, 17% 100%); // }
+// .img-obj-under {
+//     position: absolute;
+//     top: -10%;
+//     left: 6%;
+//     width: 5rem;
+//     height: 120%;
+//     background-color: black;
+//     transform: rotate(-10deg);
+// }
                             }
                         }
 

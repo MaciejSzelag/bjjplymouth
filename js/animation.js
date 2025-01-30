@@ -59,9 +59,15 @@ document.addEventListener("DOMContentLoaded", () => {
         if (event.persisted) {
             // Usuń klasę animacji, aby zapobiec jej aktywacji
             const animatedElements = document.querySelector('.slide-curtain');
+            const activeCurtain = document.querySelector('.slide-curtain-active');
             if (animatedElements.classList.contains("slide-curtain")) {
                 animatedElements.classList.remove("active-slide");
+                activeCurtain.classList.remove("slide-curtain-active");
             }
+            // if (activeCurtain.classList.contains("slide-curtain-active")) {
+            //     activeCurtain.classList.remove("slide-curtain-active");
+            //     console.log("ok")
+            // }
         }
     });
 });

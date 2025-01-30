@@ -1,4 +1,12 @@
-<?php $title = "About Us | bjjplymouth";include "../../includes/head.php"?>
+<?php
+$title = "About Us | bjjplymouth";
+$metaDescription = "Discover Checkmat Plymouth, the leading Brazilian Jiu-Jitsu academy in Plymouth.
+Established in 2018, we offer world-class BJJ, Judo, and Wrestling training for all skill levels. Join our supportive community,
+access top-tier instruction, and become part of the global Checkmat network. Free trial classes available—start your martial arts journey today!";
+$metaKeywords = "Checkmat Plymouth, Brazilian Jiu-Jitsu Plymouth, BJJ Plymouth, Plymouth martial arts, Judo classes Plymouth, Wrestling Plymouth, BJJ academy UK,
+Checkmat affiliation, self-defense Plymouth, martial arts community, BJJ training Plymouth, top martial arts in Plymouth, free trial BJJ Plymouth, martial arts for beginners Plymouth.";
+
+include "../../includes/head.php"?>
 
 <?php
 $active = "about";

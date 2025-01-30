@@ -1,5 +1,7 @@
 <?php
 // include '../../config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
+$metaDescription = "View the complete timetable for Brazilian Jiu-Jitsu, Judo, and Wrestling classes at Checkmat Plymouth. Find class schedules for beginners, advanced practitioners, and children. Plan your training sessions with ease and join us today!";
+$metaKeywords = "Checkmat Plymouth timetable, BJJ class schedule Plymouth, Judo timetable Plymouth, Wrestling classes Plymouth, martial arts schedule, Plymouth training sessions, Brazilian Jiu-Jitsu for beginners, advanced BJJ classes Plymouth, kids martial arts Plymouth, weekly martial arts classes.";
 $title = "Timetable | bjjplymouth";
 include "../../includes/head.php"?>
 <?php

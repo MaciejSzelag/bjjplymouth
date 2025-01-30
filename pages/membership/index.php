@@ -1,4 +1,7 @@
-<?php $title = "Membership | bjjplymouth";include "../../includes/head.php"?>
+<?php
+$metaDescription = "Join Checkmat Plymouth today and enjoy exclusive membership benefits! Choose from tailored packages for adults, juniors, and kids, including unlimited training and custom Gi deals. Unlock your potential and become part of our vibrant martial arts community!";
+$metaKeywords = "Checkmat Plymouth membership, BJJ membership Plymouth, martial arts membership deals, unlimited BJJ training Plymouth, junior BJJ deals, kids BJJ membership, custom Gi membership Plymouth, martial arts packages, BJJ training offers, Plymouth martial arts community.";
+$title = "Membership | bjjplymouth";include "../../includes/head.php"?>
 
 <?php
 $active = "membership";
