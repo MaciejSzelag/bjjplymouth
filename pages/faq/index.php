@@ -33,13 +33,9 @@ include "../header_subpage.php"?>
                     <p>For your first Brazilian Jiu-Jitsu (BJJ) class, you don't need to invest in specialized gear
                         right away. Here's what to can wear: </p>
                     <ul>
-                        <li>T-shirt or Rash Guard</li>
-                        <li>Shorts</li>
-                        <li>Trim Nails: Ensure your nails are short and clean to avoid scratching yourself or others
-                        </li>
-                        <li>Remove Accessories: Take off any jewelry, watches, or piercings to prevent injury.</li>
+                        <li>T-shirt or Rash Guard with Shorts or leggings (try to avoid buttons, pockets and zips).</li>
+                        <li>Ensure your nails are short and clean to avoid scratching yourself or others and remove any jewellery, watches, or piercings to prevent injury</li>
                     </ul>
-                    <p>Feel free to ask your gym for specific recommendations before your first class!</p>
 
                 </div>
             </div>
@@ -48,10 +44,8 @@ include "../header_subpage.php"?>
                     experience to start
                     BJJ? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
-                    <p>
-                        No, you don't need any prior martial arts experience to start Brazilian Jiu-Jitsu (BJJ). BJJ is
-                        beginner-friendly and designed to teach you techniques from the ground up, regardless of your
-                        fitness level, age, or background.</p>
+                    <p>No, you don't need any prior martial arts experience to start Brazilian Jiu-Jitsu (BJJ).
+                        BJJ is beginner-friendly and designed to teach you techniques from the ground up, regardless of your fitness level, age, or background.</p>
 
                 </div>
             </div>
@@ -59,24 +53,19 @@ include "../header_subpage.php"?>
                 <button type="button" class="collapsible"><span class="faq-no"></span> What should I expect in my first
                     BJJ class? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
-                    <p>
-                        Your first Brazilian Jiu-Jitsu (BJJ) class will likely be a mix of learning basic techniques,
-                        understanding how the class works, and getting a feel for the sport. </p>
-                    <p><span>Before Class:</span></p>
+
                     <ul>
-                        <li><span>Arrive Early:</span> Arrive 10-15 minutes early to introduce yourself, complete any
-                            paperwork, and
-                            get oriented.</li>
-                        <li><span>Meet the Instructor and Teammates:</span> The coach or fellow students will help you
-                            feel welcome
-                            and explain what to expect.</li>
+                        <li>Your first Brazilian Jiu-Jitsu (BJJ) class will likely be a mix of learning basic techniques,
+                            understanding how the class works, and getting a feel for the sport.
+
+                        </li>
+                        <li>Arrive 5-10 minutes early to introduce yourself, complete any paperwork, and get oriented.
+                            Meet the Instructor and teammates. The coach or fellow students will help you feel welcome and explain what to expect.
+                        </li>
+                        <li>General Class Structure: Warm-Up, Technique/Drilling, Rolling/Sparring (This part is optional for beginners).
+                        </li>
                     </ul>
-                    <p><span>Class Structure:</span></p>
-                    <ul>
-                        <li>Warm-Up</li>
-                        <li>Technique Instruction</li>
-                        <li>Rolling (Sparring) (Optional for Beginners, ~15-30 minutes)</li>
-                    </ul>
+
 
                 </div>
             </div>
@@ -84,28 +73,23 @@ include "../header_subpage.php"?>
                 <button type="button" class="collapsible"><span class="faq-no"></span> How often should I train BJJ as a
                     beginner? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
-                    <p>As a beginner in Brazilian Jiu-Jitsu (BJJ), training 2-3 times per week is ideal. This frequency
-                        allows you to progress steadily while giving your body time to recover and adapt to the physical
-                        demands of the sport.</p>
+                    <p>As a beginner in Brazilian Jiu-Jitsu (BJJ), training 2-3 times per week is ideal.
+                        This frequency allows you to progress steadily while giving your body time to recover and adapt to the physical demands of the sport.
+                    </p>
                     <p><span>Why 2–3 Times Per Week?</span></p>
                     <ul>
-                        <li>Learning and Retention: Attending regularly but not excessively helps you absorb techniques
-                            and reinforce them through repetition.</li>
-                        <li>Avoiding Burnout: Starting too aggressively can lead to physical and mental fatigue or even
-                            injury.</li>
-                        <li>Building Strength and Endurance: Your body needs time to adapt to the specific movements and
-                            intensity of BJJ.</li>
-                        <li>Developing Consistency: Building a habit of consistent training is more important than
-                            overloading at the start.</li>
+                        <li>Learning and Retention: Attending regularly but not excessively helps you absorb techniques and reinforce them through repetition.
+                        </li>
+                        <li>Avoiding Burnout: Starting too aggressively can lead to physical and mental fatigue or even injury.
+                        </li>
+                        <li>Building Strength and Endurance: Your body needs time to adapt to the specific movements and intensity of BJJ.
+                        </li>
+                        <li>Developing Consistency: Building a habit of consistent training is more important than overloading at the start.
+                        </li>
 
                     </ul>
-                    <p><span>Gradually Increase Frequency:</span></p>
-                    <ul>
-                        <li>As your body and skill level improve, you can consider training more often (e.g., 4–5
-                            times per week).</li>
-                        <li>Always listen to your body, and prioritize rest if you feel overly sore or fatigued.
-                        </li>
-                    </ul>
+                    <p>Gradually increase frequency as your body and skill level improve, you can consider training more often (e.g., 4–5 times per week). Always listen to your body and prioritize rest if you feel overly sore or fatigued.
+                    </p>
 
 
                 </div>
@@ -115,10 +99,8 @@ include "../header_subpage.php"?>
                     how do promotions
                     work? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
-                    <p>The Brazilian Jiu-Jitsu (BJJ) belt system is a ranking system that reflects a practitioner’s
-                        skill level, experience, and dedication. Each belt requires progressively greater technical
-                        knowledge, time, and ability, and promotions are based on performance, consistency, and
-                        attitude.</p>
+                    <p>The Brazilian Jiu-Jitsu (BJJ) belt system is a ranking system that reflects a practitioner’s skill level, experience, and dedication. Each belt requires progressively greater technical knowledge, time, and ability, and promotions are based on performance, consistency, and attitude.
+                    </p>
                     <p><span>Belt Ranks for Adults:</span></p>
                     <ul>
                         <li>White Belt</li>
@@ -146,27 +128,33 @@ include "../header_subpage.php"?>
             </div>
             <div class="faq-question">
                 <button type="button" class="collapsible"><span class="faq-no"></span> Can I try a class before
-                    committing to a
-                    membership? <i class="fa-solid fa-chevron-down"></i></button>
+                    committing to a membership? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
-                    <p>Yes, this allows you to experience the environment, meet the instructor and teammates,
-                        and see if the gym is a good fit for you before committing to a membership.</p>
+                    <p>Yes, this allows you to experience the environment, meet the instructor and teammates, and see if the gym is a good fit for you before committing to a membership.
+                    .</p>
                 </div>
             </div>
             <div class="faq-question">
                 <button type="button" class="collapsible"><span class="faq-no"></span> What equipment do I need for
                     BJJ? <i class="fa-solid fa-chevron-down"></i></button>
                 <div class="content">
-                    <p>To start Brazilian Jiu-Jitsu (BJJ), you don’t need a lot of specialized equipment, but having the
-                        right gear will make your training more comfortable and effective. Here’s a breakdown of the
-                        essential and optional items:</p>
+                    <p>To start Brazilian Jiu-Jitsu (BJJ), you don’t need a lot of specialized equipment, but having the right gear will make your training more comfortable and effective. Here’s a breakdown of the essential and optional items:
+                        </p>
                     <p><span>Essential Equipment:</span></p>
                     <ul>
                         <li>Gi (for Gi Training)</li>
-                        <li>Rash Guard (for No-Gi Training or Under the Gi)</li>
-                        <li>No-Gi Gear: shorts without zippers, buttons, or pockets</li>
-                        <li>Belt (for Gi Training)</li>
-                        <li>(Optional) Mouthguard: Protects your teeth and gums during training or sparring.</li>
+                        <li> Correct Ranked Belt (For Gi Training)
+                        </li>
+                        <li>Rash Guard (for No-Gi Training or Under the Gi)
+                        </li>
+                        <li>Shorts/Spats without zippers, buttons, or pockets (For NoGi Training)
+                        </li>
+                    </ul>
+                    <p><span>Optional Equipment:</span></p>
+                    <ul>
+                        <li>Mouthguard: Protects your teeth and gums during training or sparring.
+                        </li>
+                        <li>Drinks bottle: It’s always good to stay hydrated.</li>
                     </ul>
                 </div>
             </div>

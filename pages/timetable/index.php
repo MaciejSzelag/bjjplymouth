@@ -1,19 +1,19 @@
 <?php
-// include '../../config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
-$metaDescription = "View the complete timetable for Brazilian Jiu-Jitsu, Judo, and Wrestling classes at Checkmat Plymouth. Find class schedules for beginners, advanced practitioners, and children. Plan your training sessions with ease and join us today!";
-$metaKeywords = "Checkmat Plymouth timetable, BJJ class schedule Plymouth, Judo timetable Plymouth, Wrestling classes Plymouth, martial arts schedule, Plymouth training sessions, Brazilian Jiu-Jitsu for beginners, advanced BJJ classes Plymouth, kids martial arts Plymouth, weekly martial arts classes.";
-$title = "Timetable | bjjplymouth";
+    // include '../../config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
+    $metaDescription = "View the complete timetable for Brazilian Jiu-Jitsu, Judo, and Wrestling classes at Checkmat Plymouth. Find class schedules for beginners, advanced practitioners, and children. Plan your training sessions with ease and join us today!";
+    $metaKeywords    = "Checkmat Plymouth timetable, BJJ class schedule Plymouth, Judo timetable Plymouth, Wrestling classes Plymouth, martial arts schedule, Plymouth training sessions, Brazilian Jiu-Jitsu for beginners, advanced BJJ classes Plymouth, kids martial arts Plymouth, weekly martial arts classes.";
+    $title           = "Timetable | bjjplymouth";
 include "../../includes/head.php"?>
 <?php
 
-$active = "timetable";
+    $active = "timetable";
 include "../../includes/nav.php"?>
 <?php
-$subtitle = "Timetable";
-$btnLink = "link";
-$btnName = "Contact Now";
-$imgName = "bjj-fight-checkmat-plymouth.jpg";
-$alternativeTxt = "Bjjplymouth - fight";
+    $subtitle       = "Timetable";
+    $btnLink        = "link";
+    $btnName        = "Contact Now";
+    $imgName        = "bjj-fight-checkmat-plymouth.jpg";
+    $alternativeTxt = "Bjjplymouth - fight";
 include "../header_subpage.php"?>
 <div class="title-container">
 <h1 class="main-title">Timetable</h1>
@@ -28,29 +28,37 @@ include "../header_subpage.php"?>
                     <th rowspan="2">6am <br> 7am</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">NoGi BJJ <br> Amy Winterson and Andy Harris</td>
+                    <td class="td-shadow">Gi BJJ <br> Amy Winterson and Andy Harris</td>
                 </tr>
             </table>
-            <table>
+            <!-- <table>
                 <tr>
                     <th rowspan="2">7am <br> 8am</th>
                 </tr>
                 <tr>
                     <td class="td-shadow">Open Mat <br> Ricky Bellingham</td>
                 </tr>
-            </table>
+            </table> -->
             <table>
                 <tr>
                     <th rowspan="2">10am <br> 11am</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Gi BJJ <br> Ricky Bellingham</td>
+                    <td class="td-shadow">Gi BJJ <br> Ian Harrop</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th rowspan="2">11am <br> 12pm</th>
+                </tr>
+                <tr>
+                    <td class="td-shadow">Gi BJJ Pro Training - Adults <br> Ricky Bellingham</td>
                 </tr>
             </table>
 
             <table>
                 <tr>
-                    <th rowspan="2">5:30pm <br> 6:30pm</th>
+                    <th rowspan="2">5:30pm <br> 6:15pm</th>
                 </tr>
                 <tr>
                     <td class="td-shadow">Judo with Gi BJJ (kids) <br> Ricky Bellingham</td>
@@ -61,15 +69,16 @@ include "../header_subpage.php"?>
                     <th rowspan="2">6:30pm <br> 7:30pm</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Grappling Hour (Adults, Juniors)<br> Ricky Bellingham</td>
+                    <td class="td-shadow">Judo (Adults & Juniors) <br> Ricky Bellingham</td>
                 </tr>
             </table>
+
             <table>
                 <tr>
                     <th rowspan="2">7:30pm <br> 8:30pm</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Gi BJJ<br> Amy Winterson</td>
+                    <td class="td-shadow">Gi BJJ<br> Maciej Szelag</td>
                 </tr>
             </table>
         </div>
@@ -79,26 +88,10 @@ include "../header_subpage.php"?>
         <div class="table-wrap">
             <table>
                 <tr>
-                    <th rowspan="2">6am <br> 7am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ <br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">7am <br> 8am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Pro Training<br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
                     <th rowspan="2">10am <br> 11am</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">NoGi BJJ <br> Ian Harrop</td>
+                    <td class="td-shadow">NoGi BJJ (Adults)<br> Ricky Bellingham</td>
                 </tr>
             </table>
 
@@ -107,7 +100,7 @@ include "../header_subpage.php"?>
                     <th rowspan="2">11am <br> 12pm</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">NoGi Pro Training <br>Ian Harrop</td>
+                    <td class="td-shadow">NoGi Pro Training (Adults)<br>Ian Harrop</td>
                 </tr>
             </table>
             <table>
@@ -115,7 +108,7 @@ include "../header_subpage.php"?>
                     <th rowspan="2">12pm <br> 1pm</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Wresling<br> Ricky Bellingham</td>
+                    <td class="td-shadow">Wresling (Adults)<br> Ricky Bellingham</td>
                 </tr>
             </table>
             <table>
@@ -131,7 +124,7 @@ include "../header_subpage.php"?>
                     <th rowspan="2">7:30pm <br> 8:30pm</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">NoGi Pro Training<br> Ricky Bellingham</td>
+                    <td class="td-shadow">NoGi Positional Sparrings (Adults)<br> Andy Harris</td>
                 </tr>
             </table>
         </div>
@@ -144,40 +137,24 @@ include "../header_subpage.php"?>
                     <th rowspan="2">6am <br> 7am</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Gi BJJ <br>Andy Harris</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">7am <br> 8am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Open Mat <br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">10am <br> 11am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ <br> Amy Winterson</td>
+                    <td class="td-shadow">Gi BJJ (Adults)<br>Andy Harris</td>
                 </tr>
             </table>
 
             <table>
                 <tr>
-                    <th rowspan="2">11am <br> 12pm</th>
+                    <th rowspan="2">10am <br> 11:30am</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">GI Pro Trainig <br> Amy Winterson</td>
+                    <td class="td-shadow">Gi BJJ <br> Ian Harrop</td>
                 </tr>
             </table>
             <table>
                 <tr>
-                    <th rowspan="2">6:30pm <br> 8pm</th>
+                    <th rowspan="2">7pm <br> 8pm</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Gi BJJ (Adults, Juniors)<br> Ian Harrop</td>
+                    <td class="td-shadow">Gi BJJ (Adults &Juniors)<br> Ian Harrop</td>
                 </tr>
             </table>
             <table>
@@ -198,42 +175,27 @@ include "../header_subpage.php"?>
                     <th rowspan="2">6am <br> 7am</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">NoGi BJJ (Adults, Juniors & Kids over 8 y/o) <br> Ricky Bellingham</td>
+                    <td class="td-shadow">NoGi BJJ (Adults) <br> Ricky Bellingham</td>
                 </tr>
             </table>
-            <table>
-                <tr>
-                    <th rowspan="2">7am <br> 8am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Open Mat <br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">10am <br> 11am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi BJJ <br> Ricky Bellingham</td>
-                </tr>
-            </table>
-
             <table>
                 <tr>
                     <th rowspan="2">11am <br> 12pm</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">NoGi Pro Training<br> Ricky Bellingham</td>
+                    <td class="td-shadow">NoGi BJJ (Adults)<br> Ricky Bellingham</td>
                 </tr>
             </table>
+
             <table>
                 <tr>
                     <th rowspan="2">12pm <br> 1pm</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Catch Wresling<br> Ricky Bellingham</td>
+                    <td class="td-shadow">Catch Wrestling (Adults)<br> Ricky Bellingham</td>
                 </tr>
             </table>
+
             <table>
                 <tr>
                     <th rowspan="2">6:30pm <br> 7:30pm</th>
@@ -260,7 +222,7 @@ include "../header_subpage.php"?>
                     <th rowspan="2">6am <br> 7am</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Judo (Adults, Juniors & Kids) <br> Ricky Bellingham and Amy Winterson</td>
+                    <td class="td-shadow">NoGi BJJ (Adults, Juniors & Kids over 8 y/o) <br> Ricky Bellingham</td>
                 </tr>
             </table>
             <table>
@@ -268,7 +230,7 @@ include "../header_subpage.php"?>
                     <th rowspan="2">7am <br> 8am</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Grappling Hour (Adults, Juniors) <br> Ricky Bellingham</td>
+                    <td class="td-shadow">Grappling Hour (Adults & juniors)<br> Ricky Bellingham and Amy Winterson</td>
                 </tr>
             </table>
             <table>
@@ -276,7 +238,7 @@ include "../header_subpage.php"?>
                     <th rowspan="2">10am <br> 11am</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Gi BJJ <br> Amy Winterson</td>
+                    <td class="td-shadow">Gi BJJ (Adults)<br> Amy Winterson</td>
                 </tr>
             </table>
 
@@ -293,7 +255,7 @@ include "../header_subpage.php"?>
                     <th rowspan="2">7pm <br> 8pm</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">NoGi BJJ<br> Elias Freeman / Aron Tippett / Maciej Szelag</td>
+                    <td class="td-shadow">NoGi BJJ<br> Elias Freeman / Aron Tippett</td>
                 </tr>
             </table>
         </div>
@@ -306,7 +268,7 @@ include "../header_subpage.php"?>
                     <th rowspan="2">7am <br> 8:30am</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">Gi BJJ <br> Nathan Haynes</td>
+                    <td class="td-shadow">Gi BJJ (Adults)<br> Nathan Haynes</td>
                 </tr>
             </table>
             <table>
@@ -323,25 +285,11 @@ include "../header_subpage.php"?>
                     <th rowspan="2">2:30pm <br> 3:30pm</th>
                 </tr>
                 <tr>
-                    <td class="td-shadow">NoGi Wresling (Adults, Juniors & Kids over 8 y/o)<br> Ricky Bellingham</td>
+                    <td class="td-shadow">NoGi Wresling - Kids ONLY<br> Ricky Bellingham</td>
                 </tr>
             </table>
-            <table>
-                <tr>
-                    <th rowspan="2">6:30pm <br> 7:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Grappling Hour (Adults, Juniors)<br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">7:30pm <br> 8:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ<br> Amy Winterson</td>
-                </tr>
-            </table>
+
+
         </div>
     </div>
     <div class="table-container">
@@ -371,16 +319,6 @@ include "../header_subpage.php"?>
                     <td class="td-shadow">Open Mat (Adults & Juniors) <br> Amy Winterson and Ian Harrop</td>
                 </tr>
             </table>
-
-            <table>
-                <tr>
-                    <th rowspan="2">11:30pm <br> 12:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">MMA <br>Connor Page</td>
-                </tr>
-            </table>
-
         </div>
     </div>
 

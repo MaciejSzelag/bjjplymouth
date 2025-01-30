@@ -90,9 +90,7 @@
                     padding: 3rem 1rem;
                     background-color: white;
                     border-radius: .5rem;
-                    border-top: .2rem solid black;
-                    border-bottom: .2rem solid black;
-                    // filter: drop-shadow(0 0 1rem rgb(211, 211, 211));
+                    border-top: 2rem solid $orange;
                     filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.3));
                     transition: .3s ease-in-out;
 
@@ -104,7 +102,7 @@
                     }
 
                     .card-title {
-                        font-size: 2.1rem;
+                        font-size: 3.1rem;
                         text-align: center;
                         text-transform: uppercase;
                         font-family: $antonio;
@@ -130,7 +128,7 @@
                                 justify-content: center;
                                 align-items: flex-start;
                                 margin-bottom: 1rem;
-                                font-size: 1.2rem;
+                                font-size: 1.5rem;
 
                                 span {
                                     display: flex;
@@ -145,7 +143,7 @@
 
                                     i {
                                         color: white;
-                                        font-size: 1.1rem;
+                                        font-size: 1.3rem;
                                     }
                                 }
                             }
@@ -158,7 +156,7 @@
                 .most-popular {
                     position: relative;
                     // width: 70%;
-                    transform: scale(1.2);
+                    // transform: scale(1.2);
                     margin: 8rem 6rem;
                     border: .3rem solid rgb(12, 189, 12);
                     ;
@@ -217,15 +215,16 @@
 
             .cards-container {
                 .card {
+                    border-top: 2rem solid $gold;
                     filter: drop-shadow(0 0 0 transparent);
                 }
 
-                // .most-popular {
-                //     border-color: $green;
+                .most-popular {
+                    border: .3rem solid rgb(12, 189, 12);
 
 
 
-                // }
+                }
             }
         }
 
@@ -261,10 +260,13 @@
                 .cards-container {
                     .card {
                         opacity: .9;
+                        margin: 4rem 6rem;
+                        transform: scale(1.1);
+
                     }
 
                     .card:hover {
-                        transform: translateY(-2rem);
+                        transform: translateY(-2rem) scale(1.2);
                         filter: drop-shadow(0 2rem 1.5rem rgba(0, 0, 0, 0.3));
                         opacity: 1;
                     }
