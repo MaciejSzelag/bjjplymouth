@@ -1,9 +1,9 @@
 
 <?php
 
-$title = "Bjj Plymouth | Checkmat | OceanBJJ";
-$cssPath = "";
-$homePage = true;
+    $title    = "Bjj Plymouth | Checkmat | OceanBJJ";
+    $cssPath  = "";
+    $homePage = true;
 include "includes/head.php"?>
 
 
@@ -23,9 +23,9 @@ include "includes/head.php"?>
 
     <!-- nav -->
     <?php
-$active = $base_url = "home";
+        $active = $base_url = "home";
 
-include "includes/nav.php"?>
+    include "includes/nav.php"?>
     <!-- nav -->
 
     <!-- header  -->
@@ -37,7 +37,7 @@ include "includes/nav.php"?>
                     <h1>Welcome <br>to <br> <span class="span-white">Checkmat Plymouth</span></h1>
                     <h2>Expert Brazilian Jiu-Jitsu Training in Plymouth</h2>
                     <div class="btn-head ">
-                        <button class="btn-orange"><a href="">Contact Us</a></button>
+                        <button class="btn-orange"><a href="<?php echo homePageBaseUrl(""); ?>pages/contact/">Contact Us</a></button>
                     </div>
                 </div>
                 <div class="header-img">
@@ -84,9 +84,9 @@ include "includes/nav.php"?>
                     </div>
                     <div class="article-btns">
                         <div class="btn-wrap">
-                            <div class="btn-a"><a class="a-btn" href="">Clasess</a></div>
-                            <div class="btn-a"><a class="a-btn btn-orange" href="">Contact Us</a></div>
-                            <div class="btn-a"><a class="a-btn" href="">Membership</a></div>
+                            <div class="btn-a"><a class="a-btn" href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasses/">Clasess</a></div>
+                            <div class="btn-a"><a class="a-btn btn-orange" href="<?php echo homePageBaseUrl(""); ?>pages/contact/">Contact Us</a></div>
+                            <div class="btn-a"><a class="a-btn" href="<?php echo homePageBaseUrl(""); ?>pages/membership/">Membership</a></div>
                         </div>
                     </div>
                 </div>
@@ -123,8 +123,8 @@ include "includes/nav.php"?>
                                             Plymouth!
                                         </p>
                                         <div class="btn-info">
-                                            <div class="btn"><a href="">
-                                                    Meet Our Instructors
+                                            <div class="btn"><a href="<?php echo homePageBaseUrl(""); ?>pages/about-us/">
+                                                    More about Us
                                                 </a></div>
                                         </div>
                                     </div>
@@ -142,8 +142,8 @@ include "includes/nav.php"?>
                                             be
                                             part of a supportive community.</p>
                                         <div class="btn-info">
-                                            <div class="btn"><a href="">
-                                                    Find out more about us
+                                            <div class="btn"><a href="<?php echo homePageBaseUrl(""); ?>pages/timetable/">
+                                                 Timetable
                                                 </a></div>
                                         </div>
                                     </div>
@@ -159,7 +159,7 @@ include "includes/nav.php"?>
                                             children’s
                                             BJJ programs, we have something for everyone.</p>
                                         <div class="btn-info">
-                                            <div class="btn"><a href="">
+                                            <div class="btn"><a href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasess/">
                                                     See our classes
                                                 </a></div>
                                         </div>
@@ -175,56 +175,8 @@ include "includes/nav.php"?>
                 </div>
             </div>
         </article>
-        <article>
-            <div class="article-container">
-                <div class="article-wrap">
-                    <div class="section-join-wrap">
 
-                        <div class="section-wrapper">
-                            <div class="section-join-container">
-                                <div class="section-content">
-                                    <h1>Ready to Join?</h1>
-
-                                    <p>Ready to join the best Brazilian Jiu-Jitsu club in Plymouth? Contact Checkmat
-                                        today
-                                        to schedule a free trial class. Whether you’re interested in fitness,
-                                        competition
-                                        our Plymouth BJJ academy is the perfect place to start.</p>
-                                </div>
-                                <div class="btn-wrap">
-                                    <div class="btn-info">
-                                        <div class="btn margin-1"><a class="btn-black" href="">
-                                                Contact Us
-                                            </a></div>
-                                        <div class="btn margin-1"><a class="btn-green" href="">
-                                                Classes
-                                            </a></div>
-                                    </div>
-                                </div>
-                                <div class="arrows-right">
-                                    <img src="images/3-arrows.png" alt="Three arrows - Contact Us">
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="section-wrapper">
-                            <div class="section-join-container">
-                                <div class="section-img">
-                                    <div class="img-wrap">
-                                        <img src="images/Ian-Ricky-Amy-checkmat-plymouth.png"
-                                            alt="Ian Harrop, Ricky Bellingham and Amy Winterson">
-                                        <div class="img-obj-under"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </article>
-
+        <?php include "includes/joinus.php"?>
         <article>
             <div class="article-container">
                 <div class="article-wrap">
@@ -310,9 +262,9 @@ include "includes/nav.php"?>
                         </div>
                         <div class="article-btns">
                             <div class="btn-wrap">
-                                <div class="btn-a"><a class="a-btn" href="">See our Classes</a></div>
-                                <div class="btn-a"><a class="a-btn btn-orange" href="">Contact Us</a></div>
-                                <div class="btn-a"><a class="a-btn" href="">Membership</a></div>
+                                <div class="btn-a"><a class="a-btn" href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasses/">See our Classes</a></div>
+                                <div class="btn-a"><a class="a-btn btn-orange" href="<?php echo homePageBaseUrl(""); ?>pages/contact/">Contact Us</a></div>
+                                <div class="btn-a"><a class="a-btn" href="<?php echo homePageBaseUrl(""); ?>pages/membership/">Membership</a></div>
                             </div>
                         </div>
                     </div>
@@ -328,12 +280,10 @@ include "includes/nav.php"?>
                             <i class="fa-solid fa-quote-left"></i>
                             <div class="blockquote">
                                 <p class="p-blockquote">
-                                    <q>Training at Checkamt in Plymouth has been an incredible experience. The
-                                        instructors
-                                        are fantastic, and the community is welcoming.</q>
+                                    <q>I joined CheckMat Plymouth 3 years ago after I finished rehabitating an injury I sustained prior. It was a really friendly atmosphere with great delivery of technique. They were able to accommodate my inability to perform some of the movements due to my injury and I feel I have made great progress. So happy to have found this awesome club!</q>
                                 </p>
                                 <div class="footer-blockquote">
-                                    <i> - Maciej Szelag</i>
+                                    <i> - Guy Servis</i>
                                 </div>
                             </div>
 
@@ -342,12 +292,10 @@ include "includes/nav.php"?>
                             <i class="fa-solid fa-quote-left"></i>
                             <div class="blockquote">
                                 <p class="p-blockquote">
-                                    <q>Training at Checkamt in Plymouth has been an incredible experience. The
-                                        instructors
-                                        are fantastic, and the community is welcoming.</q>
+                                    <q>Best place to train in Plymouth, friendly welcoming team for new and old players. No club politics here, everyone welcome to grow.</q>
                                 </p>
                                 <div class="footer-blockquote">
-                                    <i> - Maciej Szelag</i>
+                                    <i> - Paul Roach</i>
                                 </div>
                             </div>
 
@@ -356,9 +304,7 @@ include "includes/nav.php"?>
                             <i class="fa-solid fa-quote-left"></i>
                             <div class="blockquote">
                                 <p class="p-blockquote">
-                                    <q>Training at Checkamt in Plymouth has been an incredible experience. The
-                                        instructors
-                                        are fantastic, and the community is welcoming.</q>
+                                    <q>Checkmat is an excellent place for both beginners and advanced practitioners to train in Brazilian Jiu-Jitsu. The instructors are highly skilled and provide valuable guidance to help students of all levels progress. The welcoming atmosphere makes it a great environment to learn and improve.</q>
                                 </p>
                                 <div class="footer-blockquote">
                                     <i> - Maciej Szelag</i>

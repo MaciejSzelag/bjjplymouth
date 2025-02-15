@@ -78,9 +78,11 @@
                 flex-wrap: wrap;
                 margin: 2rem 0 0;
 
+
                 .card {
                     // width: 60%;
                     min-width: 25rem;
+                    max-width: 30rem;
                     min-height: 30rem;
                     display: flex;
                     justify-content: center;
@@ -117,6 +119,16 @@
                         text-align: center;
 
 
+                        sup {
+                            i {
+                                font-size: 1rem;
+                                transform: translate(-1rem, -1rem);
+                            }
+
+                        }
+
+
+
                     }
 
                     .card-details {
@@ -125,9 +137,10 @@
 
                             li {
                                 display: flex;
-                                justify-content: center;
+                                justify-content: flex-start;
                                 align-items: flex-start;
                                 margin-bottom: 1rem;
+                                margin-left: 3rem;
                                 font-size: 1.5rem;
 
                                 span {
@@ -137,7 +150,7 @@
                                     width: 1.5rem;
                                     height: 1.5rem;
                                     padding: .5rem;
-                                    background-color: rgb(12, 189, 12);
+
                                     margin-right: 1rem;
                                     border-radius: 50%;
 
@@ -146,31 +159,71 @@
                                         font-size: 1.3rem;
                                     }
                                 }
+
+                                .span-circle {
+                                    background-color: rgb(12, 189, 12);
+                                }
+                            }
+
+                            .note {
+                                font-size: 1rem;
+                                margin-right: 3rem;
+                                width: 80%;
+                                color: rgb(168, 168, 168);
+
+                                .fa-star-of-life {
+                                    font-size: 1rem;
+                                    color: $orange;
+                                }
                             }
                         }
                     }
                 }
 
+                // .deal {
 
+                //     border: .1rem solid rgb(255, 217, 0) !important;
+                //     border-top-width: 2rem !important;
+                // }
 
+                .deal,
                 .most-popular {
                     position: relative;
                     // width: 70%;
                     // transform: scale(1.2);
                     margin: 8rem 6rem;
-                    border: .3rem solid rgb(12, 189, 12);
-                    ;
-                    // border: .5rem solid $gold;
+                    border: .3rem solid;
 
                     .card-price {
                         font-weight: 700;
                     }
                 }
 
+                .most-popular {
+                    border-color: rgb(12, 189, 12);
+                    // border: .5rem solid $gold;
+                }
 
+                .deal {
+                    border-color: rgb(239, 191, 4); // border: .5rem solid $gold;
+                    margin-bottom: 2rem;
+                }
+
+                .deal::after {
+                    content: "Start-up deal";
+                    background-color: rgb(239, 191, 4);
+                }
 
                 .most-popular::after {
                     content: "Most Popular";
+                    background-color: rgb(12, 189, 12);
+                    color: white;
+                }
+
+
+                .deal::after,
+                .most-popular::after {
+
                     position: absolute;
                     top: -1.5rem;
                     left: 50%;
@@ -181,12 +234,17 @@
                     align-items: center;
                     transform: translate(-50%, -25%);
                     border-radius: .4rem;
-                    background-color: rgb(12, 189, 12);
+
                     font-size: 1.3rem;
-                    color: white;
+
                     padding: .5rem 0;
                 }
 
+            }
+
+            .border-bottom-line {
+                border-bottom: .1rem solid rgb(211, 211, 211);
+                margin-bottom: 5rem;
             }
 
             // .cards-container:nth-child(even) {
@@ -236,6 +294,8 @@
     .membership-wrap {
         .membership-container {
             .membership-content {
+                padding-bottom: 6rem;
+
                 .mem-title {
                     display: flex;
                     align-items: center;
@@ -258,17 +318,36 @@
                 }
 
                 .cards-container {
+                    max-width: 70%;
+
                     .card {
                         opacity: .9;
-                        margin: 4rem 6rem;
-                        transform: scale(1.1);
+                        margin: 4rem 4rem;
+
+                        // transform: scale(1.1);
+                        .card-details {
+                            ul {
+                                .note {
+                                    font-size: 1.1rem;
+                                    margin-right: 3rem;
+                                    width: 80%;
+
+
+                                }
+                            }
+                        }
 
                     }
 
                     .card:hover {
-                        transform: translateY(-2rem) scale(1.2);
+                        transform: translateY(-2rem) scale(1.1);
                         filter: drop-shadow(0 2rem 1.5rem rgba(0, 0, 0, 0.3));
                         opacity: 1;
+                    }
+
+                    .deal {
+                        min-width: 30rem;
+                        min-height: 30rem;
                     }
 
                     .most-popular {

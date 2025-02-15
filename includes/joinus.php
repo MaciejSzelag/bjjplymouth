@@ -16,16 +16,16 @@
                                 </div>
                                 <div class="btn-wrap">
                                     <div class="btn-info">
-                                        <div class="btn margin-1"><a class="btn-black" href="">
+                                        <div class="btn margin-1"><a class="btn-black" href="<?php echo homePageBaseUrl(""); ?>pages/contact/">
                                                 Contact Us
                                             </a></div>
-                                        <div class="btn margin-1"><a class="btn-green" href="">
+                                        <div class="btn margin-1"><a class="btn-green" href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasses/">
                                                 Classes
                                             </a></div>
                                     </div>
                                 </div>
                                 <div class="arrows-right">
-                                    <img src="../../images/3-arrows.png" alt="Three arrows - Contact Us">
+                                    <img src="<?php echo homePageBaseUrl(""); ?>images/3-arrows.png" alt="Three arrows - Contact Us">
 
                                 </div>
                             </div>
@@ -35,9 +35,9 @@
                             <div class="section-join-container">
                                 <div class="section-img">
                                     <div class="img-wrap">
-                                        <img src="../../images/Ian-Ricky-Amy-checkmat-plymouth.png"
+                                        <img src="<?php echo homePageBaseUrl(""); ?>images/Ian-Ricky-Amy-checkmat-plymouth.png"
                                             alt="Ian Harrop, Ricky Bellingham and Amy Winterson">
-                                        <div class="img-obj-under"></div>
+                                        <!-- <div class="img-obj-under"></div> -->
                                     </div>
                                 </div>
                             </div>

@@ -9,7 +9,7 @@ include "../../includes/nav.php"?>
 <?php
     $subtitle       = "Membership";
     $btnLink        = homePageBaseUrl("") . "pages/timetable/";
-    $btnName        = "Our Timetable";
+    $btnName        = "Timetable";
     $imgName        = "ian-marco.jpg";
     $alternativeTxt = "Bjjplymouth - fight";
 include "../header_subpage.php"?>
@@ -29,11 +29,12 @@ include "../header_subpage.php"?>
         </div>
         <div class="membership-content">
             <div class="mem-title">
-                <h1 class="mem-h1-1">Start up Deals & Offers</h1>
+                <h1 class="mem-h1-1">Adults & Juniors - Start up Deals</h1>
 
             </div>
-            <div class="cards-container">
-                <div class="card most-popular">
+            <!-- adults  -->
+            <div class="cards-container border-bottom-line">
+                <div class="card deal">
                     <div class="card-title">Adults <br> Start up deal</div>
                     <div class="card-price">
                         £<span>120</span>
@@ -47,10 +48,28 @@ include "../header_subpage.php"?>
                         </ul>
                     </div>
                 </div>
+                <div class="card deal">
+                    <div class="card-title">Juniors & Kids <br> Start up deal</div>
+                    <div class="card-price">
+                        £<span>80</span> <sup><i class="fa-solid fa-star-of-life"></i></sup>
+                    </div>
+                    <div class="card-details">
+                        <ul>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>Gi + white belt</li>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>Rash Guard & Shorts</li>
+                            <li><span class="span-circle"><i class="fa-solid fa-check"></i></span>1 month unlimited
+                                training</li>
+                                <li class="note"><span><i class="fa-solid fa-star-of-life"></i></span>Price depends on size required. If a junior/kid needs an adult size, they pay the adult price. If a small teen fits into kid sizes, they pay the kid's price. </li>
+                        </ul>
+                    </div>
+                </div>
 
             </div>
 
+            <div class="mem-title">
+                <h1 class="mem-h1-1">Adults</h1>
 
+            </div>
             <div class="cards-container">
 
                 <div class="card">
@@ -78,7 +97,7 @@ include "../header_subpage.php"?>
                     </div>
                 </div>
 
-                <div class="card ">
+                <div class="card most-popular">
                     <div class="card-title">Gold</div>
                     <div class="card-price">
                         £<span>70</span>
@@ -130,11 +149,16 @@ include "../header_subpage.php"?>
             </div>
 
         </div>
+        <!-- Juniors  -->
         <div class="membership-content">
             <div class="mem-title">
                 <h1 class="mem-h1-1">Juniors (Age 12-17)</h1>
 
             </div>
+            <!-- <div class="cards-container">
+
+
+            </div> -->
             <div class="cards-container">
                 <div class="card">
                     <div class="card-title">Unlimited</div>
@@ -187,13 +211,14 @@ include "../header_subpage.php"?>
 
             </div>
         </div>
+        <!-- kids  -->
         <div class="membership-content">
             <div class="mem-title">
                 <h1 class="mem-h1-1">Kids (Age 4-11)</h1>
 
             </div>
             <div class="cards-container">
-            <div class="card most-popular">
+            <div class="card ">
                     <div class="card-title">Gold</div>
                     <div class="card-price">
                         £<span>50</span>
@@ -206,7 +231,7 @@ include "../header_subpage.php"?>
                         </ul>
                     </div>
                 </div>
-                <div class="card ">
+                <div class="card most-popular">
                     <div class="card-title">Silver</div>
                     <div class="card-price">
                         £<span>40</span>

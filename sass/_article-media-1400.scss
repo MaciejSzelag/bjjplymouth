@@ -99,7 +99,8 @@
 
             .section-join-wrap {
                 // height: 80vh;
-                max-height: 60vh;
+                max-height: 80vh;
+                // min-height: 40vh;
 
 
                 .section-wrapper {
@@ -161,7 +162,13 @@
                         .arrows-right {
 
                             transform: scale(2);
-                            bottom: 5%;
+                            bottom: -20%;
+                            // left: 10%;
+                            right: 2%;
+
+                            img {
+                                filter: drop-shadow(0 .2rem .3rem black);
+                            }
                         }
 
                         .section-img {
@@ -175,7 +182,7 @@
                                 img {
 
                                     width: 100%;
-                                    transform: translateX(5%);
+                                    // transform: translateX(5%);
                                     // clip-path: polygon(0 0, 100% 0%, 100% 98%, 17% 100%);
 
                                 }

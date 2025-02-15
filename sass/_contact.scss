@@ -107,6 +107,7 @@
                 .address-container,
                 .contact-links {
                     padding: 2rem;
+                    padding-left: 0;
                     font-family: $roboto;
 
                     a,
@@ -157,4 +158,60 @@
             }
         }
     }
+}
+
+@media (min-width:1024px) {
+    .contact-wrap {
+        .contact-container {
+
+            .contact-h1 {
+                // width: 100%;
+                // padding: 3rem;
+
+                h1 {
+                    font-size: 6rem;
+                    text-align: center;
+                    margin: 5rem 0;
+
+                }
+            }
+
+
+
+            .contact-box-container {
+                align-items: flex-start;
+
+
+                .contact-box {
+                    max-width: 80rem;
+
+                    .address-container,
+                    .contact-links {
+                        padding-top: 0;
+
+                        .box-link {
+                            margin-top: 1rem;
+                        }
+
+                        a,
+                        span {
+                            font-size: 1.8rem;
+
+                        }
+
+                        h1 {
+                            font-size: 5rem;
+                        }
+                    }
+
+                    .contact-map {
+                        width: 100%;
+                    }
+                }
+            }
+
+
+        }
+    }
+
 }

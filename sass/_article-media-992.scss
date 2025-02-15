@@ -140,13 +140,15 @@
 
                             .img-wrap {
                                 position: relative;
-                                clip-path: polygon(0 0, 100% 0%, 100% 100%, 23% 100%);
+                                // clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+                                // clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+                                clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 14% 55%, 0 0);
 
 
                                 img {
 
-                                    width: 125%;
-                                    transform: translateX(8%);
+                                    width: 100%;
+                                    // transform: translateY(8%);
 
 
                                 }

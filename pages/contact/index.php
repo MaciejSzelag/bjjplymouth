@@ -12,7 +12,7 @@ include "../../includes/head.php"?>
 include "../../includes/nav.php"?>
 <?php
     $subtitle       = "Contact Us";
-    $btnLink        = homePageBaseUrl("") . "pages/timetable/";
+    $btnLink        = homePageBaseUrl("") . "pages/membership/";
     $btnName        = "Membership";
     $imgName        = "contact-1.jpg";
     $alternativeTxt = "Contact - bjj Plymouth";

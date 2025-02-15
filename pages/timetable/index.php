@@ -10,7 +10,7 @@ include "../../includes/head.php"?>
 include "../../includes/nav.php"?>
 <?php
     $subtitle       = "Timetable";
-    $btnLink        = "link";
+    $btnLink        = homePageBaseUrl("") . "pages/contact/";
     $btnName        = "Contact Now";
     $imgName        = "bjj-fight-checkmat-plymouth.jpg";
     $alternativeTxt = "Bjjplymouth - fight";

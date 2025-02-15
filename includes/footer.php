@@ -4,7 +4,7 @@
                 <h1 class="foot-h1"><span>Start</span> Your <span>BJJ</span> Journey <span>in Plymouth</span> Today!
                 </h1>
                 <div class="arrows-wrap">
-                    <img src="../../images/3-arrows.png" alt="arrows-right">
+                    <img src="<?php echo homePageBaseUrl(""); ?>images/3-arrows.png" alt="arrows-right">
                 </div>
                 <div class="contact-info">
                     <address>
@@ -20,8 +20,8 @@
                                 <li><span><i class="fa-regular fa-envelope"></i> E-mail:</span> <a
                                         href="mailto:plymouthcheckmat@gmail.com">plymouthcheckmat@gmail.com</a></li>
                                 <li> <span><i class="fa-solid fa-hashtag"></i> Social Media:</span>
-                                    <a href="" class="calss-social inst"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="" class="calss-social fb"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/bjjplymouth/?hl=en" class="calss-social inst"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/BJJPlymouth" class="calss-social fb"><i class="fa-brands fa-facebook-f"></i></a>
                                 </li>
                             </ul>
                         </h1>
@@ -36,8 +36,8 @@
             <div class="footer-wrap">
                 <div class="footer-box">
                     <div class="img-container">
-                        <a href="" class="img-wrap">
-                            <img src="../../images/Logo-bjjocean-checkmat-bjjplymouth-s2.png" alt="">
+                        <a href="<?php echo homePageBaseUrl(""); ?>" class="img-wrap">
+                            <img src="<?php echo homePageBaseUrl(""); ?>images/Logo-bjjocean-checkmat-bjjplymouth-s2.png" alt="">
                         </a>
                     </div>
                     <div class="address-info">
@@ -52,12 +52,12 @@
                         <ul>
                         <?php
 
-// function showActive($page, $active)
-// {
-//     global $active;
-//     return $page === $active ? 'active-a' : '';
-// }
-?>
+                            // function showActive($page, $active)
+                            // {
+                            //     global $active;
+                            //     return $page === $active ? 'active-a' : '';
+                            // }
+                        ?>
                             <li><a href="<?php echo homePageBaseUrl(""); ?>pages/faq/" >FAQs</a></li>
                             <li><a href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasses/">Classes</a></li>
                             <li><a href="<?php echo homePageBaseUrl(""); ?>pages/about-us/">About US</a></li>
@@ -81,19 +81,19 @@
             </div>
         </div>
     </footer>
-    <?php include "attention.php";?>
+    <?php include "attention.php"; ?>
     <script src="<?php $jsPath;if (isset($jsPath)) {
-    echo $jsPath;
-} else {
-    "";
+        echo $jsPath;
+    } else {
+        "";
 }
 ?>js/script.js"></script>
    <script src="<?php $jsPath;if (isset($jsPath)) {
-    echo $jsPath;
-} else {
-    "";
-}
-?>js/animation.js"></script>
+                        echo $jsPath;
+                    } else {
+                        "";
+                }
+                ?>js/animation.js"></script>
 
 </body>
 
