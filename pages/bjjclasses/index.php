@@ -10,8 +10,8 @@ $title = "Classes | bjjplymouth";include "../../includes/head.php"?>
 include "../../includes/nav.php"?>
 <?php
     $subtitle       = "Classes";
-    $btnLink        = "../bjjclasses/";
-    $btnName        = "See Our Classes";
+    $btnLink        = "../timetable/";
+    $btnName        = "Check out our timetable";
     $imgName        = "seminar2024.jpg";
     $alternativeTxt = "Bjjplymouth - fight";
 include "../header_subpage.php"?>
@@ -23,7 +23,7 @@ include "../header_subpage.php"?>
 
         <ul>
             <li><a href="../class-description/?category=fundamentals" data-image="Fundamentals">Fundamentals Gi & NoGi</a></li>
-            <li><a href="../class-description/?category=nogi" data-image="Gi">Gi All Levels & Junior Gi Classes</a></li>
+            <li><a href="../class-description/?category=Gi" data-image="Gi">Gi All Levels & Junior Gi Classes</a></li>
             <li><a href="../class-description/?category=nogi-all-levels-and-juniors" data-image="nogi">NoGi All Levels & Junior NoGi Classes</a></li>
             <li><a href="../class-description/?category=openmat" data-image="om">Open Mat - Adults Only</a></li>
             <li><a href="../class-description/?category=kids" data-image="kid">Kids Gi & Kids NoGi</a></li>

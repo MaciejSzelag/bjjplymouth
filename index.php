@@ -7,8 +7,6 @@
 include "includes/head.php"?>
 
 
-    <!-- <i class="fa-brands fa-facebook-f"></i> -->
-
         <div class="animation-in-wrap">
             <div class="animation-container">
                 <div class="board-container">
@@ -17,9 +15,30 @@ include "includes/head.php"?>
                     <div class="square black"></div>
                     <div class="square white"></div>
                 </div>
+                <!-- <div class="container" id="animatedText"></div> -->
             </div>
         </div>
 
+<!--
+        <script>
+        const text = "Welcome to Checkmat Plymouth";
+        const container = document.getElementById("animatedText");
+
+        text.split(" ").forEach((word, wordIndex) => {
+            const wordSpan = document.createElement("span");
+            wordSpan.classList.add("word");
+
+            word.split("").forEach((char, charIndex) => {
+                const span = document.createElement("span");
+                span.textContent = char;
+                span.classList.add("letter");
+                span.style.animationDelay = `${(wordIndex * 4 + charIndex) * 0.08}s`; // Opóźnienie dla każdej litery
+                wordSpan.appendChild(span);
+            });
+
+            container.appendChild(wordSpan);
+        });
+    </script> -->
 
     <!-- nav -->
     <?php
@@ -245,7 +264,7 @@ include "includes/head.php"?>
                                     </p>
                                 </div>
                             </div>
-                            <div class="program-box">
+                            <!-- <div class="program-box">
                                 <div class="icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
                                 <div class="inf-box">
                                     <h1>MMA Classes in Plymouth</h1>
@@ -258,13 +277,14 @@ include "includes/head.php"?>
 
                                     </p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="article-btns">
                             <div class="btn-wrap">
-                                <div class="btn-a"><a class="a-btn" href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasses/">See our Classes</a></div>
-                                <div class="btn-a"><a class="a-btn btn-orange" href="<?php echo homePageBaseUrl(""); ?>pages/contact/">Contact Us</a></div>
-                                <div class="btn-a"><a class="a-btn" href="<?php echo homePageBaseUrl(""); ?>pages/membership/">Membership</a></div>
+                                <div class="btn-a"><a class="a-btn" href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasses/">Explore Our Classes</a></div>
+                                <div class="btn-a"><a class="a-btn btn-orange" href="<?php echo homePageBaseUrl(""); ?>pages/membership/">View Membership Packages</a></div>
+                                <div class="btn-a"><a class="a-btn" href="<?php echo homePageBaseUrl(""); ?>pages/contact/">Contact Us</a></div>
+
                             </div>
                         </div>
                     </div>

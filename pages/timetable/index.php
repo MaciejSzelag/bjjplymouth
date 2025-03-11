@@ -11,7 +11,7 @@ include "../../includes/nav.php"?>
 <?php
     $subtitle       = "Timetable";
     $btnLink        = homePageBaseUrl("") . "pages/contact/";
-    $btnName        = "Contact Now";
+    $btnName        = "Contact Us";
     $imgName        = "bjj-fight-checkmat-plymouth.jpg";
     $alternativeTxt = "Bjjplymouth - fight";
 include "../header_subpage.php"?>

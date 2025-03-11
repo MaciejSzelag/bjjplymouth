@@ -1,22 +1,22 @@
 <?php
-$title = "About Us | bjjplymouth";
-$metaDescription = "Discover Checkmat Plymouth, the leading Brazilian Jiu-Jitsu academy in Plymouth.
+    $title           = "About Us | bjjplymouth";
+    $metaDescription = "Discover Checkmat Plymouth, the leading Brazilian Jiu-Jitsu academy in Plymouth.
 Established in 2018, we offer world-class BJJ, Judo, and Wrestling training for all skill levels. Join our supportive community,
 access top-tier instruction, and become part of the global Checkmat network. Free trial classes available—start your martial arts journey today!";
-$metaKeywords = "Checkmat Plymouth, Brazilian Jiu-Jitsu Plymouth, BJJ Plymouth, Plymouth martial arts, Judo classes Plymouth, Wrestling Plymouth, BJJ academy UK,
+    $metaKeywords = "Checkmat Plymouth, Brazilian Jiu-Jitsu Plymouth, BJJ Plymouth, Plymouth martial arts, Judo classes Plymouth, Wrestling Plymouth, BJJ academy UK,
 Checkmat affiliation, self-defense Plymouth, martial arts community, BJJ training Plymouth, top martial arts in Plymouth, free trial BJJ Plymouth, martial arts for beginners Plymouth.";
 
 include "../../includes/head.php"?>
 
 <?php
-$active = "about";
+    $active = "about";
 include "../../includes/nav.php"?>
 <?php
-$subtitle = "About Us";
-$btnLink = "../../pages/timetable/";
-$btnName = "Our Timetable";
-$imgName = "ian-marco.jpg";
-$alternativeTxt = "Bjjplymouth - fight";
+    $subtitle       = "About Us";
+    $btnLink        = "../../pages/timetable/";
+    $btnName        = "Our Timetable";
+    $imgName        = "ian-marco.jpg";
+    $alternativeTxt = "Bjjplymouth - fight";
 include "../header_subpage.php"?>
 <div class="about-wrap">
     <div class="txt-container">
@@ -202,22 +202,27 @@ include "../header_subpage.php"?>
             </div>
             <div class="instructor-box">
                 <div class="side-title">
-                    <h1>Instructor</h1>
+                    <h1>Founder and Instructor</h1>
                 </div>
                 <div class="name-img-wrap">
-                    <img src="../../images/Maciej-Szelag.png" alt="Maciej Szelag - BJJ Instructor">
+                    <img src="../../images/Amy_Winterson.png" alt="Amy Winterson - Founder BJJ Instructor">
                     <div class="instructor-name">
-                        <h1>Maciej Szeląg</h1>
+                        <h1>Amy Winterson</h1>
                     </div>
                 </div>
                 <div class="txt-description">
-                    <p>Maciej is a Brazilian Jiu-Jitsu practitioner from Poland. Maciej's journey in BJJ began in 2016
-                        under the guidance of Ian Harrop, and he's been dedicated to this art ever since. In 2023, he
-                        proudly earned his brown belt from Ian, marking a significant milestone in his progression.</p>
-                    <p>During Maciej's BJJ sessions, he focuses not only on his own growth but primarily on helping
-                        students develop their strength, conditioning, and technique. His goal is to create an
-                        environment where students can push their limits, improve their performance, and discover the
-                        transformative power of martial arts.</p>
+                    <p>Amy Winterson has been training Brazilian Jiu Jitsu since November 2009 and has been coaching
+                        since she opened her own BJJ school in 2016 alongside Ian Harrop. Amy often travels both
+                        nationally and internationally for competitions, seminars and training camps, continuously
+                        looking to develop her understanding and skill-set through training with the very best in the
+                        world. After receiving her black belt from Marco Canha (Head of Fight Zone London) in 2019, she
+                        became one of the lead black belt instructors at Ocean BJJ. As well as heading up the coaching
+                        at Ocean BJJ, Amy organises and runs events to help women get into BJJ, seeking to make it less
+                        intimidating whilst encouraging broader participation in a sport she loves. </p>
+                    <p>Amy has also been training ‘Yoga for BJJ’ since 2017, completing a course specifically designed
+                        to give her the skillset required for teaching yoga to BJJ practitioners. Amy is the lead ‘Yoga
+                        for BJJ’ instructor within the club, running classes to help keep everyone mobile and healthy.
+                    </p>
 
                 </div>
 

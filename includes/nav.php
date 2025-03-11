@@ -2,7 +2,7 @@
 <nav>
     <div class="nav-bar">
         <div class="logo-container">
-            <a href="<?php echo homePageBaseUrl(" home"); ?>">
+            <a href="<?php echo homePageBaseUrl("home"); ?>">
 
                 <div class="logo"></div>
             </a>
@@ -20,17 +20,17 @@
             <div class="menu-list">
                 <ul>
                     <?php
-// if (!isset($base_url)) {
-//     $base_url = '/'; // Domyślna wartość, gdy $base_url nie jest ustawione
-// }
+                        // if (!isset($base_url)) {
+                        //     $base_url = '/'; // Domyślna wartość, gdy $base_url nie jest ustawione
+                        // }
 
-function showActive($page, $active)
-{
-    global $active;
-    return $page === $active ? 'active-a' : '';
-}
-?>
-                    <li><a class="<?php echo showActive('home', $active); ?>" href="<?php echo homePageBaseUrl(" home");
+                        function showActive($page, $active)
+                        {
+                            global $active;
+                            return $page === $active ? 'active-a' : '';
+                        }
+                    ?>
+                    <li><a class="<?php echo showActive('home', $active); ?>" href="<?php echo homePageBaseUrl("home");
 ?>" data-menu="Home">Home</a></li>
                     <li><a class="<?php echo showActive('about', $active); ?>"
                             href="<?php echo homePageBaseUrl(""); ?>pages/about-us/" data-menu="About">About Us</a></li>
