@@ -210,11 +210,10 @@ header {
             .header-container {
                 .header-title {
                     margin: 20rem 5rem;
-
-                    h1 {
-                        // font-size: 20rem;
-                        // line-height: 19rem;
-                    }
+                    // h1 {
+                    //     // font-size: 20rem;
+                    //     // line-height: 19rem;
+                    // }
 
                     h2 {
                         font-size: 3rem;
@@ -248,7 +247,8 @@ header {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin: 0 15rem;
+                margin: 0 0rem;
+                // padding-left: 20rem;
                 // .header-title,
                 // .header-img {
                 //     width: 100%;
@@ -260,10 +260,17 @@ header {
                     margin: 0rem 5rem 10rem;
                     flex-direction: column-reverse;
                     // background-color: grey;
+                    padding-left: 15rem;
+
+                    h1,
+                    h2 {
+                        filter: drop-shadow(0 0 2rem rgb(0, 0, 0));
+                    }
 
                     h1 {
                         font-size: 18rem;
                         line-height: 18rem;
+
                     }
 
                     h2 {
@@ -272,37 +279,67 @@ header {
                 }
 
                 .header-img {
-                    width: 50%;
-                    right: 10%;
-                    bottom: 0;
+                    width: 100%;
+                    // right: 0;
+                    // bottom: 0;
                     // top: auto;
 
                     .img-container {
-                        width: 50%;
-
-                        // height: 50%;
+                        width: 100%;
+                        filter: grayscale(100%);
+                        background-image: url(../images/Checkmat_Plymouth_.jpg);
                         background-position: center;
-                        background-size: contain
+                        background-size: cover;
+                        opacity: .5;
                     }
 
                     .img-container-cover {
                         display: none;
+                        // background-color: $grey;
                     }
                 }
             }
         }
 
-        .btn {
-            margin: 1rem 0;
+        // .btn {
+        //     margin: 1rem 0;
+
+        //     button {
+
+        //         padding: 1rem 6rem;
+        //         font-size: 2rem;
+
+        //     }
+
+
+        // }
+        .btn-head {
+            // margin: 2rem 0;
 
             button {
+                // outline: none;
+                // border: none;
+                font-family: $anton;
+                // text-transform: uppercase;
+                padding: .2rem 3rem;
+                transition: .3s linear;
 
-                padding: 1rem 6rem;
-                font-size: 2rem;
+                a {
+                    display: block;
+                    // text-decoration: none;
+                    // color: $white;
+                    font-size: 2rem;
 
+                }
             }
 
+            button:hover {
+                background-color: $green;
+            }
 
+            // .btn-orange {
+            //     background-color: $orange;
+            // }
         }
 
         .arrow-down-container {

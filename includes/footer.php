@@ -59,6 +59,7 @@
                             // }
                         ?>
                             <li><a href="<?php echo homePageBaseUrl(""); ?>pages/faq/" >FAQs</a></li>
+                            <li><a href="<?php echo homePageBaseUrl(""); ?>pages/contact/" >Contact</a></li>
                             <li><a href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasses/">Classes</a></li>
                             <li><a href="<?php echo homePageBaseUrl(""); ?>pages/about-us/">About US</a></li>
                             <li><a href="<?php echo homePageBaseUrl(""); ?>pages/membership/">Membership</a></li>

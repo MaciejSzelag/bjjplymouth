@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .container {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+
+        h2 {
+            color: #0055a5;
+        }
+
+        p {
+            margin: 8px 0;
+        }
+
+        strong {
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='container'>
+        <h2>New Contact Form Message</h2>
+        <p><strong>Name:</strong> $firstname</p>
+        <p><strong>Last Name:</strong> $lastname</p>
+        <p><strong>Email:</strong> $email</p>
+        <p><strong>Phone:</strong> $phone</p>
+        <p><strong>Message:</strong><br>" . nl2br($subject) . "</p>
+    </div>
+</body>
+
+</html>

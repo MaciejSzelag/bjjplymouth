@@ -97,7 +97,7 @@ footer {
                                 }
 
                                 a:hover {
-                                    color: yellow;
+                                    color: rgb(255, 102, 0);
                                 }
                             }
                         }
@@ -139,6 +139,7 @@ footer {
 
 
                         span {
+
                             color: $orange;
                         }
 
@@ -146,12 +147,17 @@ footer {
                             color: $white;
                             text-decoration: none;
                             font-weight: 400;
+
                         }
+
+
 
                     }
                 }
 
                 .additional-info {
+
+
                     .h1-info {
                         color: $orange;
                     }
@@ -177,6 +183,11 @@ footer {
                                 text-transform: uppercase;
                                 text-decoration: none;
                                 font-size: 1.5rem;
+                                transition: all 0.3s ease-in-out;
+                            }
+
+                            a:hover {
+                                color: $orange !important;
                             }
 
                             .inst,

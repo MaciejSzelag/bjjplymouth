@@ -1,10 +1,10 @@
 <?php
-$homePage;
-if (isset($homePage)) {
-    include 'config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
-} else {
-    include '../../config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
-}
+    $homePage;
+    if (isset($homePage)) {
+        include 'config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
+    } else {
+        include '../../config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
+    }
 
 ?>
 <!DOCTYPE html>
@@ -40,13 +40,13 @@ if (isset($homePage)) {
         integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="<?php $cssPath;if (isset($cssPath)) {
-    echo "css/style.min.css";
-} else {
-    echo "../../css/style.min.css";
-}
-?>">
+                                         echo "css/style.min.css";
+                                     } else {
+                                         echo "../../css/style.min.css";
+                                 }
+                                 ?>">
 
-    <script type="application/ld+json">
+    <!-- <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SportsClub",
@@ -60,7 +60,7 @@ if (isset($homePage)) {
         "addressCountry": "GB"
       }
     }
-    </script>
+    </script> -->
 </head>
 
 <body>

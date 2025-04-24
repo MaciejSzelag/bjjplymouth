@@ -1,6 +1,3 @@
-
-
-
 <?php
     $metaDescription = "Get in touch with Checkmat Plymouth for Brazilian Jiu-Jitsu, Judo, and Wrestling inquiries. Visit us at 68 Faraday Rd, Cattedown, Plymouth PL4 0ST, call +44 7538 123559, or email plymouthcheckmat@gmail.com. Start your martial arts journey today!";
     $metaKeywords    = "Checkmat Plymouth contact, contact BJJ Plymouth, Brazilian Jiu-Jitsu Plymouth contact details, Plymouth martial arts gym location, Checkmat address Plymouth, Plymouth BJJ email, martial arts inquiries Plymouth, contact Checkmat UK.";
@@ -17,51 +14,8 @@ include "../../includes/nav.php"?>
     $imgName        = "contact-1.jpg";
     $alternativeTxt = "Contact - bjj Plymouth";
 include "../header_subpage.php"?>
-<?php
-    // Sprawdzenie, czy formularz został przesłany
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Pobranie danych z formularza i ich walidacja
-        $firstname = htmlspecialchars(trim($_POST['firstname']));
-        $lastname  = htmlspecialchars(trim($_POST['lastname']));
-        $email     = htmlspecialchars(trim($_POST['email']));
-        $phone     = htmlspecialchars(trim($_POST['phone']));
-        $subject   = htmlspecialchars(trim($_POST['subject']));
 
-        // Walidacja podstawowych pól
-        if (! empty($firstname) && ! empty($email) && ! empty($subject)) {
-            if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                // Adres e-mail, na który ma być wysłana wiadomość
-                $to = "your-email@example.com";
 
-                // Temat wiadomości
-                $email_subject = "A new message from contact form";
-
-                // Treść wiadomości
-                $email_body = "Otrzymano nową wiadomość:\n\n" .
-                    "Name: $firstname\n" .
-                    "Last Name: $lastname\n" .
-                    "E-mail: $email\n" .
-                    "Phone: $phone\n" .
-                    "Subject:\n$subject\n";
-
-                // Nagłówki e-mail
-                $headers = "From: $email\r\n";
-                $headers .= "Reply-To: $email\r\n";
-
-                // Wysłanie wiadomości e-mail
-                if (mail($to, $email_subject, $email_body, $headers)) {
-                    $message = "Your message has been sent";
-                } else {
-                    $message = "Error: Failed to send message.";
-                }
-            } else {
-                $message = "Błąd: podano nieprawidłowy adres e-mail.";
-            }
-        } else {
-            $message = "Błąd: wypełnij wszystkie wymagane pola.";
-        }
-    }
-?>
 <div class="contact-wrap">
     <div class="contact-container">
         <div class="contact-h1">
@@ -75,24 +29,25 @@ include "../header_subpage.php"?>
                         <div class="contact-form-title">
                             <h1>Get in Touch</h1>
                         </div>
-                        <form action="" method="POST">
+                        <form action="send_mail.php" method="POST">
                             <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
                             <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
                             <label for="email">E-mail</label>
-                            <input type="email" id="email" name="email" placeholder="Your @..">
+                            <input type="email" id="email" name="email" placeholder="Your @.." required>
 
                             <label for="phone">Phone number</label>
-                            <input type="phone" id="phone" name="phone" placeholder="Your phone number..">
+                            <input type="phone" id="phone" name="phone" placeholder="Your phone number.." required>
 
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.."
-                                style="height:200px"></textarea>
+                            <label for="subject">Message</label>
+                            <textarea id="subject" name="messageContent" placeholder="Write something.." required
+                                style="height:200px" ></textarea>
 
-                            <input type="submit" value="Submit">
+                            <input type="submit" value="Submit" name="submit">
+
                         </form>
                     </div>
                 </div>

@@ -6,7 +6,7 @@
     $homePage = true;
 include "includes/head.php"?>
 
-
+<!--
         <div class="animation-in-wrap">
             <div class="animation-container">
                 <div class="board-container">
@@ -15,9 +15,9 @@ include "includes/head.php"?>
                     <div class="square black"></div>
                     <div class="square white"></div>
                 </div>
-                <!-- <div class="container" id="animatedText"></div> -->
+
             </div>
-        </div>
+        </div> -->
 
 <!--
         <script>
@@ -53,7 +53,7 @@ include "includes/head.php"?>
         <div class="header-wrap">
             <div class="header-container">
                 <div class="header-title">
-                    <h1>Welcome <br>to <br> <span class="span-white">Checkmat Plymouth</span></h1>
+                    <h1>Welcome  to <br> <span class="span-white">Checkmat Plymouth</span></h1>
                     <h2>Expert Brazilian Jiu-Jitsu Training in Plymouth</h2>
                     <div class="btn-head ">
                         <button class="btn-orange"><a href="<?php echo homePageBaseUrl(""); ?>pages/contact/">Contact Us</a></button>

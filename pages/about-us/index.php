@@ -205,7 +205,7 @@ include "../header_subpage.php"?>
                     <h1>Founder and Instructor</h1>
                 </div>
                 <div class="name-img-wrap">
-                    <img src="../../images/Amy_Winterson.png" alt="Amy Winterson - Founder BJJ Instructor">
+                    <img src="../../images/Amy_Winterson_instructor.png" alt="Amy Winterson - Founder BJJ Instructor">
                     <div class="instructor-name">
                         <h1>Amy Winterson</h1>
                     </div>
