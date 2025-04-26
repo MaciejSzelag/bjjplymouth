@@ -46,21 +46,6 @@
                                  }
                                  ?>">
 
-    <!-- <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SportsClub",
-      "name": "BJJ Plymouth",
-      "url": "https://www.bjjplymouth.co.uk",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "68 Faraday Rd, Cattedown",
-        "addressLocality": "Plymouth",
-        "postalCode": "PL4 0ST"",
-        "addressCountry": "GB"
-      }
-    }
-    </script> -->
 </head>
 
 <body>

@@ -1,0 +1,5 @@
+ErrorDocument 404 /404.php
+
+<Files "config/config.php">
+    Require all denied
+</Files>

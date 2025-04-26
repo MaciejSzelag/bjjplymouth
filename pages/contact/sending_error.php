@@ -1,8 +1,7 @@
 <?php
-    // thank_you.php
 
     // Example variable to display a custom message
-    $thankYouMessage = "Thank you for your message! We will get back to you shortly.";
+    $thankYouMessage = "There was an error sending your message! Please try again later.";
 
 ?>
 
@@ -11,7 +10,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Thank You!</title>
+        <title>Error</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -28,13 +27,13 @@
                 display: inline-block;
             }
             h1 {
-                color: #4CAF50;
+                color:rgb(131, 15, 15);
             }
             p {
                 font-size: 18px;
             }
             a {
-                color: #4CAF50;
+                color:rgb(131, 15, 15);
                 text-decoration: none;
                 font-weight: bold;
             }
@@ -45,7 +44,7 @@
     </head>
     <body>
         <div class="thank-you-container">
-            <h1>Thank You!</h1>
+            <h1>Error!</h1>
             <p><?php echo $thankYouMessage; ?></p>
             <p><a href="/">Back to home page</a></p>
         </div>

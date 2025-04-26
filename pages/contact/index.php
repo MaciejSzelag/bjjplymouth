@@ -46,7 +46,8 @@ include "../header_subpage.php"?>
                             <textarea id="subject" name="messageContent" placeholder="Write something.." required
                                 style="height:200px" ></textarea>
 
-                            <input type="submit" value="Submit" name="submit">
+                            <input type="submit" value="Submit" name="submit"  id="submit">
+
 
                         </form>
                     </div>
@@ -63,7 +64,7 @@ include "../header_subpage.php"?>
                         <span>Tel:</span><a href="tel:+447538123559">+44 7538 123559</a>
                     </div>
                     <div class="box-link">
-                        <span>Email:</span><a href="mailto:plymouthcheckmat@gmail.com"> plymouthcheckmat@gmail.com</a>
+                        <span>Email:</span><a href="mailto:info@bjjplymouth.co.uk">info@bjjplymouth.co.uk</a>
                     </div>
 
                 </div>
@@ -82,6 +83,57 @@ include "../header_subpage.php"?>
 
     </div>
 </div>
+<div class="send-loader">
+    <div class="loader">
+        <div class="orbe" style="--index: 0"></div>
+        <div class="orbe" style="--index: 1"></div>
+        <div class="orbe" style="--index: 2"></div>
+        <div class="orbe" style="--index: 3"></div>
+        <div class="orbe" style="--index: 4"></div>
+    </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const form = document.querySelector("form");
+    const inputs = form.querySelectorAll("input, textarea");
+    const submitBtn = document.getElementById("submit");
+    const loader = document.querySelector(".send-loader");
 
+    // Function to check if all inputs are filled
+    function checkInputs() {
+        let allFilled = true;
+        inputs.forEach(function(input) {
+            if (input.value.trim() === "") {
+                allFilled = false;
+            }
+        });
+        return allFilled;
+    }
+
+    // Event listener for input changes
+    inputs.forEach(function(input) {
+        input.addEventListener("input", function() {
+            const allFilled = checkInputs();
+
+            if (allFilled) {
+                submitBtn.classList.add("active-send-loader");
+            } else {
+                submitBtn.classList.remove("active-send-loader");
+            }
+        });
+    });
+
+    // Form submission handler
+    form.addEventListener("submit", function(event) {
+        if (!checkInputs()) {
+            event.preventDefault();
+            alert("Proszę wypełnić wszystkie pola formularza.");
+        } else {
+            loader.classList.add("active-send-loader");
+            // Tutaj możesz dodać kod do faktycznego wysłania formularza
+        }
+    });
+});
+</script>
 
 <?php $jsPath = "../../";include $jsPath . "includes/footer.php"?>

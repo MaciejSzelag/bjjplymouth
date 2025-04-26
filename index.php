@@ -6,8 +6,8 @@
     $homePage = true;
 include "includes/head.php"?>
 
-<!--
-        <div class="animation-in-wrap">
+
+<div class="animation-in-wrap">
             <div class="animation-container">
                 <div class="board-container">
                     <div class="square white"></div>
@@ -17,30 +17,9 @@ include "includes/head.php"?>
                 </div>
 
             </div>
-        </div> -->
+        </div>
 
-<!--
-        <script>
-        const text = "Welcome to Checkmat Plymouth";
-        const container = document.getElementById("animatedText");
 
-        text.split(" ").forEach((word, wordIndex) => {
-            const wordSpan = document.createElement("span");
-            wordSpan.classList.add("word");
-
-            word.split("").forEach((char, charIndex) => {
-                const span = document.createElement("span");
-                span.textContent = char;
-                span.classList.add("letter");
-                span.style.animationDelay = `${(wordIndex * 4 + charIndex) * 0.08}s`; // Opóźnienie dla każdej litery
-                wordSpan.appendChild(span);
-            });
-
-            container.appendChild(wordSpan);
-        });
-    </script> -->
-
-    <!-- nav -->
     <?php
         $active = $base_url = "home";
 

@@ -18,7 +18,7 @@
                                 <li><span><i class="fa-solid fa-phone"></i> Phone:</span> <a
                                         href="tel:+447538123559">07538123559</a></li>
                                 <li><span><i class="fa-regular fa-envelope"></i> E-mail:</span> <a
-                                        href="mailto:plymouthcheckmat@gmail.com">plymouthcheckmat@gmail.com</a></li>
+                                        href="mailto:info@bjjplymouth.co.uk">info@bjjplymouth.co.uk</a></li>
                                 <li> <span><i class="fa-solid fa-hashtag"></i> Social Media:</span>
                                     <a href="https://www.instagram.com/bjjplymouth/?hl=en" class="calss-social inst"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="https://www.facebook.com/BJJPlymouth" class="calss-social fb"><i class="fa-brands fa-facebook-f"></i></a>

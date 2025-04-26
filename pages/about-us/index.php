@@ -165,12 +165,42 @@ include "../header_subpage.php"?>
 
 
             </div>
+
+            <div class="instructor-box">
+                <div class="side-title">
+                    <h1>Founder and Instructor</h1>
+                </div>
+                <div class="name-img-wrap">
+                    <img src="../../images/Amy_Winterson_instructor.PNG"
+                        alt="Amy Winterson - Founder BJJ and Instructor">
+                    <div class="instructor-name">
+                        <h1>Amy Winterson</h1>
+                    </div>
+                </div>
+                <div class="txt-description">
+                    <p>Amy Winterson has been training Brazilian Jiu Jitsu since November 2009 and has been coaching
+                        since she opened her own BJJ school in 2016 alongside Ian Harrop. Amy often travels both
+                        nationally and internationally for competitions, seminars and training camps, continuously
+                        looking to develop her understanding and skill-set through training with the very best in the
+                        world. After receiving her black belt from Marco Canha (Head of Fight Zone London) in 2019, she
+                        became one of the lead black belt instructors at Ocean BJJ. As well as heading up the coaching
+                        at Ocean BJJ, Amy organises and runs events to help women get into BJJ, seeking to make it less
+                        intimidating whilst encouraging broader participation in a sport she loves. </p>
+                    <p>Amy has also been training ‘Yoga for BJJ’ since 2017, completing a course specifically designed
+                        to give her the skillset required for teaching yoga to BJJ practitioners. Amy is the lead ‘Yoga
+                        for BJJ’ instructor within the club, running classes to help keep everyone mobile and healthy.
+                    </p>
+
+                </div>
+
+
+            </div>
             <div class="instructor-box">
                 <div class="side-title">
                     <h1>Lead Instructor</h1>
                 </div>
                 <div class="name-img-wrap">
-                    <img src="../../images/Ricky-Bellingham-1.png" alt="">
+                    <img src="../../images/Ricky-Bellingham-1.PNG" alt="Ricky Bellingham - Lead Instructor">
                     <div class="instructor-name">
                         <h1>Ricky Bellingham</h1>
                     </div>
@@ -196,34 +226,6 @@ include "../header_subpage.php"?>
                         <li>Abu Dhabi Worlds Masters 2, Purple Belt Gold Medallist</li>
 
                     </ul>
-                </div>
-
-
-            </div>
-            <div class="instructor-box">
-                <div class="side-title">
-                    <h1>Founder and Instructor</h1>
-                </div>
-                <div class="name-img-wrap">
-                    <img src="../../images/Amy_Winterson_instructor.png" alt="Amy Winterson - Founder BJJ Instructor">
-                    <div class="instructor-name">
-                        <h1>Amy Winterson</h1>
-                    </div>
-                </div>
-                <div class="txt-description">
-                    <p>Amy Winterson has been training Brazilian Jiu Jitsu since November 2009 and has been coaching
-                        since she opened her own BJJ school in 2016 alongside Ian Harrop. Amy often travels both
-                        nationally and internationally for competitions, seminars and training camps, continuously
-                        looking to develop her understanding and skill-set through training with the very best in the
-                        world. After receiving her black belt from Marco Canha (Head of Fight Zone London) in 2019, she
-                        became one of the lead black belt instructors at Ocean BJJ. As well as heading up the coaching
-                        at Ocean BJJ, Amy organises and runs events to help women get into BJJ, seeking to make it less
-                        intimidating whilst encouraging broader participation in a sport she loves. </p>
-                    <p>Amy has also been training ‘Yoga for BJJ’ since 2017, completing a course specifically designed
-                        to give her the skillset required for teaching yoga to BJJ practitioners. Amy is the lead ‘Yoga
-                        for BJJ’ instructor within the club, running classes to help keep everyone mobile and healthy.
-                    </p>
-
                 </div>
 
 
