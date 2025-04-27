@@ -72,7 +72,7 @@ if (array_key_exists($category, $data)) {
     $info = $data[$category];
 } else {
     $info = [
-        'title'       => 'Error',
+        'title'       => 'Ups!...Error',
         'description' => 'No information found for the selected category.',
         // 'schedule' => '',
     ];

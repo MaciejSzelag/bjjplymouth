@@ -18,9 +18,23 @@ try {
     $phone          = htmlspecialchars(trim($_POST['phone']));
     $messageContent = htmlspecialchars(trim($_POST['messageContent']));
 
-    // Walidacja formularza
+    // Honeypot check
+    if (! empty($_POST['website'])) {
+        $_SESSION['message'] = 'Spam detected.';
+        header("Location: /");
+        exit();
+    }
+
+// Walidacja formularza
     if (empty($firstname) || empty($email) || empty($messageContent)) {
         $_SESSION['message'] = 'All fields are required!';
+        header("Location: /");
+        exit();
+    }
+
+// Walidacja emaila
+    if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $_SESSION['message'] = 'Invalid email address!';
         header("Location: index.php");
         exit();
     }
