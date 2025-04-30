@@ -1,5 +1,5 @@
 <?php
-    $title           = "About Us | bjjplymouth";
+    $title           = "About Us";
     $metaDescription = "Discover Checkmat Plymouth, the leading Brazilian Jiu-Jitsu academy in Plymouth.
 Established in 2018, we offer world-class BJJ, Judo, and Wrestling training for all skill levels. Join our supportive community,
 access top-tier instruction, and become part of the global Checkmat network. Free trial classes available—start your martial arts journey today!";
@@ -138,6 +138,7 @@ include "../header_subpage.php"?>
                 <div class="side-title">
                     <h1>Founder and lead Instructor</h1>
                 </div>
+                <!-- Ian's profile -->
                 <div class="name-img-wrap">
                     <img src="../../images/Ian-Harrop-founder.PNG" alt="Ian Harrop - Founder and Lead Instructor">
                     <div class="instructor-name">
@@ -145,27 +146,41 @@ include "../header_subpage.php"?>
                     </div>
                 </div>
                 <div class="txt-description">
-                    <p>Ian has been training and competing in various martial arts from a young age before discovering
-                        Brazilian Jiu Jitsu in 2007 and falling in love with the sport. From here on he brought all his
-                        focus on to this new passion, travelling the world competing and training, relentlessly pursuing
-                        new
-                        ideas and excellence and learning from some of the greatest names in BJJ.
-                        Ian is one of the lead Brazilian Jiu Jitsu Black Belt instructors at Ocean BJJ, earning his
-                        black
-                        belt under Marco Canha (Head of Fight Zone London). Ian has vast experience in coaching BJJ to
-                        adults, juniors and kids, initially working as a coach across various clubs and schools before
-                        deciding to further develop his athlete-focused approach through opening his own BJJ school
-                        which we
-                        now know as Ocean BJJ.
-                        Ian has also worked as a Strength and Conditioning Coach at Plymouth Performance Gym whilst
-                        studying
-                        for his BSc in
+                    <p>Lead Instructor Ian Harrop has been immersed in martial arts from a young age, exploring various
+                        disciplines before discovering Brazilian Jiu-Jitsu (BJJ) in 2007. Instantly captivated by the
+                        sport, Ian dedicated himself fully to mastering BJJ, traveling the globe to compete, train, and
+                        learn from some of the greatest names in the sport. His relentless pursuit of excellence and his
+                        passion for continuous improvement have defined his journey in BJJ.
                     </p>
+
+                    <p> Ian is one of the lead Brazilian Jiu-Jitsu Black Belt instructors at Checkmat Plymouth, earning
+                        his black belt under Marco Canha, the head of Fight Zone London. With years of experience both
+                        as a competitor and coach, Ian has worked with students of all ages and skill levels, from
+                        children and juniors to adults, bringing a wealth of knowledge and a deep understanding of the
+                        art to his classes. His coaching journey began at various clubs and schools, before he took the
+                        step to open his own academy—Checkmat Plymouth —where he could further develop his
+                        athlete-focused approach.
+                    </p>
+                    <p>Ian's dedication to the sport has also seen him achieve notable competition success, including:
+                    </p>
+                    <ul>
+                        <li><strong>Plymouth BJJ Open:</strong> Purple Belt Silver Medalist</li>
+                        <li><strong>Bristol BJJ Open:</strong> Blue Belt Bronze Medalist</li>
+                    </ul>
+                    <p> Ian continues to compete sporadically, however has chosen to focus more on his students &
+                        coaching.
+                        He holds a BSc in Strength, Conditioning & Sports Coaching, Ian has a holistic approach to
+                        athletic development. His background in physical preparation complements his BJJ coaching,
+                        equipping his students with a well-rounded approach to training that enhances their performance
+                        on the mat. </p>
+                    <p>Whether he’s coaching a beginner or a seasoned competitor, Ian's passion for the sport and his
+                        commitment to his students’ growth are at the heart of everything he does. At Checkmat Plymouth,
+                        Ian continues to inspire, mentor, and shape the next generation of martial artists.</p>
                 </div>
 
 
             </div>
-
+            <!-- Amy's profile -->
             <div class="instructor-box">
                 <div class="side-title">
                     <h1>Founder and Instructor</h1>
@@ -178,23 +193,60 @@ include "../header_subpage.php"?>
                     </div>
                 </div>
                 <div class="txt-description">
-                    <p>Amy Winterson has been training Brazilian Jiu Jitsu since November 2009 and has been coaching
-                        since she opened her own BJJ school in 2016 alongside Ian Harrop. Amy often travels both
-                        nationally and internationally for competitions, seminars and training camps, continuously
-                        looking to develop her understanding and skill-set through training with the very best in the
-                        world. After receiving her black belt from Marco Canha (Head of Fight Zone London) in 2019, she
-                        became one of the lead black belt instructors at Ocean BJJ. As well as heading up the coaching
-                        at Ocean BJJ, Amy organises and runs events to help women get into BJJ, seeking to make it less
-                        intimidating whilst encouraging broader participation in a sport she loves. </p>
-                    <p>Amy has also been training ‘Yoga for BJJ’ since 2017, completing a course specifically designed
-                        to give her the skillset required for teaching yoga to BJJ practitioners. Amy is the lead ‘Yoga
-                        for BJJ’ instructor within the club, running classes to help keep everyone mobile and healthy.
+                    <p>Amy Winterson has been a passionate practitioner of Brazilian Jiu-Jitsu (BJJ) since November
+                        2009, and her journey in the sport has been one of continuous growth, both as a competitor and a
+                        coach. In 2016, alongside fellow coach Ian Harrop, Amy co-founded Checkmat Plymouth, where she
+                        began sharing her love for BJJ with others. Over the years, she has traveled nationally and
+                        internationally to compete, attend seminars, and train with some of the world’s best, constantly
+                        refining her techniques and deepening her understanding of the art.
+                    </p>
+                    <p>Amy received her black belt in Brazilian Jiu-Jitsu in 2019 under Marco Canha, the head of Fight
+                        Zone London, and since then has become one of the lead black belt instructors at Checkmat
+                        Plymouth. Although Amy has always enjoyed competing, she has increasingly shifted her focus
+                        toward teaching, inspiring students of all ages and skill levels to reach their full potential.
+                    </p>
+                    <p>A true role model for women in the sport, Amy has balanced her passion for BJJ with raising a
+                        young family, proving that women can be both dedicated athletes and loving mothers. She trained
+                        and taught throughout two pregnancies, demonstrating resilience and dedication. Amy works hard
+                        to inspire other women in the BJJ community, hosting events in the Southwest BJJ scene to
+                        provide support and encourage more women to get involved in the sport.</p>
+                    <p>In addition to her work in BJJ, Amy has a keen interest in yoga and its benefits for martial
+                        artists. Since 2017, she has been training in Yoga for BJJ, completing a course designed
+                        specifically for teaching yoga to BJJ practitioners. She often incorporates yoga techniques into
+                        her teaching, using them as part of warm-ups to improve mobility, flexibility, and overall
+                        physical wellness for her students.</p>
+                    <p>Amy's Competition Achievements:</p>
+
+                    <ul>
+                        <li><strong>AJP Tour Amsterdam: </strong>Black Belt Bronze Medalist (2022)</li>
+
+                        <li><strong>IBJJF European:</strong> White Belt Gold Medalist (2011)</li>
+
+                        <li><strong>Bristol Open:</strong> Blue Belt Bronze Medalist (2011)</li>
+
+                        <li><strong>IBJJF European:</strong> Blue Belt Silver Medalist (2012)</li>
+
+                        <li><strong>Bournemouth Open:</strong> Blue Belt Gold Medalist (2012)</li>
+
+                        <li><strong>Hereford Open:</strong> Blue Belt Gold Medalist (2012)</li>
+
+                        <li><strong>Plymouth Open:</strong> Purple Belt Silver Medalist (2015)</li>
+
+                        <li><strong>Plymouth Open No-Gi:</strong> Purple Belt Silver Medalist (2015)</li>
+                    </ul>
+                    <p>At Checkmat Plymouth, Amy continues to share her passion for BJJ, supporting and mentoring her
+                        students to not only become skilled practitioners but to also build confidence, discipline, and
+                        resilience that extend beyond the mat. Whether she’s teaching kids, adults, or women in the BJJ
+                        community, Amy remains dedicated to making BJJ accessible, enjoyable, and empowering for
+                        everyone.
+
                     </p>
 
                 </div>
 
 
             </div>
+            <!-- Ricky's profile -->
             <div class="instructor-box">
                 <div class="side-title">
                     <h1>Lead Instructor</h1>
@@ -206,26 +258,45 @@ include "../header_subpage.php"?>
                     </div>
                 </div>
                 <div class="txt-description">
-                    <p>Ricky Bellingham is one of the main instructors here at Ocean BJJ. He is a keen and accomplished
-                        competitor representing both The Checkmat Team and the British Army Team. Ricky started training
-                        Brazilian Jiu-Jitsu here at Checkmat Plymouth with Ian & Amy back in 2016 and his passion and
-                        drive inevitably lead to him joining the coaching team in 2019.
+                    <p>Ricky Bellingham is a dedicated and accomplished instructor at Checkmat Plymouth, known for his
+                        passion, discipline, and commitment to both training and coaching. A competitive athlete
+                        representing both the Checkmat Team and the British Army Team, Ricky has established himself as
+                        a skilled practitioner and a respected leader in the BJJ community.
 
                     </p>
-                    <p>As a former PT in the Army he brings a great experience of coaching along with a disciplined
-                        approach to strength and conditioning. Ricky still has an active role within the Army, leading
-                        training sessions and competition camps. At Ocean BJJ Ricky tends to lead the early morning
-                        sessions and has the responsibility of teaching our youngest members; instilling discipline and
-                        positive behaviours that will benefit them for the rest of their lives both in and out of
-                        martial arts. </p>
-
-                    <p>Ricky received his black belt from Ian Harrop & Amy Winterson in 2023. </p>
+                    <p>Ricky began his Brazilian Jiu-Jitsu journey at Checkmat Plymouth in 2016, training under Ian
+                        Harrop and Amy Winterson. His natural drive and determination quickly set him apart, and in
+                        2019, he joined the coaching team, eager to share his knowledge and passion with others.</p>
+                    <p>With a background as a Personal Trainer in the British Army, Ricky brings a wealth of experience
+                        in strength and conditioning, along with a disciplined approach to coaching. He continues to
+                        serve actively in the Army, where he leads training sessions and competition camps. His military
+                        experience informs his coaching philosophy, instilling focus, mental toughness, and physical
+                        resilience in his students.</p>
+                    <p>At Checkmat Plymouth, Ricky is known for his dedication to developing the next generation of
+                        martial artists. He leads the early morning sessions and is responsible for teaching the
+                        youngest members of the academy, where he works to instill not only technical skills but also
+                        the values of discipline, respect, and perseverance—qualities that will benefit his students
+                        both on and off the mat. </p>
+                    <p>In 2023, Ricky earned his black belt in Brazilian Jiu-Jitsu from Ian Harrop and Amy Winterson, a
+                        testament to his hard work, dedication, and relentless pursuit of excellence.</p>
+                    <p>Ricky's Competition Achievements:</p>
                     <ul>
-                        <li>IBJJF Europeans, White Belt Silver Medallist</li>
-                        <li>Bristol Open, Blue Belt Double Gold Medallist</li>
-                        <li>Abu Dhabi Worlds Masters 2, Purple Belt Gold Medallist</li>
+                        <li><strong> IBJJF Europeans:</strong> White Belt Silver Medalist</li>
 
+                        <li><strong>Bristol Open:</strong> Blue Belt Double Gold Medalist</li>
+
+                        <li><strong>Abu Dhabi Worlds Masters 2:</strong> Purple Belt Gold Medalist</li>
+                        </li>
                     </ul>
+                    <p>Ricky continues to actively compete setting the standard for our competitive members. </p>
+                    <p>As a coach, Ricky is committed to pushing his students to achieve their full potential, whether
+                        they're training for competition or personal development. He has recently pushed to introduce
+                        both Judo & Wrestling to the club, training both himself for self improvement & now passing
+                        along this knowledge to others alongside our main Judo & Wrestling coaches.
+
+                    </p>
+
+
                 </div>
 
 

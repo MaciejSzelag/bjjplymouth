@@ -1,7 +1,7 @@
 <?php
     $metaDescription = "Find answers to your questions about Brazilian Jiu-Jitsu (BJJ) at Checkmat Plymouth. Learn what to wear, how to start as a beginner, the BJJ belt system, training frequency, and more. Start your martial arts journey with confidence!";
     $metaKeywords    = "BJJ FAQs, Brazilian Jiu-Jitsu questions, beginner BJJ tips, BJJ belt system, what to wear for BJJ, starting BJJ, BJJ training frequency, martial arts FAQs, Plymouth BJJ guide, Checkmat Plymouth FAQs, BJJ beginner equipment, trial BJJ classes.";
-    $title           = "Frequently Asked Questions | bjjplymouth";
+    $title           = "Frequently Asked Questions (FAQs)";
 include "../../includes/head.php"?>
 
 <?php

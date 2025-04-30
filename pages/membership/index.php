@@ -1,7 +1,7 @@
 <?php
     $metaDescription = "Join Checkmat Plymouth today and enjoy exclusive membership benefits! Choose from tailored packages for adults, juniors, and kids, including unlimited training and custom Gi deals. Unlock your potential and become part of our vibrant martial arts community!";
     $metaKeywords    = "Checkmat Plymouth membership, BJJ membership Plymouth, martial arts membership deals, unlimited BJJ training Plymouth, junior BJJ deals, kids BJJ membership, custom Gi membership Plymouth, martial arts packages, BJJ training offers, Plymouth martial arts community.";
-$title           = "Membership | bjjplymouth";include "../../includes/head.php"?>
+$title           = "Membership";include "../../includes/head.php"?>
 
 <?php
     $active = "membership";
@@ -10,8 +10,8 @@ include "../../includes/nav.php"?>
     $subtitle       = "Membership";
     $btnLink        = homePageBaseUrl("") . "pages/timetable/";
     $btnName        = "Timetable";
-    $imgName        = "ian-marco.jpg";
-    $alternativeTxt = "Bjjplymouth - fight";
+    $imgName        = "seminar_Adam_Wardzinski_ at_Checkmat_Plymouth_bjjplymouth.jpg";
+    $alternativeTxt = "Seminar - Adam Wardzinski at Checkmat Plymouth";
 include "../header_subpage.php"?>
 <div class="membership-wrap">
     <div class="membership-container">

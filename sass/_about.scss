@@ -171,7 +171,7 @@
                         // list-style: none;
 
                         li {
-                            color: white;
+                            color: black;
                             margin-bottom: 1rem;
                         }
                     }
@@ -285,12 +285,30 @@
                         }
 
                         ul {
+                            width: 80%;
                             padding: 2rem 2rem;
                             // list-style: none;
 
                             li {
-                                color: white;
+
                                 margin-bottom: 1rem;
+                            }
+                        }
+                    }
+                }
+
+                .instructor-box:nth-child(odd) {
+                    background-color: $green;
+                    // width: 80%;
+
+                    .txt-description {
+                        p {
+                            color: white;
+                        }
+
+                        ul {
+                            li {
+                                color: white;
                             }
                         }
                     }
@@ -477,7 +495,7 @@
                             // list-style: none;
 
                             li {
-                                color: white;
+
                                 margin-bottom: 1rem;
                             }
                         }

@@ -20,7 +20,7 @@ $data     = [
     ],
     'nogi-all-levels-and-juniors'    => [
         'title'                => 'NoGi All Levels & Junior NoGi Classes',
-        'headerImg'            => 'bjj-classes/nogi.jpg',
+        'headerImg'            => 'bjj-classes/NoGi.jpg',
         'headerImgDescription' => 'Ricky Bellingham - All Stars Gold medalist',
         'description'          => 'These classes follow the same structure, and are for the same levels as the Gi All levels classes.
         However instead of wearing the Gi we wear Shorts/Spats & a Rashguard. Although many of the techniques transfer from our Gi classes, here you don’t have the Gi to hold and grip making the moves and controls slightly different.

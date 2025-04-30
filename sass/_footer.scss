@@ -216,3 +216,37 @@ footer {
     background-position: center;
     background-size: cover;
 }
+
+.footer-bottom {
+    background-color: $darkGrey;
+    color: #a1a1a1;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    border-top: .1rem solid #505050;
+}
+
+.footer-bottom-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-bottom-box {
+    margin: 1rem;
+}
+
+.footer-bottom-box a {
+    color: #505050;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-bottom-box a:hover {
+    text-decoration: underline;
+}

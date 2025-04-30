@@ -82,6 +82,18 @@
             </div>
         </div>
     </footer>
+
+    <footer class="footer-bottom">
+        <div class="footer-bottom-wrap">
+            <div class="footer-bottom-box">
+                <p>Copyright &copy; 2008 -                                           <?php echo date("Y") ?> Checkmat Plymouth. All rights reserved.</p>
+            </div>
+            <div class="footer-bottom-box">
+                <p>Website by <a href="https://www.maciejszelag.co.uk" target="_blank" rel="noopener noreferrer">Maciej Szelag</a></p>
+            </div>
+
+    </footer>
+
     <?php include "attention.php"; ?>
     <script src="<?php $jsPath;if (isset($jsPath)) {
         echo $jsPath;

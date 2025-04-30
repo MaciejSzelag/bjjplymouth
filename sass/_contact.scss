@@ -62,11 +62,19 @@
                             font-family: $antonio;
                         }
 
+                        input[type=text],
+                        input[type=email],
+                        input[type=tel],
+                        textarea,
+                        label {
+                            font-family: $roboto;
+                        }
+
+
 
                         input[type=text],
                         input[type=email],
-                        input[type=phone],
-                        select,
+                        input[type=tel],
                         textarea {
                             width: 100%;
                             padding: 12px;

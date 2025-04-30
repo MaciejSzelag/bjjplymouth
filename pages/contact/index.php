@@ -1,7 +1,7 @@
 <?php
     $metaDescription = "Get in touch with Checkmat Plymouth for Brazilian Jiu-Jitsu, Judo, and Wrestling inquiries. Visit us at 68 Faraday Rd, Cattedown, Plymouth PL4 0ST, call +44 7538 123559, or email plymouthcheckmat@gmail.com. Start your martial arts journey today!";
     $metaKeywords    = "Checkmat Plymouth contact, contact BJJ Plymouth, Brazilian Jiu-Jitsu Plymouth contact details, Plymouth martial arts gym location, Checkmat address Plymouth, Plymouth BJJ email, martial arts inquiries Plymouth, contact Checkmat UK.";
-    $title           = "Contact Us | bjjplymouth";
+    $title           = "Contact Us";
 include "../../includes/head.php"?>
 
 <?php
@@ -11,7 +11,7 @@ include "../../includes/nav.php"?>
     $subtitle       = "Contact Us";
     $btnLink        = homePageBaseUrl("") . "pages/membership/";
     $btnName        = "Membership";
-    $imgName        = "contact-1.jpg";
+    $imgName        = "Checkmat-plymouth-brazilian-jiu-jitsu.jpg";
     $alternativeTxt = "Contact - bjj Plymouth";
 include "../header_subpage.php"?>
 
@@ -30,6 +30,7 @@ include "../header_subpage.php"?>
                             <h1>Get in Touch</h1>
                         </div>
                         <form action="send_mail.php" method="POST">
+                            <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
                             <label for="fname">First Name</label>
                             <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
@@ -40,10 +41,10 @@ include "../header_subpage.php"?>
                             <input type="email" id="email" name="email" placeholder="Your @.." required>
 
                             <label for="phone">Phone number</label>
-                            <input type="phone" id="phone" name="phone" placeholder="Your phone number.." required>
+                            <input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
 
                             <label for="subject">Message</label>
-                            <textarea id="subject" name="messageContent" placeholder="Write something.." required
+                            <textarea id="subject" name="messageContent" placeholder="Maximum 5000 characters allowed." maxlength="5000" required
                                 style="height:200px" ></textarea>
 
                             <input type="submit" value="Submit" name="submit"  id="submit">
@@ -103,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function checkInputs() {
         let allFilled = true;
         inputs.forEach(function(input) {
-            if (input.value.trim() === "") {
+            if (input.name !== "website" && input.value.trim() === "") {
                 allFilled = false;
             }
         });

@@ -1,22 +1,40 @@
 <?php
-    http_response_code(404); // This must be the FIRST line
-?>
-<?php
-    $homePage;
-    if (isset($homePage)) {
-        include 'config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
-    } else {
-        include '../../config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
-    }
+    http_response_code(404);                   // MUST be first - sets proper HTTP header
+    header('X-Robots-Tag: noindex, nofollow'); // Additional protection for bots
 
+    // Config file loading with security check
+    $configPath = isset($homePage) ? 'config/config.php' : '../../config/config.php';
+    if (file_exists($configPath)) {
+        include $configPath;
+    }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found | BJJ Plymouth</title>
+    <meta name="robots" content="noindex, nofollow"> <!-- Block indexing -->
+    <meta name="description" content="Page not found - BJJ Plymouth Brazilian Jiu-Jitsu training center">
+    <title>404 Page Not Found | BJJ Plymouth - Checkmat Plymouth</title>
+    <link rel="canonical" href="https://bjjplymouth.co.uk/" /> <!-- Points to homepage -->
+
+    <!-- Structured data for error page -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "404 Page Not Found",
+        "description": "Error page for BJJ Plymouth website",
+        "url": "https://bjjplymouth.co.uk/404",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "BJJ Plymouth",
+            "url": "https://bjjplymouth.co.uk/"
+        }
+    }
+    </script>
     <style>
         :root {
             --primary: rgb(52, 52, 52);

@@ -42,7 +42,7 @@
                     </li>
                     <li><a class="<?php echo showActive('membership', $active); ?>"
                             href="<?php echo homePageBaseUrl(""); ?>pages/membership/"
-                            data-menu="Classes">Membership</a></li>
+                            data-menu="Membership">Membership</a></li>
                     <li><a class="<?php echo showActive('contact', $active); ?>"
                             href="<?php echo homePageBaseUrl(""); ?>pages/contact/" data-menu="Contact">Contact</a></li>
                     <li><a class="<?php echo showActive('faq', $active); ?>"
@@ -58,6 +58,7 @@
                     suits you.</p>
                 <p class="p-desc hidden" data-text="Classes">Explore our classes for all skill levels, from
                     beginners to advanced practitioners.</p>
+                <p class="p-desc hidden" data-text="Membership">Gain access to member-only pricing and special offers with our Membership options.</p>
                 <p class="p-desc hidden" data-text="Contact">Have questions? Get in touch with us for more
                     information.</p>
                 <p class="p-desc hidden" data-text="faq">Find answers to common questions about training, gear, and

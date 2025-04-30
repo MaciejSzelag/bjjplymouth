@@ -9,7 +9,7 @@
                         <div class="main-title">
                             <div class="h1-title">
                                 <h1><?php $subtitle;
-echo $subtitle;?></h1>
+                                    echo $subtitle; ?></h1>
                             </div>
                             <div class="h2-title">
                                 <h2>Oceanbjj</h2>
@@ -20,7 +20,7 @@ echo $subtitle;?></h1>
                     <div class="btn-wrap">
                         <div class="btn-sub-head">
                             <a href="<?php $btnLink;
-echo $btnLink;?>"><?php $btnName;
+                                     echo $btnLink; ?>"><?php $btnName;
 echo $btnName?></a>
                         </div>
                     </div>
@@ -29,8 +29,8 @@ echo $btnName?></a>
             <div class="header-box ">
                 <div class="img-wrap">
                     <img src="../../images/<?php $imgName;
-echo $imgName;?>" alt="<?php $alternativeTxt;
-echo $alternativeTxt;?>">
+                                           echo $imgName; ?>" alt="<?php $alternativeTxt;
+echo $alternativeTxt; ?>">
                 </div>
             </div>
 

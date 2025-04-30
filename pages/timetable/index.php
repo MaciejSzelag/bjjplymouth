@@ -2,7 +2,7 @@
     // include '../../config/config.php'; // Relatywna ścieżka do pliku konfiguracyjnego
     $metaDescription = "View the complete timetable for Brazilian Jiu-Jitsu, Judo, and Wrestling classes at Checkmat Plymouth. Find class schedules for beginners, advanced practitioners, and children. Plan your training sessions with ease and join us today!";
     $metaKeywords    = "Checkmat Plymouth timetable, BJJ class schedule Plymouth, Judo timetable Plymouth, Wrestling classes Plymouth, martial arts schedule, Plymouth training sessions, Brazilian Jiu-Jitsu for beginners, advanced BJJ classes Plymouth, kids martial arts Plymouth, weekly martial arts classes.";
-    $title           = "Timetable | bjjplymouth";
+    $title           = "Timetable";
 include "../../includes/head.php"?>
 <?php
 
@@ -15,313 +15,83 @@ include "../../includes/nav.php"?>
     $imgName        = "bjj-fight-checkmat-plymouth.jpg";
     $alternativeTxt = "Bjjplymouth - fight";
 include "../header_subpage.php"?>
-<div class="title-container">
-<h1 class="main-title">Timetable</h1>
-</div>
+<?php
+    // KONFIGURACJA - EDYTUJ TUTAJ
+    $title = "Timetable";
 
-<div class="timetable">
-    <div class="table-container">
-        <h1>Monday</h1><!-- Monday  -->
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th rowspan="2">6am <br> 7am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ <br> Amy Winterson and Andy Harris</td>
-                </tr>
-            </table>
-            <!-- <table>
-                <tr>
-                    <th rowspan="2">7am <br> 8am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Open Mat <br> Ricky Bellingham</td>
-                </tr>
-            </table> -->
-            <table>
-                <tr>
-                    <th rowspan="2">10am <br> 11am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ <br> Ian Harrop</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">11am <br> 12pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ Pro Training - Adults <br> Ricky Bellingham</td>
-                </tr>
-            </table>
-
-            <table>
-                <tr>
-                    <th rowspan="2">5:30pm <br> 6:15pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Judo with Gi BJJ (kids) <br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">6:30pm <br> 7:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Judo (Adults & Juniors) <br> Ricky Bellingham</td>
-                </tr>
-            </table>
-
-            <table>
-                <tr>
-                    <th rowspan="2">7:30pm <br> 8:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ<br> Maciej Szelag</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <div class="table-container">
-        <h1>Tuesday</h1>   <!-- Tuesday  -->
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th rowspan="2">10am <br> 11am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi BJJ (Adults)<br> Ricky Bellingham</td>
-                </tr>
-            </table>
-
-            <table>
-                <tr>
-                    <th rowspan="2">11am <br> 12pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi Pro Training (Adults)<br>Ian Harrop</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">12pm <br> 1pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Wresling (Adults)<br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">6:30pm <br> 7:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi BJJ (Adults, Juniors & Kids over 8 y/o)<br> Ricky Bellingham and Andy Harris</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">7:30pm <br> 8:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi Positional Sparrings (Adults)<br> Andy Harris</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <div class="table-container">
-        <h1>Wednesday</h1><!-- Wednesday  -->
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th rowspan="2">6am <br> 7am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ (Adults)<br>Andy Harris</td>
-                </tr>
-            </table>
-
-            <table>
-                <tr>
-                    <th rowspan="2">10am <br> 11:30am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ <br> Ian Harrop</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">7pm <br> 8pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ (Adults &Juniors)<br> Ian Harrop</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">8pm <br> 8:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi Pro Training<br> Ian Harrop</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <div class="table-container">
-        <h1>Thursday</h1> <!-- Thursday  -->
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th rowspan="2">6am <br> 7am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi BJJ (Adults) <br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">11am <br> 12pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi BJJ (Adults)<br> Ricky Bellingham</td>
-                </tr>
-            </table>
-
-            <table>
-                <tr>
-                    <th rowspan="2">12pm <br> 1pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Catch Wrestling (Adults)<br> Ricky Bellingham</td>
-                </tr>
-            </table>
-
-            <table>
-                <tr>
-                    <th rowspan="2">6:30pm <br> 7:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi BJJ (Adults & Juniors)<br>Ian Harrop</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">7:30pm <br> 8:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi Pro Training (Adults)<br>Ian Harrop</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <div class="table-container">
-        <h1>Friday</h1><!-- Friday  -->
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th rowspan="2">6am <br> 7am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi BJJ (Adults, Juniors & Kids over 8 y/o) <br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">7am <br> 8am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Grappling Hour (Adults & juniors)<br> Ricky Bellingham and Amy Winterson</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">10am <br> 11am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ (Adults)<br> Amy Winterson</td>
-                </tr>
-            </table>
-
-            <table>
-                <tr>
-                    <th rowspan="2">11am <br> 12pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi Pro Training <br> Amy Winterson</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">7pm <br> 8pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi BJJ<br> Elias Freeman / Aron Tippett</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <div class="table-container">
-        <h1>Saturday</h1><!-- Saturday  -->
-        <div class="table-wrap">
-                    <table>
-                <tr>
-                    <th rowspan="2">7am <br> 8:30am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ (Adults)<br> Nathan Haynes</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">1pm <br> 2:30am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Specific Training<br> Amy Winterson and Andy Harris</td>
-                </tr>
-            </table>
-
-            <table>
-                <tr>
-                    <th rowspan="2">2:30pm <br> 3:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">NoGi Wresling - Kids ONLY<br> Ricky Bellingham</td>
-                </tr>
-            </table>
+    $days = [
+        'Monday'    => [
+            ['6am', '7am', 'Gi BJJ', 'Andy Harris'],
+            ['10am', '11am', 'Gi BJJ', 'Ian Harrop'],
+            ['11am', '12pm', 'Gi BJJ Pro Training - Adults', 'Ricky Bellingham'],
+            ['5:30pm', '6:15pm', 'Judo with Gi BJJ (kids)', 'Ricky Bellingham'],
+            ['6:30pm', '7:30pm', 'Judo (Adults & Juniors)', 'Ricky Bellingham'],
+            ['7:30pm', '8:30pm', 'Gi BJJ', 'Maciej Szelag'],
+        ],
+        'Tuesday'   => [
+            ['10am', '11am', 'NoGi BJJ (Adults)', 'Ricky Bellingham'],
+            ['11am', '12pm', 'NoGi Pro Training (Adults)', 'Ian Harrop'],
+            ['12pm', '1pm', 'Wresling (Adults)', 'Ricky Bellingham'],
+            ['6:30pm', '7:30pm', 'NoGi BJJ (Adults, Juniors & Kids over 8 y/o)', 'Ricky Bellingham and Andy Harris'],
+            ['7:30pm', '8:30pm', 'NoGi Positional Sparrings (Adults)', 'Andy Harris'],
+        ],
+        'Wednesday' => [
+            ['6am', '7am', 'Gi BJJ (Adults)', 'Andy Harris'],
+            ['10am', '11:30am', 'Open Mat', 'Amy Winterson'],
+            ['7pm', '8pm', 'Gi BJJ (Adults &Juniors)', 'Ian Harrop'],
+            ['8pm', '8:30pm', 'Gi Pro Training', 'Ian Harrop'],
+        ],
+        'Thursday'  => [
+            ['10am', '11am', 'NoGi BJJ (Adults)', 'Ricky Bellingham'],
+            // ['11am', '12pm', 'NoGi BJJ (Adults)', 'Ricky Bellingham'],
+            ['6:30pm', '7:30pm', 'NoGi BJJ (Adults & Juniors)', 'Ian Harrop'],
+            ['7:30pm', '8:30pm', 'NoGi Pro Training (Adults)', 'Ian Harrop'],
+        ],
+        'Friday'    => [
+            ['6am', '7am', 'NoGi BJJ (Adults, Juniors & Kids over 8 y/o)', 'Ricky Bellingham'],
+            ['7am', '8am', 'Grappling Hour (Adults & juniors)', 'Ricky Bellingham and Amy Winterson'],
+            ['10am', '11am', 'Gi BJJ (Adults)', 'Amy Winterson'],
+            ['11am', '12pm', 'Gi Pro Training', 'Amy Winterson'],
+            ['7pm', '8pm', 'NoGi BJJ', 'Elias Freeman / Aaron Tippett'],
+        ],
+        'Saturday'  => [
+            ['7am', '8:30am', 'Gi BJJ (Adults)', 'Nathan Haynes'],
+            ['1pm', '2:30am', 'Specific Training', 'Andy Harris'],
+            ['2:30pm', '3:30pm', 'NoGi Wresling - Kids ONLY', 'Ricky Bellingham'],
+        ],
+        'Sunday'    => [
+            ['9:30am', '10:15am', 'Gi BJJ (Kids)', 'Ricky Bellingham'],
+            ['10:30am', '11:15am', 'Gi & NoGi BJJ Pro Traning (Kids)', 'Ricky Bellingham'],
+            ['10:30am', '12:30pm', 'Open Mat (Adults & Juniors)', 'Amy Winterson and Ian Harrop'],
+        ],
+    ];
+?>
 
 
-        </div>
-    </div>
-    <div class="table-container">
-        <h1>Sunday</h1><!-- Sunday  -->
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th rowspan="2">9:30am <br> 10:15am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi BJJ (Kids)<br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">10:30am <br> 11:15am</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Gi & NoGi BJJ Pro Traning (Kids) <br> Ricky Bellingham</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th rowspan="2">10:30am <br> 12:30pm</th>
-                </tr>
-                <tr>
-                    <td class="td-shadow">Open Mat (Adults & Juniors) <br> Amy Winterson and Ian Harrop</td>
-                </tr>
-            </table>
-        </div>
+    <div class="title-container">
+        <h1 class="main-title"><?php echo htmlspecialchars($title); ?></h1>
     </div>
 
-</div>
+    <div class="timetable">
+        <?php foreach ($days as $day => $classes): ?>
+            <div class="table-container">
+                <h1><?php echo htmlspecialchars($day); ?></h1>
+                <div class="table-wrap">
+                    <?php foreach ($classes as $class): ?>
+                        <table>
+                            <tr>
+                                <th rowspan="2"><?php echo htmlspecialchars($class[0]); ?><br><?php echo htmlspecialchars($class[1]); ?></th>
+                            </tr>
+                            <tr>
+                                <td class="td-shadow"><?php echo htmlspecialchars($class[2]); ?><br><?php echo htmlspecialchars($class[3]); ?></td>
+                            </tr>
+                        </table>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</body>
+</html>
 <?php include "../../includes/joinus.php"?>
 <?php $jsPath = "../../";include $jsPath . "includes/footer.php"?>

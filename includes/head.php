@@ -16,11 +16,28 @@
     <meta name="description" content="<?php echo $metaDescription ?? 'Discover BJJ Plymouth, your premier destination for Brazilian Jiu-Jitsu training. Learn self-defense, build strength, and join a supportive community. Beginners and advanced practitioners welcome!'; ?>">
     <meta name="keywords" content="<?php echo $metaKeywords ?? 'Brazilian Jiu-Jitsu Plymouth, BJJ Plymouth, Martial Arts Plymouth, Self-Defense Plymouth, Brazilian Jiu-Jitsu classes, BJJ training Plymouth, Martial arts training, Plymouth Jiu-Jitsu gym, BJJ for beginners, Advanced BJJ techniques'; ?>">
     <meta name="author" content="Maciej Szelag, https://maciejszelag.co.uk">
-    <title><?php echo $title ?? 'BjjPlymouth - Checkmat Plymouth'; ?></title>
+    <title><?php echo $title . ' | Checkmat Plymouth | BJJOcean | BJJ Plymouth ' ?? 'BjjPlymouth - Checkmat Plymouth'; ?></title>
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline';"> -->
     <meta name="theme-color" content="#343434">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_GB">
+
+    <?php
+        // Pobierz podstawowy URL
+        $canonicalUrl = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+        // Usuń parametry śledzenia (opcjonalne)
+        $paramsToRemove = ['utm_source', 'utm_medium', 'utm_campaign', 'fbclid', 'gclid'];
+        $canonicalUrl   = preg_replace('/\?(' . implode('|', $paramsToRemove) . ')=[^&]+(&|$)/', '?', $canonicalUrl);
+        $canonicalUrl   = str_replace('?&', '?', $canonicalUrl);
+        $canonicalUrl   = rtrim($canonicalUrl, '?');
+
+        // Usuń duplikaty ukośników
+        $canonicalUrl = preg_replace('/([^:])\/{2,}/', '$1/', $canonicalUrl);
+
+        // Wyświetl canonical
+        echo '<link rel="canonical" href="' . htmlspecialchars($canonicalUrl) . '" />';
+    ?>
     <meta property="og:locale:alternate" content="pl_PL">
     <meta property="og:url" content="https://bjjplymouth.co.uk">
     <!-- <meta property="og:image" content="https://.../images/Ian-Ricky-Amy-checkmat-plymouth-1.jpg"> -->
@@ -45,6 +62,22 @@
                                          echo "../../css/style.min.css";
                                  }
                                  ?>">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsClub",
+  "name": "BJJ Plymouth",
+  "url": "https://www.bjjplymouth.co.uk",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "68 Faraday Rd, Cattedown",
+    "addressLocality": "Plymouth",
+    "postalCode": "PL4 0ST",
+    "addressCountry": "GB"
+  }
+}
+</script>
 
 </head>
 

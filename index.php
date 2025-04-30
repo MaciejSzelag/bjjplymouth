@@ -74,7 +74,7 @@ include "includes/head.php"?>
                     </div>
                     <div class="article-content">
                         <p>Looking for the best Brazilian Jiu-Jitsu (BJJ) training in Plymouth? <br>
-                            Checkamt Plymouth offers top-tier instruction in a welcoming and inclusive environment. <br>
+                            Checkmat Plymouth offers top-tier instruction in a welcoming and inclusive environment. <br>
                             Whether
                             you're new to BJJ or an experienced practitioner, our Plymouth-based BJJ academy is the
                             perfect
@@ -132,7 +132,7 @@ include "includes/head.php"?>
 
                                     <h1>Inclusive and Friendly BJJ Community</h1>
                                     <div class="desc-content-wrap">
-                                        <p>At Checkamt in Plymouth, we believe that Brazilian Jiu-Jitsu is for everyone.
+                                        <p>At Checkmat in Plymouth, we believe that Brazilian Jiu-Jitsu is for everyone.
                                             Our
                                             gym
                                             is a friendly and inclusive space where you can train BJJ, make new friends,
@@ -157,7 +157,7 @@ include "includes/head.php"?>
                                             children’s
                                             BJJ programs, we have something for everyone.</p>
                                         <div class="btn-info">
-                                            <div class="btn"><a href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasess/">
+                                            <div class="btn"><a href="<?php echo homePageBaseUrl(""); ?>pages/bjjclasses/">
                                                     See our classes
                                                 </a></div>
                                         </div>
@@ -279,7 +279,7 @@ include "includes/head.php"?>
                             <i class="fa-solid fa-quote-left"></i>
                             <div class="blockquote">
                                 <p class="p-blockquote">
-                                    <q>I joined CheckMat Plymouth 3 years ago after I finished rehabitating an injury I sustained prior. It was a really friendly atmosphere with great delivery of technique. They were able to accommodate my inability to perform some of the movements due to my injury and I feel I have made great progress. So happy to have found this awesome club!</q>
+                                    <q>I joined Checkmat Plymouth 3 years ago after I finished rehabitating an injury I sustained prior. It was a really friendly atmosphere with great delivery of technique. They were able to accommodate my inability to perform some of the movements due to my injury and I feel I have made great progress. So happy to have found this awesome club!</q>
                                 </p>
                                 <div class="footer-blockquote">
                                     <i> - Guy Servis</i>
