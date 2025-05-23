@@ -4,7 +4,7 @@
                 <div class="title-head-wrap">
                     <div class="title-wrap">
                         <div class="h2-side-title">
-                            <h2>Checkmat Plymouth</h2>
+                            <h2>Checkmat</h2>
                         </div>
                         <div class="main-title">
                             <div class="h1-title">
@@ -12,7 +12,7 @@
                                     echo $subtitle; ?></h1>
                             </div>
                             <div class="h2-title">
-                                <h2>Oceanbjj</h2>
+                                <h2>Plymouth</h2>
                             </div>
                         </div>
 

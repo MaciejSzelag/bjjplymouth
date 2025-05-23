@@ -55,7 +55,7 @@
                     height: 20rem;
                     display: flex;
                     justify-content: flex-start;
-                    align-items: center;
+                    align-items: left;
                     font-family: $anton;
 
                     .main-title {
@@ -90,6 +90,7 @@
                                 color: $orange;
                                 text-transform: uppercase;
                                 font-weight: 400;
+                                line-height: 3.5rem;
                             }
                         }
                     }
@@ -106,7 +107,7 @@
 
 
                         h2 {
-                            font-size: 2.3rem;
+                            font-size: 4.7rem;
                             transform: rotate(180deg);
                             color: $orange;
                             text-transform: uppercase;
@@ -155,7 +156,7 @@
 
 @media (min-width: 992px) {
     .sub-header {
-        margin-top: 6rem;
+        margin-top: 8rem;
 
         .header-wrap {
             flex-direction: row;
@@ -186,18 +187,18 @@
 
                         .h2-side-title {
                             h2 {
-                                font-size: 2.8em
+                                font-size: 6em
                             }
                         }
                     }
                 }
 
                 .img-wrap {
-                    min-height: 42rem
+                    min-height: 40rem
                 }
 
                 .btn-wrap {
-                    margin-top: 2rem;
+                    margin-top: 4rem;
 
                     .btn-sub-head {
                         a {
@@ -217,7 +218,7 @@
 
 @media (min-width:1400px) {
     .sub-header {
-        margin-top: 7rem;
+        margin-top: 6rem;
         min-height: 50rem;
 
         .header-wrap {
@@ -232,7 +233,7 @@
                     padding-left: 15%;
 
                     .title-wrap {
-                        min-height: 30rem;
+                        min-height: 28rem;
 
                         .main-title {
                             .h1-title {
@@ -250,7 +251,8 @@
 
                         .h2-side-title {
                             h2 {
-                                font-size: 3.2rem;
+                                font-size: 6.5rem;
+                                text-align: left;
                             }
                         }
                     }
@@ -261,7 +263,7 @@
                 }
 
                 .btn-wrap {
-                    margin-top: 2rem;
+                    margin-top: 5rem;
 
                     .btn-sub-head {
                         a {

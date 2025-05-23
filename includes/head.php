@@ -16,7 +16,7 @@
     <meta name="description" content="<?php echo $metaDescription ?? 'Discover BJJ Plymouth, your premier destination for Brazilian Jiu-Jitsu training. Learn self-defense, build strength, and join a supportive community. Beginners and advanced practitioners welcome!'; ?>">
     <meta name="keywords" content="<?php echo $metaKeywords ?? 'Brazilian Jiu-Jitsu Plymouth, BJJ Plymouth, Martial Arts Plymouth, Self-Defense Plymouth, Brazilian Jiu-Jitsu classes, BJJ training Plymouth, Martial arts training, Plymouth Jiu-Jitsu gym, BJJ for beginners, Advanced BJJ techniques'; ?>">
     <meta name="author" content="Maciej Szelag, https://maciejszelag.co.uk">
-    <title><?php echo $title . ' | Checkmat Plymouth | BJJOcean | BJJ Plymouth ' ?? 'BjjPlymouth - Checkmat Plymouth'; ?></title>
+    <title><?php echo $title . ' - Bjj Plymouth | Checkmat Plymouth ' ?? 'Bjj Plymouth - Checkmat Plymouth'; ?></title>
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline';"> -->
     <meta name="theme-color" content="#343434">
     <meta property="og:type" content="website">

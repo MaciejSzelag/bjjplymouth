@@ -1,7 +1,7 @@
 
 <?php
 
-    $title    = "Bjj Plymouth | Checkmat | OceanBJJ";
+    $title    = "Start Your BJJ Journey in Plymouth Today!";
     $cssPath  = "";
     $homePage = true;
 include "includes/head.php"?>

@@ -10,7 +10,20 @@ require __DIR__ . '../../../vendor/autoload.php';
 $mail = new PHPMailer(true);
 
 try {
-    // Dane formularza z filtrowaniem i czyszczeniem
+
+    session_start();
+
+    if (
+        ! isset($_POST['csrf_token'], $_SESSION['csrf_token']) ||
+        $_POST['csrf_token'] !== $_SESSION['csrf_token']
+    ) {
+        $_SESSION['message'] = 'Invalid CSRF token.';
+        header("Location: index.php");
+        exit();
+    }
+    session_regenerate_id(true);    // przed unset()
+    unset($_SESSION['csrf_token']); // jednorazowy token
+                                    // Dane formularza z filtrowaniem i czyszczeniem
     $firstname      = strip_tags(trim($_POST['firstname']));
     $lastname       = strip_tags(trim($_POST['lastname']));
     $email          = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);

@@ -37,7 +37,7 @@
                 <div class="footer-box">
                     <div class="img-container">
                         <a href="<?php echo homePageBaseUrl(""); ?>" class="img-wrap">
-                            <img src="<?php echo homePageBaseUrl(""); ?>images/Logo-bjjocean-checkmat-bjjplymouth-s2.png" alt="">
+                            <img class="c-logo"src="<?php echo homePageBaseUrl(""); ?>images/logo/Checkmat-plymouth-logo-sq-130x130.png" alt="Checkmat Plymoyth - Logo ">
                         </a>
                     </div>
                     <div class="address-info">
@@ -86,7 +86,7 @@
     <footer class="footer-bottom">
         <div class="footer-bottom-wrap">
             <div class="footer-bottom-box">
-                <p>Copyright &copy; 2008 -                                           <?php echo date("Y") ?> Checkmat Plymouth. All rights reserved.</p>
+                <p>Copyright &copy; 2008 -                                                                                                                                                                                                                   <?php echo date("Y") ?> Checkmat Plymouth. All rights reserved.</p>
             </div>
             <div class="footer-bottom-box">
                 <p>Website by <a href="https://www.maciejszelag.co.uk" target="_blank" rel="noopener noreferrer">Maciej Szelag</a></p>

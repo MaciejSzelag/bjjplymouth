@@ -48,6 +48,8 @@ footer {
                     transform: translate(-32%, 50%) rotate(-90deg);
                     // transform-origin: 0% 50%;
                 }
+
+
             }
 
             .contact-info {
@@ -129,6 +131,15 @@ footer {
                 // background-color: black;
                 margin: 3rem 0;
 
+                .img-container {
+                    width: 6rem;
+                    height: 6rem;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
                 h1 {
                     font-size: 1.8rem;
                     margin-top: 1rem;
@@ -209,6 +220,8 @@ footer {
 
     }
 }
+
+
 
 .footer-img {
     background-image: url(../images/bjj-footer-background.jpg);
