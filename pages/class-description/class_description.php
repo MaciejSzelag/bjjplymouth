@@ -66,6 +66,20 @@ $data     = [
         We encourage you to have you Gi in every session as the jacket can be removed and you can still do NoGi. ',
 
     ],
+    'Positional-Sparring'            => [
+        'title'                => 'Positional Sparring',
+        'headerImg'            => 'bjj-classes/om.jpg',
+        'headerImgDescription' => 'Positional Sparring',
+        'description'          => 'This class is a mix of specific sparring working on small aspects of BJJ game with increasing resistance. May also include scenerio training and flow rolling. ',
+
+    ],
+    'Judo'                           => [
+        'title'                => 'Judo/Take Downs',
+        'headerImg'            => 'bjj-classes/judo.jpg',
+        'headerImgDescription' => 'Positional Sparring',
+        'description'          => 'Judo with focus on take downs to aid in a Jiu-Jitsu or stand up game.',
+
+    ],
 ];
 // Sprawdzamy, czy wybrana kategoria istnieje w danych
 if (array_key_exists($category, $data)) {

@@ -35,6 +35,7 @@ include "../header_subpage.php"?>
             <!-- adults  -->
             <div class="cards-container border-bottom-line">
                 <div class="card deal">
+               
                     <div class="card-title">Adults <br> Start up deal</div>
                     <div class="card-price">
                         £<span>120</span>
@@ -47,6 +48,7 @@ include "../header_subpage.php"?>
                                 training</li>
                         </ul>
                     </div>
+          
                 </div>
                 <div class="card deal">
                     <div class="card-title">Juniors & Kids <br> Start up deal</div>
@@ -61,6 +63,9 @@ include "../header_subpage.php"?>
                                 training</li>
                                 <li class="note"><span><i class="fa-solid fa-star-of-life"></i></span>Price depends on size required. If a junior/kid needs an adult size, they pay the adult price. If a small teen fits into kid sizes, they pay the kid's price. </li>
                         </ul>
+                    </div>
+                    <div class="btn-sign-up">
+                        <a href="" class="btn-membership">Sign up</a>
                     </div>
                 </div>
 

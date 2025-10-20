@@ -61,6 +61,10 @@
             }
         }
 
+        .img-seminar {
+            min-height: 40vh !important;
+        }
+
         .txt-title {
             width: 100%;
 
@@ -579,6 +583,10 @@
                 }
 
 
+            }
+
+            .img-seminar {
+                max-height: 80vh !important;
             }
 
             .instructors-container {

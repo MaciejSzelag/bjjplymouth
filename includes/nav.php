@@ -45,6 +45,8 @@
                             data-menu="Membership">Membership</a></li>
                     <li><a class="<?php echo showActive('contact', $active); ?>"
                             href="<?php echo homePageBaseUrl(""); ?>pages/contact/" data-menu="Contact">Contact</a></li>
+                    <li><a class="<?php echo showActive('seminar', $active); ?>"
+                            href="<?php echo homePageBaseUrl(""); ?>pages/seminar/" data-menu="Seminar">Seminar</a></li>
                     <li><a class="<?php echo showActive('faq', $active); ?>"
                             href="<?php echo homePageBaseUrl(""); ?>pages/faq/" data-menu="faq">FAQ <span>s</span></a></li>
                 </ul>
@@ -63,6 +65,7 @@
                     information.</p>
                 <p class="p-desc hidden" data-text="faq">Find answers to common questions about training, gear, and
                     more.</p>
+                <p class="p-desc hidden" data-text="Seminar">BJJ Plymouth Seminar with Professor Marco Canha – December 7th</p>
                 <p class="p-desc visible initial-txt" id="displayText"> Discover the art
                     of Brazilian Jiu-Jitsu, improve your skills, and join a passionate community. Train with us and
                     unleash your potential!</p>

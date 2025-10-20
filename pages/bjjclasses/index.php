@@ -23,9 +23,11 @@ include "../header_subpage.php"?>
 
         <ul>
             <li><a href="../class-description/?category=fundamentals" data-image="Fundamentals">Fundamentals Gi & NoGi</a></li>
+              <li><a href="../class-description/?category=Positional-Sparring" data-image="om">Positional Sparring</a></li>
             <li><a href="../class-description/?category=Gi" data-image="Gi">Gi All Levels & Junior Gi Classes</a></li>
             <li><a href="../class-description/?category=nogi-all-levels-and-juniors" data-image="NoGi">NoGi All Levels & Junior NoGi Classes</a></li>
             <li><a href="../class-description/?category=openmat" data-image="om">Open Mat - Adults Only</a></li>
+
             <li><a href="../class-description/?category=kids" data-image="kid">Kids Gi & Kids NoGi</a></li>
             <li><a href="../class-description/?category=kids-juniors-competition-class" data-image="JGi">Kids/Juniors Competition Class</a></li>
         </ul>
