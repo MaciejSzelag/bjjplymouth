@@ -45,8 +45,8 @@
                             data-menu="Membership">Membership</a></li>
                     <li><a class="<?php echo showActive('contact', $active); ?>"
                             href="<?php echo homePageBaseUrl(""); ?>pages/contact/" data-menu="Contact">Contact</a></li>
-                    <li><a class="<?php echo showActive('seminar', $active); ?>"
-                            href="<?php echo homePageBaseUrl(""); ?>pages/seminar/" data-menu="Seminar">Seminar</a></li>
+                    <!-- <li><a class="<?php echo showActive('seminar', $active); ?>"
+                            href="<?php echo homePageBaseUrl(""); ?>pages/seminar/" data-menu="Seminar">Seminar</a></li> -->
                     <li><a class="<?php echo showActive('faq', $active); ?>"
                             href="<?php echo homePageBaseUrl(""); ?>pages/faq/" data-menu="faq">FAQ <span>s</span></a></li>
                 </ul>

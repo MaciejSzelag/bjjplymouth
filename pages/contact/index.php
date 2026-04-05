@@ -70,7 +70,7 @@ include "../header_subpage.php"?>
                 </div>
                 <div class="contact-links">
                     <div class="box-link">
-                        <span>Tel:</span><a href="tel:+447538123559">+44 7538 123559</a>
+                        <span>Tel:</span><a href="tel:+447951950205">+44 7951 950205</a>
                     </div>
                     <div class="box-link">
                         <span>Email:</span><a href="mailto:info@bjjplymouth.co.uk">info@bjjplymouth.co.uk</a>

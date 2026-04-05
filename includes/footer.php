@@ -16,7 +16,7 @@
                         <h1 class="social-contact">
                             <ul>
                                 <li><span><i class="fa-solid fa-phone"></i> Phone:</span> <a
-                                        href="tel:+447538123559">07538123559</a></li>
+                                        href="tel:+447951950205">07951 950205</a></li>
                                 <li><span><i class="fa-regular fa-envelope"></i> E-mail:</span> <a
                                         href="mailto:info@bjjplymouth.co.uk">info@bjjplymouth.co.uk</a></li>
                                 <li> <span><i class="fa-solid fa-hashtag"></i> Social Media:</span>
